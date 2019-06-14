@@ -1,7 +1,7 @@
 from Bio import Entrez
 from Bio import SeqIO
 
-idvariable = 'OYT39589.1'
+idvariable = 'WP_008193954.1'
 
 
 Entrez.email = 'Edmund.Moody@bristol.ac.uk'
