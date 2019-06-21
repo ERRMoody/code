@@ -11,6 +11,7 @@ crossval <- function(data, estimate){
   RMSE = 0
   for(k in 1:n_fold){
     
+    
     testIndexes <- which(folds==k,arr.ind=TRUE)
     X_test <- X[testIndexes, ]
     t_test <- t[testIndexes]
