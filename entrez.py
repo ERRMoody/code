@@ -1,16 +1,42 @@
 from Bio import Entrez
 from Bio import SeqIO
+import sys
+import subprocess
 
-idvariable = 'WP_008193954.1'
+filename = sys.argv[1]
 
+taxaidlist = []
+taxaspecieslist = []
+taxaidtospecies = {}
 
-Entrez.email = 'Edmund.Moody@bristol.ac.uk'
-handle = Entrez.efetch(db="protein", id=idvariable, rettype="gb", retmode="text")
-x = SeqIO.read(handle, 'genbank')
-organism = x.annotations['organism']
-taxonomy = x.annotations['taxonomy']
-domain = taxonomy[0]
+with open (filename, 'r') as inputalignment:
+	for line in inputalignment:
+		if '>' in line:
+			lengthcheck = line.split('_')[0]
+			if len(lengthcheck) >= 6:
+				taxaid = lengthcheck
+				taxaid = taxaid[1:]
+				taxaidlist.append(taxaid)
+			elif len(lengthcheck) <= 5:
+				taxaid = lengthcheck + '_' + line.split('_')[1]
+				taxaid = taxaid[1:]
+				taxaidlist.append(taxaid)
+for taxa in taxaidlist:
+	idvariable = taxa
+	Entrez.email = 'Edmund.Moody@bristol.ac.uk'
+	handle = Entrez.efetch(db="protein", id=idvariable, rettype="gb", retmode="text")
+	x = SeqIO.read(handle, 'genbank')
+	organism = x.annotations['organism']
 
-substitute = str(domain) + '_' + organism.replace(" ","_") + '_'
+	if x.annotations['taxonomy']:
+		taxonomy = x.annotations['taxonomy']
+		substitute = str(taxonomy[0] + '_' + organism.replace(" ","_") + '_')
+		taxaspecieslist.append(substitute)
+	else:
+		substitute = str(organism.replace(" ","_") + '_')
+		taxaspecieslist.append(substitute)
 
-print (substitute)
+taxaidtospecies = dict(zip(taxaidlist, taxaspecieslist))
+
+for key, value in taxaidtospecies.items():
+	subprocess.call(['sed -i -e "s/'+key+'/'+value+'/g" '+filename+''], shell=True)
