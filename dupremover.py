@@ -1,6 +1,15 @@
 import re
 import sys
 
+def get_file_data(filename):
+	f = open(filename, "r")
+	lines = []
+	for line in f:
+		lines.append(line.rstrip("\n"))
+
+		f.close
+	return(lines)
+
 def read_fasta(filename):
 	import re
 	lines = get_file_data(filename)
