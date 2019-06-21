@@ -19,7 +19,7 @@ crossval <- function(data, estimate){
     t_train <- t[-testIndexes]
 	
 	w = estimate  
-    RMSE = RMSE + mean((t_test - X_test %*% t(w))**2)**0.5
+    RMSE = RMSE + mean((as.numeric(as.character(t_test - X_test %*% w))**2)**0.5)
     
     }
   Av_RMSE = RMSE/n_fold
