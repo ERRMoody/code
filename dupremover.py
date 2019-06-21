@@ -1,38 +1,15 @@
-import re
+from Bio import SeqIO
 import sys
 
-def get_file_data(filename):
-	f = open(filename, "r")
-	lines = []
-	for line in f:
-		lines.append(line.rstrip("\n"))
 
-		f.close
-	return(lines)
+inputf = sys.argv[1]
+outputf = sys.argv[2]
 
-def read_fasta(filename):
-	import re
-	lines = get_file_data(filename)
-	seqs = {}
-	key = ""
-	value = ""
 
-	for line in lines:
-		line = line.rstrip("\n")
-		if re.search(">", line):
-			if key:
-				seqs[key] = value
-				key = line[1:]
-			else:
-				key = line[1:]
-			value = ""
-		else:
-			value = value + line
-	seqs[key] = value
-	return(seqs)
+with open(outputf, 'a') as outFile:
+    record_ids = list()
+    for record in SeqIO.parse(inputf, 'fasta'):
+        if record.id not in record_ids:
+            record_ids.append( record.id)
+            SeqIO.write(record, outFile, 'fasta')
 
-filename = sys.argv[1]
-
-output = read_fasta(filename)
-
-print (output)
