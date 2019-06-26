@@ -6,6 +6,7 @@ arc <- comparative.data(phy = arcTree, data = arcData, names.col = 'Species',vcv
 
 model_pgls<-pgls(OGT ~ prot_D + prot_G + prot_M + prot_P + prot_R + prot_S + prot_V + prot_Y + Genome_Dinuc_AG + Genome_Dinuc_GT + AGA + ATC + CCC + CCT + CGG + prot_Thermolabile + S_GC, data = arc, lambda='ML')
 #model_pgls<-lm(OGT ~ prot_D + prot_G + prot_M + prot_P + prot_R + prot_S + prot_V + prot_Y + Genome_Dinuc_AG + Genome_Dinuc_GT + AGA + ATC + CCC + CCT + CGG + prot_Thermolabile + S_GC, data = arcData)
+
 summary(model_pgls)
 output <- summary(model_pgls)$coefficient
 
@@ -14,6 +15,7 @@ notOGTs <- notOGTs1[c('prot_D' , 'prot_G' , 'prot_M' , 'prot_P' , 'prot_R' , 'pr
 
 OGTs<-arcData[c(3)]
 crossval(OGTs, notOGTs, arc)
+
 predictions <- predict(model_pgls, notOGTs)
 #mean((OGTs - predictions)**2)**0.5
 residual <- OGTs - predictions
@@ -23,8 +25,3 @@ MSE <- as.numeric(sum_res/nrow(arcData))
 RMSE <- MSE ** 0.5
 RMSE
 
-
-#Stepwise selection
-
-stepData <- read.csv("arcfeatures2.csv")
-stepTree <- read.caic("arcorthocleaned.tre")
