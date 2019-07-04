@@ -1,0 +1,123 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	TERRCYA3____WP_015175588.1[&!color=#00FF00]
+	TERRCYA5____NP_681342.1
+	TERRFIR4____WP_002270498.1[&!color=#00FF00]
+	FCBBAC3____WP_014020908.1[&!color=#00FF00]
+	FCBBAC2____WP_010661861.1[&!color=#00FF00]
+	PROB4____WP_015829786.1[&!color=#00FF00]
+	PROB2____WP_043371438.1[&!color=#00FF00]
+	PROB5____WP_027467886.1[&!color=#00FF00]
+	PORG7____WP_037337948.1[&!color=#00FF00]
+	HALO1____WP-011323439.1[&!color=#FF00FF]
+	HALO4____WP-015763190.1[&!color=#FF00FF]
+	HALO5____WP-004044662.1[&!color=#FF00FF]
+	TERRCYA4____WP_015194171.1[&!color=#00FF00]
+	FCBBAC4____WP_040490408.1[&!color=#00FF00]
+	FCBBAC7____WP_020402681.1[&!color=#00FF00]
+	FCBBAC5____WP_028121598.1[&!color=#00FF00]
+	FCBBAC8____WP_016196796.1[&!color=#00FF00]
+	PORG2____WP_084592650.1[&!color=#00FF00]
+	EURYUNC2____gi_1101738285_gb_OIR21783.1_[&!color=#FF00FF]
+	METHBAC6____Mtherm-MTH1776-AA-15679764-NP-276882.1[&!color=#FF00FF]
+	TERRACT7____WP_038503283.1[&!color=#00FF00]
+	PORG7____WP_051207865.1[&!color=#00FF00]
+	PORG2____WP_035514666.1[&!color=#00FF00]
+	FCBBAC4____WP_009033344.1[&!color=#00FF00]
+	PROA5____WP_014744308.1[&!color=#00FF00]
+	DPANN11____gi_1078648113_gb_AOV95231.1_[&!color=#FF00FF]
+	DPANN11____gi_1078647666_gb_AOV94784.1_[&!color=#FF00FF]
+	HALO4____WP-012807532.1[&!color=#FF00FF]
+	HALO1____WP-011324483.1[&!color=#FF00FF]
+	HALO2____WP-011223938.1[&!color=#FF00FF]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (TERRCYA3____WP_015175588.1:0.1673240049,(TERRCYA5____NP_681342.1:0.0016178991,TERRFIR4____WP_002270498.1:3.8140064518)65:0.2920230259,(FCBBAC3____WP_014020908.1:0.5051941591,((((((FCBBAC2____WP_010661861.1:0.4873755970,((PROB4____WP_015829786.1:0.1284990468,PROB2____WP_043371438.1:0.2787933630)71:0.0627346138,(PROB5____WP_027467886.1:0.0577962045,PORG7____WP_037337948.1:0.5576227238)74:0.0465708305)89:0.2099932859)29:0.1211481561,((((HALO1____WP-011323439.1:0.1164528804,(HALO4____WP-015763190.1:0.1024699357,HALO5____WP-004044662.1:0.1824297334)65:0.0588523019)69:0.0275740739,(TERRCYA4____WP_015194171.1:0.2491546526,FCBBAC4____WP_040490408.1:0.0092235246)85:0.1058481322)61:0.0807537487,FCBBAC7____WP_020402681.1:0.0921660899)45:0.0000022183,FCBBAC5____WP_028121598.1:0.5799213116)63:0.1050629024)19:0.0575307359,FCBBAC8____WP_016196796.1:0.5387829624)23:0.0733549548,PORG2____WP_084592650.1:0.3875367847)41:0.1401998112,(EURYUNC2____gi_1101738285_gb_OIR21783.1_:0.4439454775,(METHBAC6____Mtherm-MTH1776-AA-15679764-NP-276882.1:0.9402851675,TERRACT7____WP_038503283.1:0.8530572376)100:1.6320729176)40:0.0917704114)28:0.0308947162,(((PORG7____WP_051207865.1:0.0628965709,(PORG2____WP_035514666.1:0.2150952696,FCBBAC4____WP_009033344.1:0.1457810811)85:0.0831947936)96:0.1723967485,PROA5____WP_014744308.1:0.6807129192)75:0.1322468433,((DPANN11____gi_1078648113_gb_AOV95231.1_:0.1652862401,DPANN11____gi_1078647666_gb_AOV94784.1_:0.1211238973)99:0.2012744299,(HALO4____WP-012807532.1:0.1041102875,(HALO1____WP-011324483.1:0.2023879584,HALO2____WP-011223938.1:0.1573830936)57:0.0575766580)91:0.1738961362)92:0.1550047597)99:0.3800393013)74:0.6462291369)72:0.3252579429);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="Calibri";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Calibri";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
