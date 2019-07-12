@@ -1,0 +1,41 @@
+ID	Species	more useful clade
+Acar	Anolis carolinensis	Tetrapod
+Bbel	Brachiostoma belcheri	Cephalochordate
+Cfam	Canis lupis familiaris	Tetrapod
+Cint	Ciona intestinalis	Urochordate
+Cmil	Callorhinchus milli	Chondrichthyte
+Cpun	Chiloscyllium punctatum	Chondrichthyte
+Dnov	Dasypus novemcinctus	Tetrapod
+Drer	Danio rerio	Actinopterygyian
+Ebur	Eptatretus burgeri	Myxini
+Ggal	Gallus gallus	Tetrapod
+Hsap	Homo sapiens	Tetrapod
+Lafr	Loxodonta africana	Tetrapod
+Lcam	Lethenteron camtschaticum	Petromyzontida
+Lcha	Latimeria chalumnae	non-tetrapod sarcopterygian
+Locu	Lepisosteus oculatus	Actinopterygian
+Lpla	Lampetra planeri	Petromyzontida
+Mdom	Monodelphis domestica	Tetrapod
+Mgal	Meleagris gallopavo	Tetrapod
+Mmus	Mus musculus	Tetrapod
+Neug	Notamacropus eugenii	Tetrapod
+Npar	Nanorana parkeri	Tetrapod
+Oana	Ornithorhynchus anatinus	Tetrapod
+Onil	Oreochromis niloticus	Actinopterygian
+Pann	Protopterus annectens	non-tetrapod sarcopterygian
+Pmar	Petromyzon marinus	Petromyzontida
+Psin	Pelodiscus sinensis	Tetrapod
+Rtyp	Rhincodon typus	Chondrichthyte
+Stor	Scyliorhinus torazame	Chondrichthyte
+Tgut	Taeniopygia guttata	Tetrapod
+Trub	Takifugu rubripes	actinopterygian
+Xtro	Xenopus tropicalis	Tetrapod
+Pcau    Priapulus caudatus      Priapulid
+Lpol    Limulus polyphemus      Artheropod
+Spur    Strongylocentrus purpuratus     Echinoderm
+Ctel    Capitella teleta        Annelid
+Lgig    Lottia gigantea Mollusc
+Skow    Saccoglossus kowalevskii        Hemichordate
+Nvec    Nematostella victensis  Cnidarian
+Adig    Acropora digitifera     Cnidarian
+Aque    Amphimedon queenslandica        Porifera

@@ -1,0 +1,158 @@
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s nterminusstrict.fa -m LG+G+F -bb 1000 -bnni -wbtl -nt AUTO
+Seed:    396929 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul  9 16:16:52 2019
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file nterminusstrict.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 15 sequences with 574 columns, 304 distinct patterns
+199 parsimony-informative, 85 singleton sites, 290 constant sites
+WARNING: Some sequence names are changed as follows:
+Ppan____XP_003824782.1_zinc_finger_protein_648_[Pan_paniscus] -> Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_
+Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1_[Equus_caballus] -> Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_
+Oorc____XP_004269877.1_PREDICTED:_zinc_finger_protein_648_[Orcinus_orca] -> Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_
+Mleu____XP_011858019.1_PREDICTED:_zinc_finger_protein_648_[Mandrillus_leucophaeus] -> Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_
+Lvex____XP_007448568.1_PREDICTED:_zinc_finger_protein_648_[Lipotes_vexillifer] -> Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_
+Ecab____NP_001243856.1_zinc_finger_protein_648_[Equus_caballus] -> Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_
+Cfam____ENSCAFG00000024596.1|ENSCAFT00000037938.1|ZNF648 -> Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648
+Ccap____XP_017379964.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_648_[Cebus_capucinus_imitator] -> Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_
+Lobl____XP_026938890.1_zinc_finger_protein_648_[Lagenorhynchus_obliquidens] -> Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_
+Mmus____ENSMUSG00000066797.6|ENSMUST00000086195.6|Zfp648 -> Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648
+Fcat____XP_019677322.1_zinc_finger_protein_648_[Felis_catus] -> Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_
+Fcat____XP_023103612.1_zinc_finger_protein_648_[Felis_catus] -> Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_
+Nleu____XP_003264475.1_PREDICTED:_zinc_finger_protein_648_[Nomascus_leucogenys] -> Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
+Fcat____XP_003999329.1_zinc_finger_protein_648_[Felis_catus] -> Fcat____XP_003999329.1_zinc_finger_protein_648__Felis_catus_
+Hsap_____ENSG00000179930|ENST00000339948|ZNF648 -> Hsap_____ENSG00000179930_ENST00000339948_ZNF648
+
+                                                                                                           Gap/Ambiguity  Composition  p-value
+   1  Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_                                                1.05%    passed    100.00%
+   2  Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_                                   1.22%    passed    100.00%
+   3  Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_                                     3.14%    passed     99.83%
+   4  Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_                           1.39%    passed    100.00%
+   5  Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_                               3.14%    passed     99.63%
+   6  Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_                                              1.22%    passed    100.00%
+   7  Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648                                                     0.87%    passed    100.00%
+   8  Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_    1.57%    passed     99.98%
+   9  Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_                                  2.96%    passed     99.93%
+  10  Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648                                                     8.54%    passed     75.16%
+  11  Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_                                                 1.05%    passed    100.00%
+  12  Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_                                                 1.05%    passed    100.00%
+  13  Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_                              1.05%    passed    100.00%
+  14  Fcat____XP_003999329.1_zinc_finger_protein_648__Felis_catus_                                                 1.05%    passed    100.00%
+  15  Hsap_____ENSG00000179930_ENST00000339948_ZNF648                                                              1.05%    passed    100.00%
+****  TOTAL                                                                                                        2.02%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_ is identical to Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_ but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Fcat____XP_003999329.1_zinc_finger_protein_648__Felis_catus_ (identical to Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to nterminusstrict.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 396929)...
+
+NOTE: 4 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+68 trees examined
+Threads: 1 / Time: 4.036 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -6272
+Threads: 2 / Time: 2.147 sec / Speedup: 1.880 / Efficiency: 94% / LogL: -6272
+Threads: 3 / Time: 1.621 sec / Speedup: 2.489 / Efficiency: 83% / LogL: -6272
+Threads: 4 / Time: 489.875 sec / Speedup: 0.008 / Efficiency: 0% / LogL: -6272
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4790.136
+2. Current log-likelihood: -4759.162
+3. Current log-likelihood: -4758.845
+Optimal log-likelihood: -4758.844
+Gamma shape alpha: 0.583
+Parameters optimization took 3 rounds (0.068 sec)
+Computing ML distances based on estimated model parameters... 0.036 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -4758.843
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.090 second
+Computing log-likelihood of 98 initial trees ... 1.103 seconds
+Current best score: -4758.843
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4758.843
+Iteration 10 / LogL: -4758.851 / Time: 0h:8m:20s
+Iteration 20 / LogL: -4759.767 / Time: 0h:8m:21s
+Finish initializing candidate tree set (1)
+Current best tree score: -4758.843 / CPU time: 2.307
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4759.238 / Time: 0h:8m:22s (0h:20m:25s left)
+Iteration 40 / LogL: -4758.848 / Time: 0h:8m:22s (0h:13m:4s left)
+Iteration 50 / LogL: -4759.198 / Time: 0h:8m:23s (0h:8m:42s left)
+Iteration 60 / LogL: -4758.925 / Time: 0h:8m:24s (0h:5m:49s left)
+Iteration 70 / LogL: -4758.890 / Time: 0h:8m:25s (0h:3m:46s left)
+Iteration 80 / LogL: -4758.904 / Time: 0h:8m:26s (0h:2m:14s left)
+Iteration 90 / LogL: -4758.854 / Time: 0h:8m:26s (0h:1m:2s left)
+Iteration 100 / LogL: -4758.853 / Time: 0h:8m:27s (0h:0m:5s left)
+Refining ufboot trees with NNI...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 324 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:8m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4758.843
+Optimal log-likelihood: -4758.843
+Gamma shape alpha: 0.583
+Parameters optimization took 1 rounds (0.012 sec)
+BEST SCORE FOUND : -4758.843
+Creating bootstrap support values...
+Split supports printed to NEXUS file nterminusstrict.fa.splits.nex
+Total tree length: 1.315
+
+Total number of iterations: 102
+CPU time used for tree search: 72.753 sec (0h:1m:12s)
+Wall-clock time used for tree search: 27.193 sec (0h:0m:27s)
+Total CPU time used: 1461.782 sec (0h:24m:21s)
+Total wall-clock time used: 526.394 sec (0h:8m:46s)
+UFBoot trees printed to nterminusstrict.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file nterminusstrict.fa.splits.nex...
+14 taxa and 54 splits.
+Consensus tree written to nterminusstrict.fa.contree
+Reading input trees file nterminusstrict.fa.contree
+Log-likelihood of consensus tree: -4758.844
+
+Analysis results written to: 
+  IQ-TREE report:                nterminusstrict.fa.iqtree
+  Maximum-likelihood tree:       nterminusstrict.fa.treefile
+  Likelihood distances:          nterminusstrict.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          nterminusstrict.fa.splits.nex
+  Consensus tree:                nterminusstrict.fa.contree
+  UFBoot trees:                  nterminusstrict.fa.ufboot
+  Screen log file:               nterminusstrict.fa.log
+
+Date and Time: Tue Jul  9 16:25:38 2019

@@ -1,0 +1,171 @@
+IQ-TREE 1.6.1 built Feb 16 2018
+
+Input file name: nterminusstrict.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 396929
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 15 sequences with 574 amino-acid sites
+Number of constant sites: 290 (= 50.5226% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 290 (= 50.5226% of all sites)
+Number of parsimony informative sites: 199
+Number of distinct site patterns: 304
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0820
+  pi(R) = 0.0854
+  pi(N) = 0.0238
+  pi(D) = 0.0486
+  pi(C) = 0.0463
+  pi(Q) = 0.0596
+  pi(E) = 0.0577
+  pi(G) = 0.0855
+  pi(H) = 0.0511
+  pi(I) = 0.0150
+  pi(L) = 0.0602
+  pi(K) = 0.0587
+  pi(M) = 0.0146
+  pi(F) = 0.0371
+  pi(P) = 0.0801
+  pi(S) = 0.0932
+  pi(T) = 0.0496
+  pi(W) = 0.0089
+  pi(Y) = 0.0141
+  pi(V) = 0.0286
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5830
+
+ Category  Relative_rate  Proportion
+  1         0.0496         0.2500
+  2         0.3027         0.2500
+  3         0.8724         0.2500
+  4         2.7753         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4758.8425 (s.e. 144.5183)
+Unconstrained log-likelihood (without tree): -2863.9457
+Number of free parameters (#branches + #model parameters): 45
+Akaike information criterion (AIC) score: 9607.6851
+Corrected Akaike information criterion (AICc) score: 9615.5260
+Bayesian information criterion (BIC) score: 9803.5534
+
+Total tree length (sum of branch lengths): 1.3154
+Sum of internal branch lengths: 0.5129 (38.9896% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_
+|
+|                                     +**Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_
+|                           +---------| (100)
+|                           |         +--Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_
+|                        +--| (97)
+|                        |  |                    +--Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_
+|                        |  |                 +--| (99)
+|                        |  |                 |  +--Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_
+|                        |  +-----------------| (100)
+|                        |                    +--Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_
+|               +--------| (100)
+|               |        |    +--------Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648
+|               |        +----| (100)
+|               |             |         +**Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_
+|               |             +---------| (100)
+|               |                       +**Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_
+|        +------| (99)
+|        |      +------------------------------------------------Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648
+|     +--| (92)
+|     |  +-------Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_
+|  +--| (72)
+|  |  +-----Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_
++--| (94)
+|  +--Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
+|
++--Hsap_____ENSG00000179930_ENST00000339948_ZNF648
+
+Tree in newick format:
+
+(Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_:0.0048928104,(((((((Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_:0.0000027019,Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_:0.0018111979)100:0.0936727153,((Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_:0.0076372964,Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_:0.0057049477)99:0.0069179368,Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_:0.0240057038)100:0.1625245593)97:0.0255473842,(Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648:0.0778933619,(Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_:0.0000010000,Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_:0.0000010000)100:0.0909144877)100:0.0467493011)100:0.0859076617,Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648:0.4262912304)99:0.0612536291,Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_:0.0765441980)92:0.0185693081,Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_:0.0563594733)72:0.0024600609,Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_:0.0224324210)94:0.0092812567,Hsap_____ENSG00000179930_ENST00000339948_ZNF648:0.0080625598);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4758.844403
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with bootstrap support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_
+|
+|                                     +--Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_
+|                           +---------| (100)
+|                           |         +--Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_
+|                        +--| (97)
+|                        |  |                    +--Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_
+|                        |  |                 +--| (99)
+|                        |  |                 |  +--Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_
+|                        |  +-----------------| (100)
+|                        |                    +--Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_
+|               +--------| (100)
+|               |        |    +--------Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648
+|               |        +----| (100)
+|               |             |            +**Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_
+|               |             |         +--|
+|               |             |         |  +**Fcat____XP_003999329.1_zinc_finger_protein_648__Felis_catus_
+|               |             +---------| (100)
+|               |                       +--Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_
+|        +------| (99)
+|        |      +------------------------------------------------Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648
+|     +--| (92)
+|     |  +-------Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_
+|  +--| (72)
+|  |  +-----Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_
++--| (94)
+|  +--Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_
+|
++--Hsap_____ENSG00000179930_ENST00000339948_ZNF648
+
+
+Consensus tree in newick format: 
+
+(Ppan____XP_003824782.1_zinc_finger_protein_648__Pan_paniscus_:0.0048926561,(((((((Ecab____XP_023496009.1_zinc_finger_protein_648_isoform_X1__Equus_caballus_:0.0000027019,Ecab____NP_001243856.1_zinc_finger_protein_648__Equus_caballus_:0.0018106483)100:0.0936186458,((Oorc____XP_004269877.1_PREDICTED__zinc_finger_protein_648__Orcinus_orca_:0.0076316893,Lobl____XP_026938890.1_zinc_finger_protein_648__Lagenorhynchus_obliquidens_:0.0057006659)99:0.0069200656,Lvex____XP_007448568.1_PREDICTED__zinc_finger_protein_648__Lipotes_vexillifer_:0.0239828907)100:0.1624150747)97:0.0255410134,(Cfam____ENSCAFG00000024596.1_ENSCAFT00000037938.1_ZNF648:0.0778619583,((Fcat____XP_019677322.1_zinc_finger_protein_648__Felis_catus_:0.0000000000,Fcat____XP_003999329.1_zinc_finger_protein_648__Felis_catus_:0.0000000000):0.0000027019,Fcat____XP_023103612.1_zinc_finger_protein_648__Felis_catus_:0.0000027019)100:0.0908746741)100:0.0467406147)100:0.0858752473,Mmus____ENSMUSG00000066797.6_ENSMUST00000086195.6_Zfp648:0.4261650238)99:0.0612436559,Ccap____XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_:0.0765304282)92:0.0185649663,Mleu____XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_:0.0563491062)72:0.0024598687,Nleu____XP_003264475.1_PREDICTED__zinc_finger_protein_648__Nomascus_leucogenys_:0.0224285899)94:0.0092803233,Hsap_____ENSG00000179930_ENST00000339948_ZNF648:0.0080616164);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jul  9 16:25:38 2019
+Total CPU time used: 1461.782349 seconds (0h:24m:21s)
+Total wall-clock time used: 526.4502294 seconds (0h:8m:46s)
+

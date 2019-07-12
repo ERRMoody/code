@@ -1,0 +1,361 @@
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s mafftblastzinc.fa -m LG+G+F -bb 1000 -bnni -wbtl
+Seed:    163414 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jul  4 13:52:56 2019
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file mafftblastzinc.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 16 sites contain only gaps or ambiguous characters.
+Alignment has 100 sequences with 10303 columns, 4346 distinct patterns
+1917 parsimony-informative, 1531 singleton sites, 6855 constant sites
+WARNING: Some sequence names are changed as follows:
+Homo_sapiens____homonina_XP_006722943.1_zinc_finger_protein_91_isoform_X3_[Homo_sapiens] -> Homo_sapiens____homonina_XP_006722943.1_zinc_finger_protein_91_isoform_X3__Homo_sapiens_
+Loxodonta_africana____afrotheria_XP_023399395.1_zinc_finger_protein_271-like_[Loxodonta_africana] -> Loxodonta_africana____afrotheria_XP_023399395.1_zinc_finger_protein_271-like__Loxodonta_africana_
+Dasypus_novemcinctus____xenarthra_XP_012375896.1_zinc_finger_protein_836-like_[Dasypus_novemcinctus] -> Dasypus_novemcinctus____xenarthra_XP_012375896.1_zinc_finger_protein_836-like__Dasypus_novemcinctus_
+Balaenoptera_acutorostrata____cetartiodactyla_XP_028018889.1_zinc_finger_protein_45_[Balaenoptera_acutorostrata_scammoni] -> Balaenoptera_acutorostrata____cetartiodactyla_XP_028018889.1_zinc_finger_protein_45__Balaenoptera_acutorostrata_scammoni_
+Panthera_tigris____carnivora_XP_015399575.1_PREDICTED:_zinc_finger_protein_850_isoform_X1_[Panthera_tigris_altaica] -> Panthera_tigris____carnivora_XP_015399575.1_PREDICTED__zinc_finger_protein_850_isoform_X1__Panthera_tigris_altaica_
+Carlito_syrichta____tarsiidae_XP_021565913.1_zinc_finger_protein_208-like_[Carlito_syrichta] -> Carlito_syrichta____tarsiidae_XP_021565913.1_zinc_finger_protein_208-like__Carlito_syrichta_
+Ursus_arctos____carnivora_XP_026338220.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_573_[Ursus_arctos_horribilis] -> Ursus_arctos____carnivora_XP_026338220.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_573__Ursus_arctos_horribilis_
+Balaenoptera_acutorostrata____cetartiodactyla_XP_028021489.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_850-like_[Balaenoptera_acutorostrata_scammoni] -> Balaenoptera_acutorostrata____cetartiodactyla_XP_028021489.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_850-like__Balaenoptera_acutorostrata_scammoni_
+Propithecus_coquereli____indriidae_XP_012498850.1_PREDICTED:_zinc_finger_protein_665-like_[Propithecus_coquereli] -> Propithecus_coquereli____indriidae_XP_012498850.1_PREDICTED__zinc_finger_protein_665-like__Propithecus_coquereli_
+Carlito_syrichta____tarsiidae_XP_008054518.2_zinc_finger_protein_571_[Carlito_syrichta] -> Carlito_syrichta____tarsiidae_XP_008054518.2_zinc_finger_protein_571__Carlito_syrichta_
+Pongo_abelii____ponginae_XP_024093056.1_zinc_finger_protein_208_isoform_X1_[Pongo_abelii] -> Pongo_abelii____ponginae_XP_024093056.1_zinc_finger_protein_208_isoform_X1__Pongo_abelii_
+Mandrillus_leucophaeus____cercopithecoidea_XP_011855059.1_PREDICTED:_zinc_finger_protein_91-like_[Mandrillus_leucophaeus] -> Mandrillus_leucophaeus____cercopithecoidea_XP_011855059.1_PREDICTED__zinc_finger_protein_91-like__Mandrillus_leucophaeus_
+Otolemur_garnettii____lorisoidea_XP_023372667.1_zinc_finger_protein_607_[Otolemur_garnettii] -> Otolemur_garnettii____lorisoidea_XP_023372667.1_zinc_finger_protein_607__Otolemur_garnettii_
+Galeopterus_variegatus____dermoptera_XP_008588630.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_420-like_[Galeopterus_variegatus] -> Galeopterus_variegatus____dermoptera_XP_008588630.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_420-like__Galeopterus_variegatus_
+Otolemur_garnettii____lorisoidea_XP_023372666.1_zinc_finger_protein_850-like,_partial_[Otolemur_garnettii] -> Otolemur_garnettii____lorisoidea_XP_023372666.1_zinc_finger_protein_850-like__partial__Otolemur_garnettii_
+Dasypus_novemcinctus____xenarthra_XP_023444636.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_571_[Dasypus_novemcinctus] -> Dasypus_novemcinctus____xenarthra_XP_023444636.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_571__Dasypus_novemcinctus_
+Mandrillus_leucophaeus____cercopithecoidea_XP_011858019.1_PREDICTED:_zinc_finger_protein_648_[Mandrillus_leucophaeus] -> Mandrillus_leucophaeus____cercopithecoidea_XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_
+Homo_sapiens____homonina_NP_003421.2_zinc_finger_protein_91_isoform_1_[Homo_sapiens] -> Homo_sapiens____homonina_NP_003421.2_zinc_finger_protein_91_isoform_1__Homo_sapiens_
+Erinaceus_europaeus____eulipotyphla_XP_016049861.1_PREDICTED:_LOW_QUALITY_PROTEIN:_uncharacterized_protein_LOC103126390_[Erinaceus_europaeus] -> Erinaceus_europaeus____eulipotyphla_XP_016049861.1_PREDICTED__LOW_QUALITY_PROTEIN__uncharacterized_protein_LOC103126390__Erinaceus_europaeus_
+Loxodonta_africana____afrotheria_XP_010586028.2_LOW_QUALITY_PROTEIN:_zinc_finger_protein_37_homolog_[Loxodonta_africana] -> Loxodonta_africana____afrotheria_XP_010586028.2_LOW_QUALITY_PROTEIN__zinc_finger_protein_37_homolog__Loxodonta_africana_
+Erinaceus_europaeus____eulipotyphla_XP_016050331.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_208_[Erinaceus_europaeus] -> Erinaceus_europaeus____eulipotyphla_XP_016050331.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Erinaceus_europaeus_
+Pan_troglodytes____panina_XP_009433443.2_zinc_finger_protein_99_[Pan_troglodytes] -> Pan_troglodytes____panina_XP_009433443.2_zinc_finger_protein_99__Pan_troglodytes_
+Gorilla_gorilla____gorillini_XP_018886338.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_107-like_[Gorilla_gorilla_gorilla] -> Gorilla_gorilla____gorillini_XP_018886338.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_107-like__Gorilla_gorilla_gorilla_
+Ornithorhynchus_anatinus____monotrememata_XP_028929209.1_uncharacterized_protein_LOC100089426_isoform_X1_[Ornithorhynchus_anatinus] -> Ornithorhynchus_anatinus____monotrememata_XP_028929209.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_
+Tupaia_chinensis____scandentia_XP_027624595.1_zinc_finger_protein_197_isoform_X3_[Tupaia_chinensis] -> Tupaia_chinensis____scandentia_XP_027624595.1_zinc_finger_protein_197_isoform_X3__Tupaia_chinensis_
+Mandrillus_leucophaeus____cercopithecoidea_XP_011840165.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_850_[Mandrillus_leucophaeus] -> Mandrillus_leucophaeus____cercopithecoidea_XP_011840165.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_850__Mandrillus_leucophaeus_
+Oryctolagus_cuniculus____lagomorpha_XP_017194014.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_470_[Oryctolagus_cuniculus] -> Oryctolagus_cuniculus____lagomorpha_XP_017194014.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_470__Oryctolagus_cuniculus_
+Equus_caballus____perissodactyla_XP_023477056.1_zinc_finger_protein_850_[Equus_caballus] -> Equus_caballus____perissodactyla_XP_023477056.1_zinc_finger_protein_850__Equus_caballus_
+Dasypus_novemcinctus____xenarthra_XP_012381290.1_zinc_finger_protein_665-like_[Dasypus_novemcinctus] -> Dasypus_novemcinctus____xenarthra_XP_012381290.1_zinc_finger_protein_665-like__Dasypus_novemcinctus_
+Cebus_capucinus____platyrrhini_XP_017379964.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_648_[Cebus_capucinus_imitator] -> Cebus_capucinus____platyrrhini_XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_
+Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like_[Phascolarctos_cinereus] -> Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_
+Pan_troglodytes____panina_XP_024207564.1_zinc_finger_protein_91_isoform_X2_[Pan_troglodytes] -> Pan_troglodytes____panina_XP_024207564.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_
+Oryctolagus_cuniculus____lagomorpha_XP_017194024.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_585A-like,_partial_[Oryctolagus_cuniculus] -> Oryctolagus_cuniculus____lagomorpha_XP_017194024.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_585A-like__partial__Oryctolagus_cuniculus_
+Ornithorhynchus_anatinus____monotrememata_XP_028929208.1_uncharacterized_protein_LOC100089426_isoform_X1_[Ornithorhynchus_anatinus] -> Ornithorhynchus_anatinus____monotrememata_XP_028929208.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_
+Pongo_abelii____ponginae_XP_024093053.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_729_[Pongo_abelii] -> Pongo_abelii____ponginae_XP_024093053.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_729__Pongo_abelii_
+Pan_troglodytes____panina_XP_024207565.1_zinc_finger_protein_91_isoform_X3_[Pan_troglodytes] -> Pan_troglodytes____panina_XP_024207565.1_zinc_finger_protein_91_isoform_X3__Pan_troglodytes_
+Galeopterus_variegatus____dermoptera_XP_008584848.1_PREDICTED:_zinc_finger_protein_160-like_[Galeopterus_variegatus] -> Galeopterus_variegatus____dermoptera_XP_008584848.1_PREDICTED__zinc_finger_protein_160-like__Galeopterus_variegatus_
+Homo_sapiens____homonina_NP_001287880.1_zinc_finger_protein_91_isoform_2_[Homo_sapiens] -> Homo_sapiens____homonina_NP_001287880.1_zinc_finger_protein_91_isoform_2__Homo_sapiens_
+Tupaia_chinensis____scandentia_XP_027623402.1_zinc_finger_protein_850_isoform_X4_[Tupaia_chinensis] -> Tupaia_chinensis____scandentia_XP_027623402.1_zinc_finger_protein_850_isoform_X4__Tupaia_chinensis_
+Oryctolagus_cuniculus____lagomorpha_XP_017197911.1_PREDICTED:_zinc_finger_protein_850_isoform_X3_[Oryctolagus_cuniculus] -> Oryctolagus_cuniculus____lagomorpha_XP_017197911.1_PREDICTED__zinc_finger_protein_850_isoform_X3__Oryctolagus_cuniculus_
+Cebus_capucinus____platyrrhini_XP_017380788.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_681-like_[Cebus_capucinus_imitator] -> Cebus_capucinus____platyrrhini_XP_017380788.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_681-like__Cebus_capucinus_imitator_
+Mus_musculus____rodentia_NP_898969.2_uncharacterized_protein_LOC212281_[Mus_musculus] -> Mus_musculus____rodentia_NP_898969.2_uncharacterized_protein_LOC212281__Mus_musculus_
+Phascolarctos_cinereus____metatheria_XP_020827828.1_zinc_finger_protein_208-like_[Phascolarctos_cinereus] -> Phascolarctos_cinereus____metatheria_XP_020827828.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_
+Ursus_arctos____carnivora_XP_026344621.1_zinc_finger_protein_250_isoform_X4_[Ursus_arctos_horribilis] -> Ursus_arctos____carnivora_XP_026344621.1_zinc_finger_protein_250_isoform_X4__Ursus_arctos_horribilis_
+Balaenoptera_acutorostrata____cetartiodactyla_XP_007175460.2_LOW_QUALITY_PROTEIN:_zinc_finger_protein_208_[Balaenoptera_acutorostrata_scammoni] -> Balaenoptera_acutorostrata____cetartiodactyla_XP_007175460.2_LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Balaenoptera_acutorostrata_scammoni_
+Propithecus_coquereli____indriidae_XP_012503418.1_PREDICTED:_zinc_finger_protein_252-like_[Propithecus_coquereli] -> Propithecus_coquereli____indriidae_XP_012503418.1_PREDICTED__zinc_finger_protein_252-like__Propithecus_coquereli_
+Otolemur_garnettii____lorisoidea_XP_012669420.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_493-like_[Otolemur_garnettii] -> Otolemur_garnettii____lorisoidea_XP_012669420.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_493-like__Otolemur_garnettii_
+Oryctolagus_cuniculus____lagomorpha_XP_017195407.1_PREDICTED:_zinc_finger_protein_260-like_isoform_X3_[Oryctolagus_cuniculus] -> Oryctolagus_cuniculus____lagomorpha_XP_017195407.1_PREDICTED__zinc_finger_protein_260-like_isoform_X3__Oryctolagus_cuniculus_
+Galeopterus_variegatus____dermoptera_XP_008582201.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_420-like_[Galeopterus_variegatus] -> Galeopterus_variegatus____dermoptera_XP_008582201.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_420-like__Galeopterus_variegatus_
+Nomascus_leucogenys____hylobatidae_XP_012360600.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_91-like_[Nomascus_leucogenys] -> Nomascus_leucogenys____hylobatidae_XP_012360600.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_91-like__Nomascus_leucogenys_
+Pongo_abelii____ponginae_XP_009231287.1_zinc_finger_protein_836_isoform_X2_[Pongo_abelii] -> Pongo_abelii____ponginae_XP_009231287.1_zinc_finger_protein_836_isoform_X2__Pongo_abelii_
+Cebus_capucinus____platyrrhini_XP_017362132.1_PREDICTED:_zinc_finger_protein_850_[Cebus_capucinus_imitator] -> Cebus_capucinus____platyrrhini_XP_017362132.1_PREDICTED__zinc_finger_protein_850__Cebus_capucinus_imitator_
+Tupaia_chinensis____scandentia_XP_014438393.2_zinc_finger_protein_45_isoform_X4_[Tupaia_chinensis] -> Tupaia_chinensis____scandentia_XP_014438393.2_zinc_finger_protein_45_isoform_X4__Tupaia_chinensis_
+Ornithorhynchus_anatinus____monotrememata_XP_028929210.1_uncharacterized_protein_LOC100089426_isoform_X1_[Ornithorhynchus_anatinus] -> Ornithorhynchus_anatinus____monotrememata_XP_028929210.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_
+Erinaceus_europaeus____eulipotyphla_XP_016049862.1_PREDICTED:_zinc_finger_protein_850_isoform_X1_[Erinaceus_europaeus] -> Erinaceus_europaeus____eulipotyphla_XP_016049862.1_PREDICTED__zinc_finger_protein_850_isoform_X1__Erinaceus_europaeus_
+Panthera_tigris____carnivora_XP_007094057.2_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_160_[Panthera_tigris_altaica] -> Panthera_tigris____carnivora_XP_007094057.2_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_160__Panthera_tigris_altaica_
+Pongo_abelii____ponginae_XP_024093060.1_zinc_finger_protein_91-like_[Pongo_abelii] -> Pongo_abelii____ponginae_XP_024093060.1_zinc_finger_protein_91-like__Pongo_abelii_
+Nomascus_leucogenys____hylobatidae_XP_012364875.1_PREDICTED:_putative_zinc_finger_protein_724_isoform_X1_[Nomascus_leucogenys] -> Nomascus_leucogenys____hylobatidae_XP_012364875.1_PREDICTED__putative_zinc_finger_protein_724_isoform_X1__Nomascus_leucogenys_
+Mus_musculus____rodentia_XP_017174659.1_PREDICTED:_KRAB_box_and_zinc_finger,_C2H2_type_domain_containing_isoform_X1_[Mus_musculus] -> Mus_musculus____rodentia_XP_017174659.1_PREDICTED__KRAB_box_and_zinc_finger__C2H2_type_domain_containing_isoform_X1__Mus_musculus_
+Pteropus_vampyrus____chiroptera_XP_011380014.2_zinc_finger_protein_160_isoform_X10_[Pteropus_vampyrus] -> Pteropus_vampyrus____chiroptera_XP_011380014.2_zinc_finger_protein_160_isoform_X10__Pteropus_vampyrus_
+Panthera_tigris____carnivora_XP_015394985.1_PREDICTED:_zinc_finger_protein_227_isoform_X7_[Panthera_tigris_altaica] -> Panthera_tigris____carnivora_XP_015394985.1_PREDICTED__zinc_finger_protein_227_isoform_X7__Panthera_tigris_altaica_
+Phascolarctos_cinereus____metatheria_XP_020827827.1_zinc_finger_protein_208-like_[Phascolarctos_cinereus] -> Phascolarctos_cinereus____metatheria_XP_020827827.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_
+Orycteropus_afer____afrotheria_XP_007955524.1_PREDICTED:_zinc_finger_protein_208-like_[Orycteropus_afer_afer] -> Orycteropus_afer____afrotheria_XP_007955524.1_PREDICTED__zinc_finger_protein_208-like__Orycteropus_afer_afer_
+Loxodonta_africana____afrotheria_XP_023399391.1_zinc_finger_protein_420-like_isoform_X3_[Loxodonta_africana] -> Loxodonta_africana____afrotheria_XP_023399391.1_zinc_finger_protein_420-like_isoform_X3__Loxodonta_africana_
+Otolemur_garnettii____lorisoidea_XP_023372263.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_582_[Otolemur_garnettii] -> Otolemur_garnettii____lorisoidea_XP_023372263.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_582__Otolemur_garnettii_
+Mus_musculus____rodentia_NP_001004139.2_zinc_finger_protein_91_[Mus_musculus] -> Mus_musculus____rodentia_NP_001004139.2_zinc_finger_protein_91__Mus_musculus_
+Gorilla_gorilla____gorillini_XP_018870377.1_PREDICTED:_LOW_QUALITY_PROTEIN:_putative_zinc_finger_protein_724_[Gorilla_gorilla_gorilla] -> Gorilla_gorilla____gorillini_XP_018870377.1_PREDICTED__LOW_QUALITY_PROTEIN__putative_zinc_finger_protein_724__Gorilla_gorilla_gorilla_
+Equus_caballus____perissodactyla_XP_023505182.1_zinc_finger_protein_845_[Equus_caballus] -> Equus_caballus____perissodactyla_XP_023505182.1_zinc_finger_protein_845__Equus_caballus_
+Orycteropus_afer____afrotheria_XP_007952454.1_PREDICTED:_zinc_finger_protein_62_homolog_[Orycteropus_afer_afer] -> Orycteropus_afer____afrotheria_XP_007952454.1_PREDICTED__zinc_finger_protein_62_homolog__Orycteropus_afer_afer_
+Pteropus_vampyrus____chiroptera_XP_023382457.1_zinc_finger_protein_665-like_isoform_X4_[Pteropus_vampyrus] -> Pteropus_vampyrus____chiroptera_XP_023382457.1_zinc_finger_protein_665-like_isoform_X4__Pteropus_vampyrus_
+Equus_caballus____perissodactyla_XP_023505597.1_zinc_finger_protein_234_isoform_X9_[Equus_caballus] -> Equus_caballus____perissodactyla_XP_023505597.1_zinc_finger_protein_234_isoform_X9__Equus_caballus_
+Dasypus_novemcinctus____xenarthra_XP_023444483.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_729_[Dasypus_novemcinctus] -> Dasypus_novemcinctus____xenarthra_XP_023444483.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_729__Dasypus_novemcinctus_
+Gorilla_gorilla____gorillini_XP_018870402.1_PREDICTED:_zinc_finger_protein_729_[Gorilla_gorilla_gorilla] -> Gorilla_gorilla____gorillini_XP_018870402.1_PREDICTED__zinc_finger_protein_729__Gorilla_gorilla_gorilla_
+Homo_sapiens____homonina_XP_011526568.1_zinc_finger_protein_91_isoform_X3_[Homo_sapiens] -> Homo_sapiens____homonina_XP_011526568.1_zinc_finger_protein_91_isoform_X3__Homo_sapiens_
+Ursus_arctos____carnivora_XP_026345846.1_uncharacterized_protein_LOC113248539_[Ursus_arctos_horribilis] -> Ursus_arctos____carnivora_XP_026345846.1_uncharacterized_protein_LOC113248539__Ursus_arctos_horribilis_
+Equus_caballus____perissodactyla_XP_023507076.1_zinc_finger_protein_420_isoform_X12_[Equus_caballus] -> Equus_caballus____perissodactyla_XP_023507076.1_zinc_finger_protein_420_isoform_X12__Equus_caballus_
+Orycteropus_afer____afrotheria_XP_007943866.1_PREDICTED:_zinc_finger_protein_271-like_[Orycteropus_afer_afer] -> Orycteropus_afer____afrotheria_XP_007943866.1_PREDICTED__zinc_finger_protein_271-like__Orycteropus_afer_afer_
+Tupaia_chinensis____scandentia_XP_014448421.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_208_[Tupaia_chinensis] -> Tupaia_chinensis____scandentia_XP_014448421.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Tupaia_chinensis_
+Loxodonta_africana____afrotheria_XP_023399654.1_zinc_finger_protein_850_isoform_X3_[Loxodonta_africana] -> Loxodonta_africana____afrotheria_XP_023399654.1_zinc_finger_protein_850_isoform_X3__Loxodonta_africana_
+Carlito_syrichta____tarsiidae_XP_008061486.1_LOW_QUALITY_PROTEIN:_zinc_finger_protein_648_[Carlito_syrichta] -> Carlito_syrichta____tarsiidae_XP_008061486.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Carlito_syrichta_
+Nomascus_leucogenys____hylobatidae_XP_012364883.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_729-like_[Nomascus_leucogenys] -> Nomascus_leucogenys____hylobatidae_XP_012364883.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_729-like__Nomascus_leucogenys_
+Mus_musculus____rodentia_NP_001156718.1_zinc_finger_protein_[Mus_musculus] -> Mus_musculus____rodentia_NP_001156718.1_zinc_finger_protein__Mus_musculus_
+Orycteropus_afer____afrotheria_XP_007943789.1_PREDICTED:_zinc_finger_protein_286A_[Orycteropus_afer_afer] -> Orycteropus_afer____afrotheria_XP_007943789.1_PREDICTED__zinc_finger_protein_286A__Orycteropus_afer_afer_
+Pan_troglodytes____panina_XP_024207563.1_zinc_finger_protein_91_isoform_X2_[Pan_troglodytes] -> Pan_troglodytes____panina_XP_024207563.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_
+Phascolarctos_cinereus____metatheria_XP_020827825.1_zinc_finger_protein_208-like_[Phascolarctos_cinereus] -> Phascolarctos_cinereus____metatheria_XP_020827825.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_
+Balaenoptera_acutorostrata____cetartiodactyla_XP_028018084.1_zinc_finger_protein_397_isoform_X2_[Balaenoptera_acutorostrata_scammoni] -> Balaenoptera_acutorostrata____cetartiodactyla_XP_028018084.1_zinc_finger_protein_397_isoform_X2__Balaenoptera_acutorostrata_scammoni_
+Pteropus_vampyrus____chiroptera_XP_011380016.2_zinc_finger_protein_420_isoform_X10_[Pteropus_vampyrus] -> Pteropus_vampyrus____chiroptera_XP_011380016.2_zinc_finger_protein_420_isoform_X10__Pteropus_vampyrus_
+Cebus_capucinus____platyrrhini_XP_017380786.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_254-like_[Cebus_capucinus_imitator] -> Cebus_capucinus____platyrrhini_XP_017380786.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_254-like__Cebus_capucinus_imitator_
+Propithecus_coquereli____indriidae_XP_012498791.1_PREDICTED:_zinc_finger_protein_208-like_[Propithecus_coquereli] -> Propithecus_coquereli____indriidae_XP_012498791.1_PREDICTED__zinc_finger_protein_208-like__Propithecus_coquereli_
+Propithecus_coquereli____indriidae_XP_012495439.1_PREDICTED:_zinc_finger_protein_648_[Propithecus_coquereli] -> Propithecus_coquereli____indriidae_XP_012495439.1_PREDICTED__zinc_finger_protein_648__Propithecus_coquereli_
+Mandrillus_leucophaeus____cercopithecoidea_XP_011835084.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_845-like_[Mandrillus_leucophaeus] -> Mandrillus_leucophaeus____cercopithecoidea_XP_011835084.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_845-like__Mandrillus_leucophaeus_
+Galeopterus_variegatus____dermoptera_XP_008592627.1_PREDICTED:_zinc_finger_protein_420-like_[Galeopterus_variegatus] -> Galeopterus_variegatus____dermoptera_XP_008592627.1_PREDICTED__zinc_finger_protein_420-like__Galeopterus_variegatus_
+Ornithorhynchus_anatinus____monotrememata_XP_028929211.1_uncharacterized_protein_LOC100089426_isoform_X2_[Ornithorhynchus_anatinus] -> Ornithorhynchus_anatinus____monotrememata_XP_028929211.1_uncharacterized_protein_LOC100089426_isoform_X2__Ornithorhynchus_anatinus_
+Carlito_syrichta____tarsiidae_XP_008066609.1_zinc_finger_protein_658B-like,_partial_[Carlito_syrichta] -> Carlito_syrichta____tarsiidae_XP_008066609.1_zinc_finger_protein_658B-like__partial__Carlito_syrichta_
+Panthera_tigris____carnivora_XP_015399584.1_PREDICTED:_zinc_finger_protein_568_isoform_X4_[Panthera_tigris_altaica] -> Panthera_tigris____carnivora_XP_015399584.1_PREDICTED__zinc_finger_protein_568_isoform_X4__Panthera_tigris_altaica_
+Gorilla_gorilla____gorillini_XP_018870401.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_729-like_[Gorilla_gorilla_gorilla] -> Gorilla_gorilla____gorillini_XP_018870401.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_729-like__Gorilla_gorilla_gorilla_
+Ursus_arctos____carnivora_XP_026351966.1_zinc_finger_protein_271_isoform_X2_[Ursus_arctos_horribilis] -> Ursus_arctos____carnivora_XP_026351966.1_zinc_finger_protein_271_isoform_X2__Ursus_arctos_horribilis_
+Pteropus_vampyrus____chiroptera_XP_011359924.2_zinc_finger_protein_271_isoform_X2_[Pteropus_vampyrus] -> Pteropus_vampyrus____chiroptera_XP_011359924.2_zinc_finger_protein_271_isoform_X2__Pteropus_vampyrus_
+Erinaceus_europaeus____eulipotyphla_XP_016045503.1_PREDICTED:_zinc_finger_protein_665_isoform_X2_[Erinaceus_europaeus] -> Erinaceus_europaeus____eulipotyphla_XP_016045503.1_PREDICTED__zinc_finger_protein_665_isoform_X2__Erinaceus_europaeus_
+Nomascus_leucogenys____hylobatidae_XP_012364870.1_PREDICTED:_LOW_QUALITY_PROTEIN:_zinc_finger_protein_208-like_[Nomascus_leucogenys] -> Nomascus_leucogenys____hylobatidae_XP_012364870.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_208-like__Nomascus_leucogenys_
+
+                                                                                                                                                      Gap/Ambiguity  Composition  p-value
+   1  Homo_sapiens____homonina_XP_006722943.1_zinc_finger_protein_91_isoform_X3__Homo_sapiens_                                                               89.40%    failed      0.00%
+   2  Loxodonta_africana____afrotheria_XP_023399395.1_zinc_finger_protein_271-like__Loxodonta_africana_                                                      88.12%    failed      0.00%
+   3  Dasypus_novemcinctus____xenarthra_XP_012375896.1_zinc_finger_protein_836-like__Dasypus_novemcinctus_                                                   88.88%    failed      0.03%
+   4  Balaenoptera_acutorostrata____cetartiodactyla_XP_028018889.1_zinc_finger_protein_45__Balaenoptera_acutorostrata_scammoni_                              84.96%    failed      0.00%
+   5  Panthera_tigris____carnivora_XP_015399575.1_PREDICTED__zinc_finger_protein_850_isoform_X1__Panthera_tigris_altaica_                                    84.10%    failed      0.00%
+   6  Carlito_syrichta____tarsiidae_XP_021565913.1_zinc_finger_protein_208-like__Carlito_syrichta_                                                           88.58%    failed      0.00%
+   7  Ursus_arctos____carnivora_XP_026338220.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_573__Ursus_arctos_horribilis_                                        87.05%    failed      0.00%
+   8  Balaenoptera_acutorostrata____cetartiodactyla_XP_028021489.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_850-like__Balaenoptera_acutorostrata_scammoni_   82.79%    failed      0.00%
+   9  Propithecus_coquereli____indriidae_XP_012498850.1_PREDICTED__zinc_finger_protein_665-like__Propithecus_coquereli_                                      92.09%    failed      0.08%
+  10  Carlito_syrichta____tarsiidae_XP_008054518.2_zinc_finger_protein_571__Carlito_syrichta_                                                                89.39%    failed      0.00%
+  11  Pongo_abelii____ponginae_XP_024093056.1_zinc_finger_protein_208_isoform_X1__Pongo_abelii_                                                              87.17%    failed      0.00%
+  12  Mandrillus_leucophaeus____cercopithecoidea_XP_011855059.1_PREDICTED__zinc_finger_protein_91-like__Mandrillus_leucophaeus_                              90.91%    failed      0.00%
+  13  Otolemur_garnettii____lorisoidea_XP_023372667.1_zinc_finger_protein_607__Otolemur_garnettii_                                                           87.05%    failed      0.00%
+  14  Galeopterus_variegatus____dermoptera_XP_008588630.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_420-like__Galeopterus_variegatus_              88.41%    failed      0.00%
+  15  Otolemur_garnettii____lorisoidea_XP_023372666.1_zinc_finger_protein_850-like__partial__Otolemur_garnettii_                                             89.01%    failed      0.00%
+  16  Dasypus_novemcinctus____xenarthra_XP_023444636.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_571__Dasypus_novemcinctus_                                   88.90%    failed      0.00%
+  17  Mandrillus_leucophaeus____cercopithecoidea_XP_011858019.1_PREDICTED__zinc_finger_protein_648__Mandrillus_leucophaeus_                                  94.51%    failed      0.00%
+  18  Homo_sapiens____homonina_NP_003421.2_zinc_finger_protein_91_isoform_1__Homo_sapiens_                                                                   88.44%    failed      0.00%
+  19  Erinaceus_europaeus____eulipotyphla_XP_016049861.1_PREDICTED__LOW_QUALITY_PROTEIN__uncharacterized_protein_LOC103126390__Erinaceus_europaeus_          75.70%    failed      0.00%
+  20  Loxodonta_africana____afrotheria_XP_010586028.2_LOW_QUALITY_PROTEIN__zinc_finger_protein_37_homolog__Loxodonta_africana_                               87.60%    failed      0.00%
+  21  Erinaceus_europaeus____eulipotyphla_XP_016050331.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Erinaceus_europaeus_                       77.19%    failed      0.00%
+  22  Pan_troglodytes____panina_XP_009433443.2_zinc_finger_protein_99__Pan_troglodytes_                                                                      85.83%    failed      0.00%
+  23  Gorilla_gorilla____gorillini_XP_018886338.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_107-like__Gorilla_gorilla_gorilla_                     88.01%    failed      0.00%
+  24  Ornithorhynchus_anatinus____monotrememata_XP_028929209.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_                    74.87%    failed      0.00%
+  25  Tupaia_chinensis____scandentia_XP_027624595.1_zinc_finger_protein_197_isoform_X3__Tupaia_chinensis_                                                    88.00%    failed      0.02%
+  26  Mandrillus_leucophaeus____cercopithecoidea_XP_011840165.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_850__Mandrillus_leucophaeus_             89.49%    failed      0.00%
+  27  Oryctolagus_cuniculus____lagomorpha_XP_017194014.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_470__Oryctolagus_cuniculus_                     89.68%    failed      0.47%
+  28  Equus_caballus____perissodactyla_XP_023477056.1_zinc_finger_protein_850__Equus_caballus_                                                               82.45%    failed      0.00%
+  29  Dasypus_novemcinctus____xenarthra_XP_012381290.1_zinc_finger_protein_665-like__Dasypus_novemcinctus_                                                   89.61%    failed      0.61%
+  30  Cebus_capucinus____platyrrhini_XP_017379964.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Cebus_capucinus_imitator_                       94.52%    failed      0.00%
+  31  Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_                                              77.20%    failed      0.00%
+  32  Pan_troglodytes____panina_XP_024207564.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_                                                           88.84%    failed      0.00%
+  33  Oryctolagus_cuniculus____lagomorpha_XP_017194024.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_585A-like__partial__Oryctolagus_cuniculus_      88.94%    failed      0.00%
+  34  Ornithorhynchus_anatinus____monotrememata_XP_028929208.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_                    74.87%    failed      0.00%
+  35  Pongo_abelii____ponginae_XP_024093053.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_729__Pongo_abelii_                                                    86.82%    failed      0.00%
+  36  Pan_troglodytes____panina_XP_024207565.1_zinc_finger_protein_91_isoform_X3__Pan_troglodytes_                                                           88.84%    failed      0.00%
+  37  Galeopterus_variegatus____dermoptera_XP_008584848.1_PREDICTED__zinc_finger_protein_160-like__Galeopterus_variegatus_                                   86.91%    failed      0.00%
+  38  Homo_sapiens____homonina_NP_001287880.1_zinc_finger_protein_91_isoform_2__Homo_sapiens_                                                                88.75%    failed      0.00%
+  39  Tupaia_chinensis____scandentia_XP_027623402.1_zinc_finger_protein_850_isoform_X4__Tupaia_chinensis_                                                    88.26%    failed      0.01%
+  40  Oryctolagus_cuniculus____lagomorpha_XP_017197911.1_PREDICTED__zinc_finger_protein_850_isoform_X3__Oryctolagus_cuniculus_                               89.10%    failed      0.00%
+  41  Cebus_capucinus____platyrrhini_XP_017380788.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_681-like__Cebus_capucinus_imitator_                  87.75%    failed      0.00%
+  42  Mus_musculus____rodentia_NP_898969.2_uncharacterized_protein_LOC212281__Mus_musculus_                                                                  90.56%    failed      0.00%
+  43  Phascolarctos_cinereus____metatheria_XP_020827828.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_                                              77.20%    failed      0.00%
+  44  Ursus_arctos____carnivora_XP_026344621.1_zinc_finger_protein_250_isoform_X4__Ursus_arctos_horribilis_                                                  90.14%    failed      0.00%
+  45  Balaenoptera_acutorostrata____cetartiodactyla_XP_007175460.2_LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Balaenoptera_acutorostrata_scammoni_        79.21%    failed      0.00%
+  46  Propithecus_coquereli____indriidae_XP_012503418.1_PREDICTED__zinc_finger_protein_252-like__Propithecus_coquereli_                                      91.50%    failed      0.00%
+  47  Otolemur_garnettii____lorisoidea_XP_012669420.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_493-like__Otolemur_garnettii_                                 89.23%    failed      0.00%
+  48  Oryctolagus_cuniculus____lagomorpha_XP_017195407.1_PREDICTED__zinc_finger_protein_260-like_isoform_X3__Oryctolagus_cuniculus_                          92.40%    failed      0.00%
+  49  Galeopterus_variegatus____dermoptera_XP_008582201.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_420-like__Galeopterus_variegatus_              92.11%    failed      0.00%
+  50  Nomascus_leucogenys____hylobatidae_XP_012360600.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_91-like__Nomascus_leucogenys_                    86.83%    failed      0.00%
+  51  Pongo_abelii____ponginae_XP_009231287.1_zinc_finger_protein_836_isoform_X2__Pongo_abelii_                                                              90.92%    failed      0.00%
+  52  Cebus_capucinus____platyrrhini_XP_017362132.1_PREDICTED__zinc_finger_protein_850__Cebus_capucinus_imitator_                                            89.42%    failed      0.00%
+  53  Tupaia_chinensis____scandentia_XP_014438393.2_zinc_finger_protein_45_isoform_X4__Tupaia_chinensis_                                                     88.11%    failed      0.00%
+  54  Ornithorhynchus_anatinus____monotrememata_XP_028929210.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_                    74.87%    failed      0.00%
+  55  Erinaceus_europaeus____eulipotyphla_XP_016049862.1_PREDICTED__zinc_finger_protein_850_isoform_X1__Erinaceus_europaeus_                                 83.55%    failed      0.00%
+  56  Panthera_tigris____carnivora_XP_007094057.2_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_160__Panthera_tigris_altaica_                          87.36%    failed      0.01%
+  57  Pongo_abelii____ponginae_XP_024093060.1_zinc_finger_protein_91-like__Pongo_abelii_                                                                     89.87%    failed      0.00%
+  58  Nomascus_leucogenys____hylobatidae_XP_012364875.1_PREDICTED__putative_zinc_finger_protein_724_isoform_X1__Nomascus_leucogenys_                         88.52%    failed      0.00%
+  59  Mus_musculus____rodentia_XP_017174659.1_PREDICTED__KRAB_box_and_zinc_finger__C2H2_type_domain_containing_isoform_X1__Mus_musculus_                     89.54%    failed      0.00%
+  60  Pteropus_vampyrus____chiroptera_XP_011380014.2_zinc_finger_protein_160_isoform_X10__Pteropus_vampyrus_                                                 87.00%    failed      0.00%
+  61  Panthera_tigris____carnivora_XP_015394985.1_PREDICTED__zinc_finger_protein_227_isoform_X7__Panthera_tigris_altaica_                                    87.76%    failed      0.00%
+  62  Phascolarctos_cinereus____metatheria_XP_020827827.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_                                              77.20%    failed      0.00%
+  63  Orycteropus_afer____afrotheria_XP_007955524.1_PREDICTED__zinc_finger_protein_208-like__Orycteropus_afer_afer_                                          89.64%    failed      0.00%
+  64  Loxodonta_africana____afrotheria_XP_023399391.1_zinc_finger_protein_420-like_isoform_X3__Loxodonta_africana_                                           87.97%    failed      0.00%
+  65  Otolemur_garnettii____lorisoidea_XP_023372263.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_582__Otolemur_garnettii_                                      90.92%    failed      0.06%
+  66  Mus_musculus____rodentia_NP_001004139.2_zinc_finger_protein_91__Mus_musculus_                                                                          88.73%    failed      0.00%
+  67  Gorilla_gorilla____gorillini_XP_018870377.1_PREDICTED__LOW_QUALITY_PROTEIN__putative_zinc_finger_protein_724__Gorilla_gorilla_gorilla_                 88.16%    failed      0.00%
+  68  Equus_caballus____perissodactyla_XP_023505182.1_zinc_finger_protein_845__Equus_caballus_                                                               79.16%    failed      0.00%
+  69  Orycteropus_afer____afrotheria_XP_007952454.1_PREDICTED__zinc_finger_protein_62_homolog__Orycteropus_afer_afer_                                        91.22%    failed      0.00%
+  70  Pteropus_vampyrus____chiroptera_XP_023382457.1_zinc_finger_protein_665-like_isoform_X4__Pteropus_vampyrus_                                             89.55%    failed      0.00%
+  71  Equus_caballus____perissodactyla_XP_023505597.1_zinc_finger_protein_234_isoform_X9__Equus_caballus_                                                    88.84%    failed      0.00%
+  72  Dasypus_novemcinctus____xenarthra_XP_023444483.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_729__Dasypus_novemcinctus_                                   84.53%    failed      0.00%
+  73  Gorilla_gorilla____gorillini_XP_018870402.1_PREDICTED__zinc_finger_protein_729__Gorilla_gorilla_gorilla_                                               87.85%    failed      0.00%
+  74  Homo_sapiens____homonina_XP_011526568.1_zinc_finger_protein_91_isoform_X3__Homo_sapiens_                                                               89.40%    failed      0.00%
+  75  Ursus_arctos____carnivora_XP_026345846.1_uncharacterized_protein_LOC113248539__Ursus_arctos_horribilis_                                                83.09%    failed      0.00%
+  76  Equus_caballus____perissodactyla_XP_023507076.1_zinc_finger_protein_420_isoform_X12__Equus_caballus_                                                   88.37%    failed      0.00%
+  77  Orycteropus_afer____afrotheria_XP_007943866.1_PREDICTED__zinc_finger_protein_271-like__Orycteropus_afer_afer_                                          91.52%    failed      0.00%
+  78  Tupaia_chinensis____scandentia_XP_014448421.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_208__Tupaia_chinensis_                                          77.74%    failed      0.00%
+  79  Loxodonta_africana____afrotheria_XP_023399654.1_zinc_finger_protein_850_isoform_X3__Loxodonta_africana_                                                87.77%    failed      0.00%
+  80  Carlito_syrichta____tarsiidae_XP_008061486.1_LOW_QUALITY_PROTEIN__zinc_finger_protein_648__Carlito_syrichta_                                           94.65%    failed      0.00%
+  81  Nomascus_leucogenys____hylobatidae_XP_012364883.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_729-like__Nomascus_leucogenys_                   88.67%    failed      0.00%
+  82  Mus_musculus____rodentia_NP_001156718.1_zinc_finger_protein__Mus_musculus_                                                                             89.86%    failed      0.00%
+  83  Orycteropus_afer____afrotheria_XP_007943789.1_PREDICTED__zinc_finger_protein_286A__Orycteropus_afer_afer_                                              89.54%    failed      0.61%
+  84  Pan_troglodytes____panina_XP_024207563.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_                                                           88.84%    failed      0.00%
+  85  Phascolarctos_cinereus____metatheria_XP_020827825.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_                                              77.20%    failed      0.00%
+  86  Balaenoptera_acutorostrata____cetartiodactyla_XP_028018084.1_zinc_finger_protein_397_isoform_X2__Balaenoptera_acutorostrata_scammoni_                  88.93%    failed      0.00%
+  87  Pteropus_vampyrus____chiroptera_XP_011380016.2_zinc_finger_protein_420_isoform_X10__Pteropus_vampyrus_                                                 88.89%    failed      0.00%
+  88  Cebus_capucinus____platyrrhini_XP_017380786.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_254-like__Cebus_capucinus_imitator_                  88.65%    failed      0.00%
+  89  Propithecus_coquereli____indriidae_XP_012498791.1_PREDICTED__zinc_finger_protein_208-like__Propithecus_coquereli_                                      87.06%    failed      0.00%
+  90  Propithecus_coquereli____indriidae_XP_012495439.1_PREDICTED__zinc_finger_protein_648__Propithecus_coquereli_                                           94.59%    failed      0.00%
+  91  Mandrillus_leucophaeus____cercopithecoidea_XP_011835084.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_845-like__Mandrillus_leucophaeus_        90.61%    failed      0.00%
+  92  Galeopterus_variegatus____dermoptera_XP_008592627.1_PREDICTED__zinc_finger_protein_420-like__Galeopterus_variegatus_                                   88.19%    failed      0.00%
+  93  Ornithorhynchus_anatinus____monotrememata_XP_028929211.1_uncharacterized_protein_LOC100089426_isoform_X2__Ornithorhynchus_anatinus_                    77.11%    failed      0.00%
+  94  Carlito_syrichta____tarsiidae_XP_008066609.1_zinc_finger_protein_658B-like__partial__Carlito_syrichta_                                                 92.61%    failed      0.00%
+  95  Panthera_tigris____carnivora_XP_015399584.1_PREDICTED__zinc_finger_protein_568_isoform_X4__Panthera_tigris_altaica_                                    89.27%    failed      0.28%
+  96  Gorilla_gorilla____gorillini_XP_018870401.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_729-like__Gorilla_gorilla_gorilla_                     80.81%    failed      0.00%
+  97  Ursus_arctos____carnivora_XP_026351966.1_zinc_finger_protein_271_isoform_X2__Ursus_arctos_horribilis_                                                  89.22%    failed      0.00%
+  98  Pteropus_vampyrus____chiroptera_XP_011359924.2_zinc_finger_protein_271_isoform_X2__Pteropus_vampyrus_                                                  89.19%    failed      0.00%
+  99  Erinaceus_europaeus____eulipotyphla_XP_016045503.1_PREDICTED__zinc_finger_protein_665_isoform_X2__Erinaceus_europaeus_                                 89.45%    failed      0.00%
+ 100  Nomascus_leucogenys____hylobatidae_XP_012364870.1_PREDICTED__LOW_QUALITY_PROTEIN__zinc_finger_protein_208-like__Nomascus_leucogenys_                   87.38%    failed      0.00%
+WARNING: 100 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                                  87.17%  100 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Ornithorhynchus_anatinus____monotrememata_XP_028929208.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_ is identical to Ornithorhynchus_anatinus____monotrememata_XP_028929209.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_ but kept for subsequent analysis
+NOTE: Phascolarctos_cinereus____metatheria_XP_020827828.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_ is identical to Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_ but kept for subsequent analysis
+NOTE: Pan_troglodytes____panina_XP_024207563.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_ is identical to Pan_troglodytes____panina_XP_024207564.1_zinc_finger_protein_91_isoform_X2__Pan_troglodytes_ but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Ornithorhynchus_anatinus____monotrememata_XP_028929210.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_ (identical to Ornithorhynchus_anatinus____monotrememata_XP_028929209.1_uncharacterized_protein_LOC100089426_isoform_X1__Ornithorhynchus_anatinus_) is ignored but added at the end
+NOTE: Phascolarctos_cinereus____metatheria_XP_020827827.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_ (identical to Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_) is ignored but added at the end
+NOTE: Phascolarctos_cinereus____metatheria_XP_020827825.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_ (identical to Phascolarctos_cinereus____metatheria_XP_020827824.1_zinc_finger_protein_208-like__Phascolarctos_cinereus_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to mafftblastzinc.fa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.131 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 163414)...
+
+NOTE: 278 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -182132.025
+2. Current log-likelihood: -164041.129
+3. Current log-likelihood: -163852.365
+4. Current log-likelihood: -163845.914
+5. Current log-likelihood: -163844.652
+6. Current log-likelihood: -163844.269
+Optimal log-likelihood: -163844.167
+Gamma shape alpha: 1.131
+Parameters optimization took 6 rounds (30.157 sec)
+Computing ML distances based on estimated model parameters... 2.385 sec
+Computing BIONJ tree...
+0.004 seconds
+Log-likelihood of BIONJ tree: -164142.183
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 18.357 second
+Computing log-likelihood of 98 initial trees ... 244.822 seconds
+Current best score: -163844.167
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -163704.527
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -163658.329
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -163656.406
+Iteration 10 / LogL: -163710.582 / Time: 0h:9m:59s
+Iteration 20 / LogL: -163677.288 / Time: 0h:14m:57s
+Finish initializing candidate tree set (20)
+Current best tree score: -163656.406 / CPU time: 845.224
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -163650.613
+Iteration 30 / LogL: -163652.787 / Time: 0h:20m:23s (1h:7m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -163642.337
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -163635.384
+Iteration 40 / LogL: -163658.870 / Time: 0h:26m:23s (1h:2m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -163633.734
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -163626.670
+Iteration 50 / LogL: -163633.141 / Time: 0h:33m:9s (1h:5m:38s left)
+Iteration 60 / LogL: -163632.677 / Time: 0h:40m:0s (0h:58m:59s left)
+Iteration 70 / LogL: -163629.779 / Time: 0h:46m:46s (0h:52m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -163625.351
+Iteration 80 / LogL: -163627.974 / Time: 0h:53m:13s (1h:3m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -163623.180
+Iteration 90 / LogL: -163625.100 / Time: 0h:59m:59s (1h:3m:21s left)
+Iteration 100 / LogL: -163641.382 / Time: 1h:6m:14s (0h:56m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -163622.760
+Iteration 110 / LogL: -163628.724 / Time: 1h:13m:0s (1h:5m:38s left)
+Iteration 120 / LogL: -163633.197 / Time: 1h:19m:8s (0h:58m:31s left)
+Iteration 130 / LogL: -163625.353 / Time: 1h:25m:27s (0h:51m:40s left)
+Iteration 140 / LogL: -163623.594 / Time: 1h:31m:18s (0h:44m:40s left)
+Iteration 150 / LogL: -163623.910 / Time: 1h:36m:49s (0h:37m:41s left)
+Iteration 160 / LogL: -163623.433 / Time: 1h:43m:12s (0h:31m:9s left)
+Iteration 170 / LogL: -163626.729 / Time: 1h:49m:38s (0h:24m:39s left)
+Iteration 180 / LogL: -163623.429 / Time: 1h:56m:16s (0h:18m:11s left)
+Iteration 190 / LogL: -163622.762 / Time: 2h:3m:19s (0h:11m:44s left)
+Iteration 200 / LogL: -163631.224 / Time: 2h:9m:24s (0h:5m:12s left)
+Refining ufboot trees with NNI...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 999 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 209 ITERATIONS / Time: 4h:0m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -163622.760
+Optimal log-likelihood: -163622.758
+Gamma shape alpha: 1.122
+Parameters optimization took 1 rounds (3.744 sec)
+BEST SCORE FOUND : -163622.758
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafftblastzinc.fa.splits.nex
+Total tree length: 41.963
+
+Total number of iterations: 209
+CPU time used for tree search: 14300.797 sec (3h:58m:20s)
+Wall-clock time used for tree search: 14365.485 sec (3h:59m:25s)
+Total CPU time used: 14357.024 sec (3h:59m:17s)
+Total wall-clock time used: 14422.150 sec (4h:0m:22s)
+UFBoot trees printed to mafftblastzinc.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file mafftblastzinc.fa.splits.nex...
+97 taxa and 932 splits.
+Consensus tree written to mafftblastzinc.fa.contree
+Reading input trees file mafftblastzinc.fa.contree
+Log-likelihood of consensus tree: -163623.432
+
+Analysis results written to: 
+  IQ-TREE report:                mafftblastzinc.fa.iqtree
+  Maximum-likelihood tree:       mafftblastzinc.fa.treefile
+  Likelihood distances:          mafftblastzinc.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafftblastzinc.fa.splits.nex
+  Consensus tree:                mafftblastzinc.fa.contree
+  UFBoot trees:                  mafftblastzinc.fa.ufboot
+  Screen log file:               mafftblastzinc.fa.log
+
+Date and Time: Thu Jul  4 17:53:39 2019
