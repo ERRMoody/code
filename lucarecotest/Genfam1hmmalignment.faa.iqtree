@@ -1,0 +1,749 @@
+IQ-TREE 1.6.10 built Feb 19 2019
+
+Input file name: Genfam1hmmalignment.faa
+User tree file name: pteryxroot.tre
+Type of analysis: tree reconstruction
+Random seed number: 845422
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 280 sequences with 483 amino-acid sites
+Number of constant sites: 169 (= 34.9896% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 169 (= 34.9896% of all sites)
+Number of parsimony informative sites: 194
+Number of distinct site patterns: 387
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{LG+F+F,LG+FC60pi1,LG+FC60pi2,LG+FC60pi3,LG+FC60pi4,LG+FC60pi5,LG+FC60pi6,LG+FC60pi7,LG+FC60pi8,LG+FC60pi9,LG+FC60pi10,LG+FC60pi11,LG+FC60pi12,LG+FC60pi13,LG+FC60pi14,LG+FC60pi15,LG+FC60pi16,LG+FC60pi17,LG+FC60pi18,LG+FC60pi19,LG+FC60pi20,LG+FC60pi21,LG+FC60pi22,LG+FC60pi23,LG+FC60pi24,LG+FC60pi25,LG+FC60pi26,LG+FC60pi27,LG+FC60pi28,LG+FC60pi29,LG+FC60pi30,LG+FC60pi31,LG+FC60pi32,LG+FC60pi33,LG+FC60pi34,LG+FC60pi35,LG+FC60pi36,LG+FC60pi37,LG+FC60pi38,LG+FC60pi39,LG+FC60pi40,LG+FC60pi41,LG+FC60pi42,LG+FC60pi43,LG+FC60pi44,LG+FC60pi45,LG+FC60pi46,LG+FC60pi47,LG+FC60pi48,LG+FC60pi49,LG+FC60pi50,LG+FC60pi51,LG+FC60pi52,LG+FC60pi53,LG+FC60pi54,LG+FC60pi55,LG+FC60pi56,LG+FC60pi57,LG+FC60pi58,LG+FC60pi59,LG+FC60pi60}+G4
+
+  No  Component      Rate    Weight   Parameters
+   1  LG+F          1.0000   0.3664   LG+F
+   2  LG+FC60pi1    1.0000   0.0006   LG+FC60pi1
+   3  LG+FC60pi2    1.0000   0.0000   LG+FC60pi2
+   4  LG+FC60pi3    1.0000   0.0000   LG+FC60pi3
+   5  LG+FC60pi4    1.0000   0.0000   LG+FC60pi4
+   6  LG+FC60pi5    1.0000   0.0223   LG+FC60pi5
+   7  LG+FC60pi6    1.0000   0.0129   LG+FC60pi6
+   8  LG+FC60pi7    1.0000   0.0000   LG+FC60pi7
+   9  LG+FC60pi8    1.0000   0.0000   LG+FC60pi8
+  10  LG+FC60pi9    1.0000   0.0018   LG+FC60pi9
+  11  LG+FC60pi10   1.0000   0.0982   LG+FC60pi10
+  12  LG+FC60pi11   1.0000   0.0000   LG+FC60pi11
+  13  LG+FC60pi12   1.0000   0.0141   LG+FC60pi12
+  14  LG+FC60pi13   1.0000   0.0000   LG+FC60pi13
+  15  LG+FC60pi14   1.0000   0.0146   LG+FC60pi14
+  16  LG+FC60pi15   1.0000   0.0000   LG+FC60pi15
+  17  LG+FC60pi16   1.0000   0.0224   LG+FC60pi16
+  18  LG+FC60pi17   1.0000   0.0131   LG+FC60pi17
+  19  LG+FC60pi18   1.0000   0.0108   LG+FC60pi18
+  20  LG+FC60pi19   1.0000   0.0167   LG+FC60pi19
+  21  LG+FC60pi20   1.0000   0.0003   LG+FC60pi20
+  22  LG+FC60pi21   1.0000   0.0000   LG+FC60pi21
+  23  LG+FC60pi22   1.0000   0.0485   LG+FC60pi22
+  24  LG+FC60pi23   1.0000   0.0063   LG+FC60pi23
+  25  LG+FC60pi24   1.0000   0.0164   LG+FC60pi24
+  26  LG+FC60pi25   1.0000   0.0000   LG+FC60pi25
+  27  LG+FC60pi26   1.0000   0.0096   LG+FC60pi26
+  28  LG+FC60pi27   1.0000   0.0346   LG+FC60pi27
+  29  LG+FC60pi28   1.0000   0.0186   LG+FC60pi28
+  30  LG+FC60pi29   1.0000   0.0214   LG+FC60pi29
+  31  LG+FC60pi30   1.0000   0.0000   LG+FC60pi30
+  32  LG+FC60pi31   1.0000   0.0000   LG+FC60pi31
+  33  LG+FC60pi32   1.0000   0.0036   LG+FC60pi32
+  34  LG+FC60pi33   1.0000   0.0064   LG+FC60pi33
+  35  LG+FC60pi34   1.0000   0.0046   LG+FC60pi34
+  36  LG+FC60pi35   1.0000   0.0436   LG+FC60pi35
+  37  LG+FC60pi36   1.0000   0.0083   LG+FC60pi36
+  38  LG+FC60pi37   1.0000   0.0111   LG+FC60pi37
+  39  LG+FC60pi38   1.0000   0.0000   LG+FC60pi38
+  40  LG+FC60pi39   1.0000   0.0000   LG+FC60pi39
+  41  LG+FC60pi40   1.0000   0.0076   LG+FC60pi40
+  42  LG+FC60pi41   1.0000   0.0000   LG+FC60pi41
+  43  LG+FC60pi42   1.0000   0.0089   LG+FC60pi42
+  44  LG+FC60pi43   1.0000   0.0164   LG+FC60pi43
+  45  LG+FC60pi44   1.0000   0.0354   LG+FC60pi44
+  46  LG+FC60pi45   1.0000   0.0000   LG+FC60pi45
+  47  LG+FC60pi46   1.0000   0.0000   LG+FC60pi46
+  48  LG+FC60pi47   1.0000   0.0000   LG+FC60pi47
+  49  LG+FC60pi48   1.0000   0.0102   LG+FC60pi48
+  50  LG+FC60pi49   1.0000   0.0000   LG+FC60pi49
+  51  LG+FC60pi50   1.0000   0.0347   LG+FC60pi50
+  52  LG+FC60pi51   1.0000   0.0000   LG+FC60pi51
+  53  LG+FC60pi52   1.0000   0.0000   LG+FC60pi52
+  54  LG+FC60pi53   1.0000   0.0000   LG+FC60pi53
+  55  LG+FC60pi54   1.0000   0.0186   LG+FC60pi54
+  56  LG+FC60pi55   1.0000   0.0106   LG+FC60pi55
+  57  LG+FC60pi56   1.0000   0.0000   LG+FC60pi56
+  58  LG+FC60pi57   1.0000   0.0000   LG+FC60pi57
+  59  LG+FC60pi58   1.0000   0.0213   LG+FC60pi58
+  60  LG+FC60pi59   1.0000   0.0094   LG+FC60pi59
+  61  LG+FC60pi60   1.0000   0.0000   LG+FC60pi60
+
+Model for mixture component 1: LG+F
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0913
+  pi(R) = 0.1022
+  pi(N) = 0.0314
+  pi(D) = 0.0443
+  pi(C) = 0.0051
+  pi(Q) = 0.0353
+  pi(E) = 0.0566
+  pi(G) = 0.0886
+  pi(H) = 0.0134
+  pi(I) = 0.0578
+  pi(L) = 0.0692
+  pi(K) = 0.0994
+  pi(M) = 0.0264
+  pi(F) = 0.0286
+  pi(P) = 0.0388
+  pi(S) = 0.0494
+  pi(T) = 0.0505
+  pi(W) = 0.0083
+  pi(Y) = 0.0318
+  pi(V) = 0.0719
+
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.8953
+
+ Category  Relative_rate  Proportion
+  1         0.1156         0.2500
+  2         0.4428         0.2500
+  3         0.9802         0.2500
+  4         2.4613         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -45010.2079 (s.e. 3392.8436)
+Unconstrained log-likelihood (without tree): -2776.5844
+Number of free parameters (#branches + #model parameters): 637
+Akaike information criterion (AIC) score: 91294.4157
+Corrected Akaike information criterion (AICc) score: 904106.4157
+Bayesian information criterion (BIC) score: 93957.0863
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 637
+Sample size (n, alignment length): 483
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 137.7276
+Sum of internal branch lengths: 38.8360 (28.1977% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'METHMIC14____WP-048120079.1' is drawn at root
+
++--METHMIC14____WP-048120079.1
+| (Node1)
+|                                                                                                               +-----CPRKAZ2____KKT52954.1
+|                                                                                                            +--| (Node153)
+|                                                                                                            |  +--CPRKAZ1____AKM84753.1
+|                                                                                                         +--| (Node152)
+|                                                                                                         |  +------WIRTH1____OIP99172.1
+|                                                                                                      +--| (Node151)
+|                                                                                                      |  +---------CPRPER1____OIO51906.1
+|                                                                                                   +--| (Node150)
+|                                                                                                   |  |       +---CPRSACC1____OIP86267.1
+|                                                                                                   |  |  +----| (Node155)
+|                                                                                                   |  |  |    +--------CPRSACC2____OGL37775.1
+|                                                                                                   |  +--| (Node154)
+|                                                                                                   |     |           +----CPRBERK8____OGD64887.1
+|                                                                                                   |     |        +--| (Node159)
+|                                                                                                   |     |        |  +-------TERRCHLO1____WP_041454680.1
+|                                                                                                   |     |     +--| (Node158)
+|                                                                                                   |     |     |  |  +--------CPRPER2____OIO55511.1
+|                                                                                                   |     |     |  +--| (Node160)
+|                                                                                                   |     |     |     +-----CPRPARC1____KKQ64960.1
+|                                                                                                   |     |  +--| (Node157)
+|                                                                                                   |     |  |  +------------CPRBERK7____OIP06883.1
+|                                                                                                   |     +--| (Node156)
+|                                                                                                   |        |  +----CPRBERK5____OIN90317.1
+|                                                                                                   |        +--| (Node161)
+|                                                                                                   |           +---------CPRBERK9____OGD64365.1
+|                                                                                                +--| (Node149)
+|                                                                                                |  |     +----CPRBERK2____KKP89224.1
+|                                                                                                |  |  +--| (Node163)
+|                                                                                                |  |  |  |  +---------CPRBERK6____OIP06161.1
+|                                                                                                |  |  |  +--| (Node164)
+|                                                                                                |  |  |     +-------CPRBERK3____KKQ90386.1
+|                                                                                                |  +--| (Node162)
+|                                                                                                |     +-----------AQUI1____WP_012963220.1
+|                                                                                             +--| (Node148)
+|                                                                                             |  |           +-------CPRPARC16____OGM92637.1
+|                                                                                             |  |        +--| (Node168)
+|                                                                                             |  |        |  |  +-------CPRPARC4____OGG38666.1
+|                                                                                             |  |        |  +--| (Node169)
+|                                                                                             |  |        |     +----CPRPARC3____OGG37738.1
+|                                                                                             |  |     +--| (Node167)
+|                                                                                             |  |     |  |     +---CPRPARC5____OGG60006.1
+|                                                                                             |  |     |  |  +--| (Node171)
+|                                                                                             |  |     |  |  |  +----CPRPARC8____KKU27188.1
+|                                                                                             |  |     |  +--| (Node170)
+|                                                                                             |  |     |     |     +----CPRPARC11____OIO29437.1
+|                                                                                             |  |     |     |  +--| (Node173)
+|                                                                                             |  |     |     |  |  +-----CPRPARC2____OGF73378.1
+|                                                                                             |  |     |     +--| (Node172)
+|                                                                                             |  |     |        +------CPRPARC12____OGI83554.1
+|                                                                                             |  |  +--| (Node166)
+|                                                                                             |  |  |  |  +------CPRPARC17____OGN05596.1
+|                                                                                             |  |  |  +--| (Node174)
+|                                                                                             |  |  |     +---CPRPARC6____WP_038322628.1
+|                                                                                             |  +--| (Node165)
+|                                                                                             |     |     +----------GRACI1____OIO75870.1
+|                                                                                             |     |  +--| (Node176)
+|                                                                                             |     |  |  |  +------CPRPARC9____OGI21360.1
+|                                                                                             |     |  |  +--| (Node177)
+|                                                                                             |     |  |     +----CPRPARC10____KKQ44510.1
+|                                                                                             |     +--| (Node175)
+|                                                                                             |        |         +-----CPRPARC14____OGL90955.1
+|                                                                                             |        |  +------| (Node179)
+|                                                                                             |        |  |      +-----CPRPARC13____OGL87599.1
+|                                                                                             |        +--| (Node178)
+|                                                                                             |           +-------CPRPARC15____OGM01040.1
+|                                                                                          +**| (Node147)
+|                                                                                          |  +-------------CPRPARC7____KKU07252.1
+|                                                                                       +--| (Node146)
+|                                                                                       |  |                 +------CPRMICR11____OGY23762.1
+|                                                                                       |  |              +--| (Node185)
+|                                                                                       |  |              |  |  +--CPRMICR8____OGY23333.1
+|                                                                                       |  |              |  +--| (Node186)
+|                                                                                       |  |              |     +--CPRMICR12____OGY24213.1
+|                                                                                       |  |           +--| (Node184)
+|                                                                                       |  |           |  |     +-------CPRMICR9____OGH17895.1
+|                                                                                       |  |           |  |  +--| (Node188)
+|                                                                                       |  |           |  |  |  |              +----CPRMICR2____AKM79703.1
+|                                                                                       |  |           |  |  |  |           +--| (Node193)
+|                                                                                       |  |           |  |  |  |           |  +------CPRMICR15____KKR52926.1
+|                                                                                       |  |           |  |  |  |        +--| (Node192)
+|                                                                                       |  |           |  |  |  |        |  +--------CPRMICR1____OGD10246.1
+|                                                                                       |  |           |  |  |  |     +--| (Node191)
+|                                                                                       |  |           |  |  |  |     |  +-----CPRMICR7____KKU26352.1
+|                                                                                       |  |           |  |  |  |  +--| (Node190)
+|                                                                                       |  |           |  |  |  |  |  +---------CPRMICR14____KKQ31303.1
+|                                                                                       |  |           |  |  |  +--| (Node189)
+|                                                                                       |  |           |  |  |     +-----CPRMICR16____OGM30273.1
+|                                                                                       |  |           |  +--| (Node187)
+|                                                                                       |  |           |     +--------CPRMICR10____OIO45070.1
+|                                                                                       |  |        +--| (Node183)
+|                                                                                       |  |        |  |  +----CPRMICR5____OGE34670.1
+|                                                                                       |  |        |  +--| (Node194)
+|                                                                                       |  |        |     |     +-----CPRMICR13____OGK55200.1
+|                                                                                       |  |        |     |  +--| (Node196)
+|                                                                                       |  |        |     |  |  +------CPRMICR6____KKS84615.1
+|                                                                                       |  |        |     +--| (Node195)
+|                                                                                       |  |        |        +-------CPRMICR3____OGD79142.1
+|                                                                                       |  |     +--| (Node182)
+|                                                                                       |  |     |  +----CPRMICR4____OGD85749.1
+|                                                                                       |  |  +--| (Node181)
+|                                                                                       |  |  |  |  +------------CPRWWE1____OGC59791.1
+|                                                                                       |  |  |  +--| (Node197)
+|                                                                                       |  |  |     +---------CPRDOJK1____KKQ36270.1
+|                                                                                       |  +--| (Node180)
+|                                                                                       |     +---------CPRBERK4____AKM82746.1
+|                                                                                    +--| (Node145)
+|                                                                                    |  |                 +----PROZ1____WP_009849236.1
+|                                                                                    |  |              +--| (Node203)
+|                                                                                    |  |              |  +------TERRDEI1____WP_011530861.1
+|                                                                                    |  |           +--| (Node202)
+|                                                                                    |  |           |  |  +---THERMTO1____WP_012744853.1
+|                                                                                    |  |           |  +--| (Node204)
+|                                                                                    |  |           |     +-------SPIR2____WP_012388378.1
+|                                                                                    |  |        +--| (Node201)
+|                                                                                    |  |        |  +------FUSO1____NP_603235.1
+|                                                                                    |  |     +--| (Node200)
+|                                                                                    |  |     |  |                 +--PROB2____WP_003059002.1
+|                                                                                    |  |     |  |              +--| (Node210)
+|                                                                                    |  |     |  |              |  |        +--PROB5____WP_027469997.1
+|                                                                                    |  |     |  |              |  |     +--| (Node213)
+|                                                                                    |  |     |  |              |  |     |  +--PROB3____WP_013292340.1
+|                                                                                    |  |     |  |              |  |  +--| (Node212)
+|                                                                                    |  |     |  |              |  |  |  +--PROB4____WP_013440884.1
+|                                                                                    |  |     |  |              |  +--| (Node211)
+|                                                                                    |  |     |  |              |     +--PROB1____WP_003814889.1
+|                                                                                    |  |     |  |           +--| (Node209)
+|                                                                                    |  |     |  |           |  +--PORG10____WP_091334577.1
+|                                                                                    |  |     |  |        +--| (Node208)
+|                                                                                    |  |     |  |        |  +--PROO1____WP_028990533.1
+|                                                                                    |  |     |  |     +--| (Node207)
+|                                                                                    |  |     |  |     |  |                 +--PORG9____WP_041394537.1
+|                                                                                    |  |     |  |     |  |              +--| (Node219)
+|                                                                                    |  |     |  |     |  |              |  +--PORG4____WP_026821376.1
+|                                                                                    |  |     |  |     |  |           +--| (Node218)
+|                                                                                    |  |     |  |     |  |           |  |  +--PORG1____WP_027940135.1
+|                                                                                    |  |     |  |     |  |           |  +--| (Node220)
+|                                                                                    |  |     |  |     |  |           |     +---PORG6____WP_023495188.1
+|                                                                                    |  |     |  |     |  |        +--| (Node217)
+|                                                                                    |  |     |  |     |  |        |  +--PORG8____WP_026471335.1
+|                                                                                    |  |     |  |     |  |     +--| (Node216)
+|                                                                                    |  |     |  |     |  |     |  +--PORG2____WP_035515865.1
+|                                                                                    |  |     |  |     |  |  +--| (Node215)
+|                                                                                    |  |     |  |     |  |  |  +--PORG7____WP_028672248.1
+|                                                                                    |  |     |  |     |  +--| (Node214)
+|                                                                                    |  |     |  |     |     +--PORG3____WP_018716434.1
+|                                                                                    |  |     |  |  +--| (Node206)
+|                                                                                    |  |     |  |  |  +---PORG5____WP_045100193.1
+|                                                                                    |  |     |  +--| (Node205)
+|                                                                                    |  |     |     +------CHRY1____WP_027390750.1
+|                                                                                    |  |  +--| (Node199)
+|                                                                                    |  |  |  |                 +--TERRFIR3____WP_010017477.1
+|                                                                                    |  |  |  |              +--| (Node226)
+|                                                                                    |  |  |  |              |  +--TERRFIR4____WP_002262992.1
+|                                                                                    |  |  |  |           +--| (Node225)
+|                                                                                    |  |  |  |           |  +--TERRFIR1____WP_000079988.1
+|                                                                                    |  |  |  |        +--| (Node224)
+|                                                                                    |  |  |  |        |  |                  +--TERRCYA3____WP_006634975.1
+|                                                                                    |  |  |  |        |  |               +--| (Node231)
+|                                                                                    |  |  |  |        |  |               |  +--TERRCYA2____WP_015203272.1
+|                                                                                    |  |  |  |        |  |            +--| (Node230)
+|                                                                                    |  |  |  |        |  |            |  +--TERRCYA5____NP_680900.1
+|                                                                                    |  |  |  |        |  |     +------| (Node229)
+|                                                                                    |  |  |  |        |  |     |      +--TERRCYA4____WP_015195205.1
+|                                                                                    |  |  |  |        |  |  +--| (Node228)
+|                                                                                    |  |  |  |        |  |  |  +------TERRTEN1____WP_011183390.1
+|                                                                                    |  |  |  |        |  +--| (Node227)
+|                                                                                    |  |  |  |        |     +--TERRFIR2____WP_022794501.1
+|                                                                                    |  |  |  |     +--| (Node223)
+|                                                                                    |  |  |  |     |  |  +--TERRFIR5____WP_023388352.1
+|                                                                                    |  |  |  |     |  +--| (Node232)
+|                                                                                    |  |  |  |     |     +--TERRFIR6____WP_014262207.1
+|                                                                                    |  |  |  |  +--| (Node222)
+|                                                                                    |  |  |  |  |  |           +--TERRACT5____WP_004268556.1
+|                                                                                    |  |  |  |  |  |        +--| (Node235)
+|                                                                                    |  |  |  |  |  |        |  +--------TERRACT2____WP_021012131.1
+|                                                                                    |  |  |  |  |  |     +--| (Node234)
+|                                                                                    |  |  |  |  |  |     |  |     +--TERRACT7____WP_038503141.1
+|                                                                                    |  |  |  |  |  |     |  |  +--| (Node237)
+|                                                                                    |  |  |  |  |  |     |  |  |  +--TERRACT3____WP_026935930.1
+|                                                                                    |  |  |  |  |  |     |  +--| (Node236)
+|                                                                                    |  |  |  |  |  |     |     +--TERRACT1____WP_013170535.1
+|                                                                                    |  |  |  |  |  +-----| (Node233)
+|                                                                                    |  |  |  |  |        +--TERRACT4____WP_022910722.1
+|                                                                                    |  |  |  +--| (Node221)
+|                                                                                    |  |  |     |     +--TERRFIR7____WP_018249324.1
+|                                                                                    |  |  |     |  +--| (Node239)
+|                                                                                    |  |  |     |  |  |  +--TERRACT8____WP_019128897.1
+|                                                                                    |  |  |     |  |  +--| (Node240)
+|                                                                                    |  |  |     |  |     +--TERRACT6____WP_013980700.1
+|                                                                                    |  |  |     +--| (Node238)
+|                                                                                    |  |  |        +--TERRFIR8____WP_004695188.1
+|                                                                                    |  +--| (Node198)
+|                                                                                    |     +---------AMIN1____OGD13483.1
+|                                                                                 +--| (Node144)
+|                                                                                 |  |        +-----PVCCHLA2____CAH63970.1
+|                                                                                 |  +--------| (Node241)
+|                                                                                 |           +-----PVCCHLA1____OGN67495.1
+|                                                                              +--| (Node143)
+|                                                                              |  |                             +--PROA3____OIQ05223.1
+|                                                                              |  |                          +--| (Node251)
+|                                                                              |  |                          |  +--PROA5____WP_014745306.1
+|                                                                              |  |                       +--| (Node250)
+|                                                                              |  |                       |  +--PROA4____ABI61864.1
+|                                                                              |  |                    +--| (Node249)
+|                                                                              |  |                    |  +--PROA1____WP_020399056.1
+|                                                                              |  |                 +--| (Node248)
+|                                                                              |  |                 |  +--PROA7____WP_010407797.1
+|                                                                              |  |              +--| (Node247)
+|                                                                              |  |              |  +--PROA2____WP_014130336.1
+|                                                                              |  |           +--| (Node246)
+|                                                                              |  |           |  +--------PROA6____WP_010265839.1
+|                                                                              |  |        +--| (Node245)
+|                                                                              |  |        |  |  +------DEFER1____WP_013011539.1
+|                                                                              |  |        |  +--| (Node252)
+|                                                                              |  |        |     +---------PROE1____WP_084021775.1
+|                                                                              |  |     +--| (Node244)
+|                                                                              |  |     |  +---PROD3____WP_011552084.1
+|                                                                              |  |  +--| (Node243)
+|                                                                              |  |  |  |  +----ACID1____OFV89354.1
+|                                                                              |  |  |  +--| (Node253)
+|                                                                              |  |  |     |     +------FCBGEM1____OGU26403.1
+|                                                                              |  |  |     |  +--| (Node255)
+|                                                                              |  |  |     |  |  +--FCBZIX1____KPL04261.1
+|                                                                              |  |  |     +--| (Node254)
+|                                                                              |  |  |        +------SPIR1____WP_013113494.1
+|                                                                              |  +**| (Node242)
+|                                                                              |     |                 +------NITROR2____WP_013249281.1
+|                                                                              |     |              +--| (Node261)
+|                                                                              |     |              |  +-------TERRCHLO3____OGN95068.1
+|                                                                              |     |           +--| (Node260)
+|                                                                              |     |           |  +-------TERRMEL1____AOR38500.1
+|                                                                              |     |        +--| (Node259)
+|                                                                              |     |        |  |        +--------FCBCHLO1____WP_012499085.1
+|                                                                              |     |        |  |     +--| (Node264)
+|                                                                              |     |        |  |     |  |     +--FCBBAC6____EKF54729.1
+|                                                                              |     |        |  |     |  |  +--| (Node266)
+|                                                                              |     |        |  |     |  |  |  +----FCBBAC5____WP_028121231.1
+|                                                                              |     |        |  |     |  +--| (Node265)
+|                                                                              |     |        |  |     |     |        +--FCBBAC3____WP_014020963.1
+|                                                                              |     |        |  |     |     |     +--| (Node269)
+|                                                                              |     |        |  |     |     |     |  +--FCBBAC4____WP_009035633.1
+|                                                                              |     |        |  |     |     |  +--| (Node268)
+|                                                                              |     |        |  |     |     |  |  |  +--FCBBAC2____WP_010664804.1
+|                                                                              |     |        |  |     |     |  |  +--| (Node270)
+|                                                                              |     |        |  |     |     |  |     +---FCBBAC1____WP_005791749.1
+|                                                                              |     |        |  |     |     +--| (Node267)
+|                                                                              |     |        |  |     |        +-----FCBBAC8____WP_016196062.1
+|                                                                              |     |        |  |  +--| (Node263)
+|                                                                              |     |        |  |  |  +-----FCBIG1____OGU19346.1
+|                                                                              |     |        |  +--| (Node262)
+|                                                                              |     |        |     +--------FCBBAC7____WP_020404605.1
+|                                                                              |     |     +--| (Node258)
+|                                                                              |     |     |  +---------PVCOMN1____OIO38018.1
+|                                                                              |     |  +--| (Node257)
+|                                                                              |     |  |  +----PROD4____WP_041584596.1
+|                                                                              |     +--| (Node256)
+|                                                                              |        +-----------PVCLEN1____OGV48579.1
+|                                                                           +--| (Node142)
+|                                                                           |  |        +-----MODU1____GAK56328.1
+|                                                                           |  |     +--| (Node273)
+|                                                                           |  |     |  |  +---THERMODES1____WP_013907982.1
+|                                                                           |  |     |  +--| (Node274)
+|                                                                           |  |     |     +--AQUI2____ADU96351.1
+|                                                                           |  |  +--| (Node272)
+|                                                                           |  |  |  +-----NITROR1____OGW50342.1
+|                                                                           |  +--| (Node271)
+|                                                                           |     |     +-----ACID4____WP_005035658.1
+|                                                                           |     |  +--| (Node276)
+|                                                                           |     |  |  |  +--ACID2____OFW02065.1
+|                                                                           |     |  |  +--| (Node277)
+|                                                                           |     |  |     +-----ACID3____WP_014267734.1
+|                                                                           |     +--| (Node275)
+|                                                                           |        |  +-----PROD1____WP_014242868.1
+|                                                                           |        +--| (Node278)
+|                                                                           |           +-----PROD2____WP_006964688.1
+|                                                           +---------------| (Node141)
+|                                                           |               +-------SYNE1____YP_003318030.1
+|                                                        +--| (Node140)
+|                                                        |  +-----KOR1____Kcryp-Kcr-1588-AA-170291200-YP-001738016.1
+|                                                     +--| (Node138)
+|                                                     |  |   +--AUNC2____gi_1370716986_gb_PSN88901.1_
+|                                                     |  +---| (Node139)
+|                                                     |      +--AUNC1____gi_1370739337_gb_PSO09375.1_
+|                                                  +--| (Node105)
+|                                                  |  |              +------DPANN20____Nequi-NEQ446-AA-41615231-NP-963729.1
+|                                                  |  |           +--| (Node110)
+|                                                  |  |           |  |        +**DPANN21____gi_485654978_gb_EOD42768.1_
+|                                                  |  |           |  +--------| (Node111)
+|                                                  |  |           |           +--DPANN22____AMD29689.1
+|                                                  |  |        +--| (Node109)
+|                                                  |  |        |  |                   +--DPANN15____gi_269986577_gb_EEZ92859.1_
+|                                                  |  |        |  |     +-------------| (Node114)
+|                                                  |  |        |  |     |             +--DPANN16____Pacid-BJBARM5-0749-AA-290559183-EFD92540.1
+|                                                  |  |        |  |  +--| (Node113)
+|                                                  |  |        |  |  |  |           +---DPANN7____gi_1209161928_gb_OWP53842.1_
+|                                                  |  |        |  |  |  |       +---| (Node116)
+|                                                  |  |        |  |  |  |       |   +--DPANN6____Macid-UNLARM2-0923-AA-255513543-EET89809.1
+|                                                  |  |        |  |  |  +-------| (Node115)
+|                                                  |  |        |  |  |          +--DPANN8____gi_1214173088_gb_ASI13363.1_
+|                                                  |  |        |  +--| (Node112)
+|                                                  |  |        |     |   +-----DPANN3____gi_1276421034_gb_PIN85825.1_
+|                                                  |  |        |     +---| (Node117)
+|                                                  |  |        |         +--DPANN4____AR10-GW2011-AR10-complete-1-862
+|                                                  |  |     +--| (Node108)
+|                                                  |  |     |  |        +----DPANN14____AR6-gwa2-scaffold-5107-30
+|                                                  |  |     |  |     +--| (Node120)
+|                                                  |  |     |  |     |  |      +-------DPANN12____AR13-gwa2-scaffold-4294-3
+|                                                  |  |     |  |     |  +------| (Node121)
+|                                                  |  |     |  |     |         +--DPANN13____AR1-GW2011-AR1-4-18
+|                                                  |  |     |  |  +--| (Node119)
+|                                                  |  |     |  |  |  |  +----DPANN17____AR15-GW2011-AR15-1-364
+|                                                  |  |     |  |  |  +--| (Node122)
+|                                                  |  |     |  |  |     +----DPANN18____AR20-GW2011-AR20-complete-1-798
+|                                                  |  |     |  +--| (Node118)
+|                                                  |  |     |     +------------------DPANN5____gi_1277911660_gb_PIV13778.1_
+|                                                  |  |  +--| (Node107)
+|                                                  |  |  |  |           +--ABOON1____Aboon-Aboo-1476-AA-289597148-YP-003483844.1
+|                                                  |  |  |  |        +--| (Node126)
+|                                                  |  |  |  |        |  |               +--THERMPLAS5____WP-009886729.1
+|                                                  |  |  |  |        |  |            +--| (Node131)
+|                                                  |  |  |  |        |  |            |  +--THERMPLAS4____WP-048100781.1
+|                                                  |  |  |  |        |  |         +--| (Node130)
+|                                                  |  |  |  |        |  |         |  +--THERMPLAS6____WP-011177125.1
+|                                                  |  |  |  |        |  |      +--| (Node129)
+|                                                  |  |  |  |        |  |      |  +--THERMPLAS9____gi_1209164552_gb_OWP56443.1_
+|                                                  |  |  |  |        |  |  +---| (Node128)
+|                                                  |  |  |  |        |  |  |   +--THERMPLAS7____WP-010917394.1
+|                                                  |  |  |  |        |  +--| (Node127)
+|                                                  |  |  |  |        |     |     +--THERMPLAS2____gi_509092941_gb_AGN26959.1_
+|                                                  |  |  |  |        |     |  +--| (Node133)
+|                                                  |  |  |  |        |     |  |  +--THERMPLAS1____Mlumi-gi_518007558_ref_WP-019177766.1_
+|                                                  |  |  |  |        |     +--| (Node132)
+|                                                  |  |  |  |        |        +--THERMPLAS3____gi_851215087_ref_WP-048111166.1_
+|                                                  |  |  |  |     +--| (Node125)
+|                                                  |  |  |  |     |  +---EURYUNC2____gi_1101739036_gb_OIR22458.1_
+|                                                  |  |  |  |  +--| (Node124)
+|                                                  |  |  |  |  |  |     +--HADE2____KUO39451.1
+|                                                  |  |  |  |  |  |  +--| (Node135)
+|                                                  |  |  |  |  |  |  |  +--HADE1____gi_974127774_gb_KUO42333.1_
+|                                                  |  |  |  |  |  +--| (Node134)
+|                                                  |  |  |  |  |     +----EURYUNC3____gi_985664199_gb_KXA95886.1_
+|                                                  |  |  |  +--| (Node123)
+|                                                  |  |  |     |  +--ARCH2____WP-015590248.1
+|                                                  |  |  |     +--| (Node136)
+|                                                  |  |  |        +--ARCH1____gi_2649458_gb_AAB90113.1_
+|                                                  |  +--| (Node106)
+|                                                  |     |  +---------------AIG1____Csubt-CSUB-C0320-AA-557693757-YP-008796811.1
+|                                                  |     +--| (Node137)
+|                                                  |        +----CREN13____Tpend-Tpen-0277-AA-119719195-YP-919690.1
+|                                               +--| (Node73)
+|                                               |  |         +--VERS2____ACCABHEM-00293
+|                                               |  |     +---| (Node76)
+|                                               |  |     |   +--VERS1____DHPNFBIM-00179
+|                                               |  |  +--| (Node75)
+|                                               |  |  |  |                    +----CREN10____Ssolf-SSO0068-AA-15897035-NP-341640.1
+|                                               |  |  |  |                 +--| (Node83)
+|                                               |  |  |  |                 |  |   +--CREN6____Ihosp-Igni-0186-AA-156936981-YP-001434777.1
+|                                               |  |  |  |                 |  +---| (Node84)
+|                                               |  |  |  |                 |      +--CREN7____WP-075049636.1
+|                                               |  |  |  |              +--| (Node82)
+|                                               |  |  |  |              |  +--CREN4____Hbuty-Hbut-0533-AA-124027418-YP-001012738.1
+|                                               |  |  |  |           +--| (Node81)
+|                                               |  |  |  |           |  |  +-----CREN9____Fervi-gi_385805505_ref_YP-005841903.1_
+|                                               |  |  |  |           |  +--| (Node85)
+|                                               |  |  |  |           |     |     +**CREN2____WP-022541837.1
+|                                               |  |  |  |           |     |  +--| (Node87)
+|                                               |  |  |  |           |     |  |  +--CREN3____TCAper001147-Aeropyrum-pernix-K1
+|                                               |  |  |  |           |     +--| (Node86)
+|                                               |  |  |  |           |        +---CREN1____WP-048813007.1
+|                                               |  |  |  |        +--| (Node80)
+|                                               |  |  |  |        |  +----CREN5____Iaggr-Igag-0196-AA-305662637-YP-003858925.1
+|                                               |  |  |  |     +--| (Node79)
+|                                               |  |  |  |     |  +--CREN8____Smari-Smar-0818-AA-126465718-YP-001040827.1
+|                                               |  |  |  |  +--| (Node78)
+|                                               |  |  |  |  |  |  +--CREN12____Paero-PAE0674-AA-18312094-NP-558761.1
+|                                               |  |  |  |  |  +--| (Node88)
+|                                               |  |  |  |  |     +--CREN11____WP-012186613.1
+|                                               |  |  |  +**| (Node77)
+|                                               |  |  |     |                    +**THAUM2____gi_407045572_gb_AFS80325.1_
+|                                               |  |  |     |                 +--| (Node94)
+|                                               |  |  |     |                 |  +--THAUM4____gi_329137211_gb_EGG41500.1_
+|                                               |  |  |     |              +**| (Node93)
+|                                               |  |  |     |              |  |  +**THAUM9____gi_675346204_gb_KFM19155.1_
+|                                               |  |  |     |              |  +**| (Node95)
+|                                               |  |  |     |              |     +**THAUM3____Nmari-Nmar-0425-AA-161527933-YP-001581759.1
+|                                               |  |  |     |        +-----| (Node92)
+|                                               |  |  |     |        |     |  +--THAUM1____Csymb-CENSYa-1489-AA-118576672-YP-876415.1
+|                                               |  |  |     |        |     +--| (Node96)
+|                                               |  |  |     |        |        +--THAUM5____gi_1056525836_ref_WP-067959346.1_
+|                                               |  |  |     |     +--| (Node91)
+|                                               |  |  |     |     |  |     +--THAUM7____gi_937514458_gb_ALI34945.1_
+|                                               |  |  |     |     |  |  +--| (Node98)
+|                                               |  |  |     |     |  |  |  +--THAUM6____Ngarg-Ngar-c23930-AA-408404992-YP-006862975.1
+|                                               |  |  |     |     |  +--| (Node97)
+|                                               |  |  |     |     |     +--THAUM8____gi_1337718750_ref_WP-103287603.1_
+|                                               |  |  |     |  +--| (Node90)
+|                                               |  |  |     |  |  |  +------THAUM12____TTTFn1000837-Thaumarchaeota-Fn1
+|                                               |  |  |     |  |  +--| (Node99)
+|                                               |  |  |     |  |     +---THAUM11____TTTBS4001139-Thaumarchaeota-archaeon-BS4
+|                                               |  |  |     +--| (Node89)
+|                                               |  |  |        +----TACKO1____gi_1249059196_gb_PCN51136.1_
+|                                               |  +--| (Node74)
+|                                               |     |     +--ASG4____OLS17871.1
+|                                               |     |  +**| (Node101)
+|                                               |     |  |  |  +-----BATH3____gi_921069029_gb_KON29679.1_
+|                                               |     |  |  +--| (Node102)
+|                                               |     |  |     |  +---BATH2____gi_921074210_gb_KON34304.1_
+|                                               |     |  |     +--| (Node103)
+|                                               |     |  |        +--BATH4____gi_939573137_gb_KPV63013.1_
+|                                               |     +--| (Node100)
+|                                               |        |  +----------ASG1____OLS24587.1
+|                                               |        +--| (Node104)
+|                                               |           +------ASG3____KKK46444.1
+|                                            +--| (Node72)
+|                                            |  +------ASG5____OLS26631.1
+|                                         +--| (Node34)
+|                                         |  |              +--THERMCOC4____Tkoda-TK1500-AA-57641435-YP-183913.1
+|                                         |  |           +--| (Node39)
+|                                         |  |           |  |     +--THERMCOC3____WP-010885704.1
+|                                         |  |           |  |  +--| (Node41)
+|                                         |  |           |  |  |  +--THERMCOC2____WP-010867657.1
+|                                         |  |           |  +--| (Node40)
+|                                         |  |           |     +--THERMCOC1____WP-011012791.1
+|                                         |  |        +--| (Node38)
+|                                         |  |        |  |     +--METHCOC2____WP-007044109.1
+|                                         |  |        |  |  +--| (Node43)
+|                                         |  |        |  |  |  +--METHCOC1____Mjann-MJ-0195-AA-15668367-NP-247163.1
+|                                         |  |        |  +--| (Node42)
+|                                         |  |        |     |  +--METHCOC4____WP-018154451.1
+|                                         |  |        |     +--| (Node44)
+|                                         |  |        |        +--METHCOC3____WP-011171269.1
+|                                         |  |     +--| (Node37)
+|                                         |  |     |  |     +--THEI2____gi_1008855596_gb_KYK38189.1_
+|                                         |  |     |  |  +--| (Node46)
+|                                         |  |     |  |  |  +--THEI1____gi_1008845239_gb_KYK28346.1_
+|                                         |  |     |  +--| (Node45)
+|                                         |  |     |     +--METHMIC23____gi_1004826795_gb_KYC51882.1_
+|                                         |  |  +--| (Node36)
+|                                         |  |  |  |             +--DPANN11____gi_1078648311_gb_AOV95429.1_
+|                                         |  |  |  |          +--| (Node49)
+|                                         |  |  |  |          |  +--DPANN9____Nj743-J07AB43-07240-AA-339757479-EGQ42736.1
+|                                         |  |  |  |  +-------| (Node48)
+|                                         |  |  |  |  |       +--DPANN10____Nsali-J07AB56-07220-AA-339756411-EGQ39994.1
+|                                         |  |  |  +--| (Node47)
+|                                         |  |  |     |                +**DPANN24____scaffold-7131-8
+|                                         |  |  |     |             +--| (Node53)
+|                                         |  |  |     |             |  +**DPANN23____PJC15831.1
+|                                         |  |  |     |     +-------| (Node52)
+|                                         |  |  |     |     |       +--DPANN26____MSIBFv1-A1530021_ID_16557079_rps_
+|                                         |  |  |     |  +--| (Node51)
+|                                         |  |  |     |  |  |  +----DPANN25____ODS36284.1
+|                                         |  |  |     |  |  +--| (Node54)
+|                                         |  |  |     |  |     +--DPANN27____OYT54508.1
+|                                         |  |  |     +--| (Node50)
+|                                         |  |  |        |       +**DPANN1____PIY36118.1
+|                                         |  |  |        +-------| (Node55)
+|                                         |  |  |                +**DPANN2____gi_1277976528_gb_PIV69428.1_
+|                                         |  +--| (Node35)
+|                                         |     |                          +--METHBAC16____gi_1067220036_gb_OED29751.1_
+|                                         |     |                       +--| (Node64)
+|                                         |     |                       |  +--METHBAC15____WP-011406453.1
+|                                         |     |                    +--| (Node63)
+|                                         |     |                    |  +--METHBAC14____gi_1240222103_gb_PAV06633.1_
+|                                         |     |                 +--| (Node62)
+|                                         |     |                 |  |     +**METHBAC11____WP-058739649.1
+|                                         |     |                 |  |  +--| (Node66)
+|                                         |     |                 |  |  |  |  +--METHBAC10____gi_757140299_ref_WP-042694541.1_
+|                                         |     |                 |  |  |  +--| (Node67)
+|                                         |     |                 |  |  |     +--METHBAC13____WP-004033272.1
+|                                         |     |                 |  +--| (Node65)
+|                                         |     |                 |     +--METHBAC12____WP-012955713.1
+|                                         |     |              +--| (Node61)
+|                                         |     |              |  +--METHBAC9____WP-066973058.1
+|                                         |     |           +--| (Node60)
+|                                         |     |           |  +--METHBAC7____gi_1168041138_gb_OQD59064.1_
+|                                         |     |        +--| (Node59)
+|                                         |     |        |  +--METHBAC8____WP-067257208.1
+|                                         |     |     +--| (Node58)
+|                                         |     |     |  |  +--METHBAC1____gi_1240218670_gb_PAV03438.1_
+|                                         |     |     |  +--| (Node68)
+|                                         |     |     |     |     +--METHBAC2____WP-004030358.1
+|                                         |     |     |     |  +--| (Node70)
+|                                         |     |     |     |  |  +--METHBAC4____gi_1297875626_gb_AUB60040.1_
+|                                         |     |     |     +--| (Node69)
+|                                         |     |     |        +--METHBAC3____gi_973120164_gb_KUK75469.1_
+|                                         |     |  +--| (Node57)
+|                                         |     |  |  |  +--METHBAC6____Mtherm-MTH39-AA-15678069-NP-275183.1
+|                                         |     |  |  +--| (Node71)
+|                                         |     |  |     +--METHABC____WP-013295348.1
+|                                         |     +--| (Node56)
+|                                         |        +--METHBAC17____WP-013413965.1
+|                                      +--| (Node32)
+|                                      |  |  +--METHPY1____Mkand-MK1477-AA-20094913-NP-614760.1
+|                                      |  +--| (Node33)
+|                                      |     +--METHPY2____gi_1209289739_ref_WP-088336431.1_
+|                                   +--| (Node31)
+|                                   |  +-------ASG2____OLS27733.1
+|                                +--| (Node29)
+|                                |  |  +--THERMPLAS8____gi_471674883_gb_EMR74413.1_
+|                                |  +--| (Node30)
+|                                |     +-------EURYUNC1____UnEury2-gi_374723771_gb_EHR75851.1_
+|                             +--| (Node28)
+|                             |  +---METHMIC20____gi_1081853615_gb_OFV68431.1_
+|                          +--| (Node27)
+|                          |  +----METHMIC22____gi_1232008032_gb_OYT67395.1_
+|                       +--| (Node16)
+|                       |  |                    +--HALO5____WP-004043023.1
+|                       |  |                 +--| (Node23)
+|                       |  |                 |  |  +--HALO7____WP-005579709.1
+|                       |  |                 |  +--| (Node24)
+|                       |  |                 |     +--HALO6____WP-005557947.1
+|                       |  |              +--| (Node22)
+|                       |  |              |  |  +--HALO1____WP-011323136.1
+|                       |  |              |  +--| (Node25)
+|                       |  |              |     +--HALO3____WP-010902818.1
+|                       |  |           +--| (Node21)
+|                       |  |           |  |  +--HALO4____WP-015763543.1
+|                       |  |           |  +--| (Node26)
+|                       |  |           |     +**HALO2____WP-004516798.1
+|                       |  |        +--| (Node20)
+|                       |  |        |  +---METHMIC17____WP-042685564.1
+|                       |  |     +--| (Node19)
+|                       |  |     |  +--METHMIC7____gi_630830353_gb_KCZ72064.1_
+|                       |  |  +--| (Node18)
+|                       |  |  |  +----METHMIC18____gi_1232001974_gb_OYT61814.1_
+|                       |  +--| (Node17)
+|                       |     +------METHONAT1____WP-086637017.1
+|                    +--| (Node12)
+|                    |  |     +--METHMIC5____WP-014866480.1
+|                    |  |  +--| (Node14)
+|                    |  |  |  +--METHMIC6____WP-048067601.1
+|                    |  +--| (Node13)
+|                    |     |  +--METHMIC3____gi_1240225289_gb_PAV09510.1_
+|                    |     +--| (Node15)
+|                    |        +**METHMIC4____WP-011833613.1
+|                 +--| (Node10)
+|                 |  |  +--METHMIC9____gi_116665245_gb_ABK14272.1_
+|                 |  +--| (Node11)
+|                 |     +--METHMIC8____WP-013720017.1
+|              +--| (Node9)
+|              |  +--METHMIC21____gi_1343183869_gb_PPA80354.1_
+|           +--| (Node7)
+|           |  |  +--METHMIC10____WP-048193212.1
+|           |  +--| (Node8)
+|           |     +--METHMIC11____WP-013037982.1
+|        +--| (Node5)
+|        |  |  +--METHMIC2____Mpalu-MCP-1645-AA-282164315-YP-003356700.1
+|        |  +--| (Node6)
+|        |     +--METHMIC1____WP-012037125.1
+|     +**| (Node4)
+|     |  +**METHMIC12____WP-011020646.1
+|  +--| (Node3)
+|  |  +--METHMIC15____Mmaze-MM-1757-AA-21227859-NP-633781.1
++**| (Node2)
+|  +--METHMIC16____gi_1240229756_gb_PAV13340.1_
+|
++--METHMIC13____WP-011306431.1
+
+Tree in newick format:
+
+(METHMIC14____WP-048120079.1:0.0076753294,(((((((((((((((((((((((((((((((((CPRKAZ2____KKT52954.1:0.5129665147,CPRKAZ1____AKM84753.1:0.1876324842)Node153:0.1662479439,WIRTH1____OIP99172.1:0.6593352181)Node152:0.0624070245,CPRPER1____OIO51906.1:0.8726828021)Node151:0.1267131386,((CPRSACC1____OIP86267.1:0.3816010341,CPRSACC2____OGL37775.1:0.7995475163)Node155:0.4546277324,((((CPRBERK8____OGD64887.1:0.4824754375,TERRCHLO1____WP_041454680.1:0.6819597235)Node159:0.2168843476,(CPRPER2____OIO55511.1:0.7994909853,CPRPARC1____KKQ64960.1:0.5777833036)Node160:0.1931293478)Node158:0.0621298752,CPRBERK7____OIP06883.1:1.0913615240)Node157:0.1368215839,(CPRBERK5____OIN90317.1:0.4657662639,CPRBERK9____OGD64365.1:0.8434874199)Node161:0.1120019449)Node156:0.0670797133)Node154:0.0881971299)Node150:0.0534303324,((CPRBERK2____KKP89224.1:0.4616629654,(CPRBERK6____OIP06161.1:0.8447064423,CPRBERK3____KKQ90386.1:0.7081094123)Node164:0.1036021799)Node163:0.2838595295,AQUI1____WP_012963220.1:1.0044354412)Node162:0.0143494794)Node149:0.0353713645,((((CPRPARC16____OGM92637.1:0.7097460281,(CPRPARC4____OGG38666.1:0.7184115880,CPRPARC3____OGG37738.1:0.4730093583)Node169:0.2981842057)Node168:0.1268208324,((CPRPARC5____OGG60006.1:0.3456354281,CPRPARC8____KKU27188.1:0.4757835921)Node171:0.3264022796,((CPRPARC11____OIO29437.1:0.4417968132,CPRPARC2____OGF73378.1:0.5209085626)Node173:0.1237628190,CPRPARC12____OGI83554.1:0.6367215631)Node172:0.0432372764)Node170:0.0647746342)Node167:0.0841508131,(CPRPARC17____OGN05596.1:0.6258223357,CPRPARC6____WP_038322628.1:0.3726935448)Node174:0.1764844860)Node166:0.0867705007,((GRACI1____OIO75870.1:0.9922208849,(CPRPARC9____OGI21360.1:0.6536555942,CPRPARC10____KKQ44510.1:0.4803659957)Node177:0.0488267534)Node176:0.1707710805,((CPRPARC14____OGL90955.1:0.5528010803,CPRPARC13____OGL87599.1:0.5635890804)Node179:0.6081460001,CPRPARC15____OGM01040.1:0.7181384126)Node178:0.0355140373)Node175:0.1744066546)Node165:0.1727939969)Node148:0.0641670621,CPRPARC7____KKU07252.1:1.1662389198)Node147:0.0000023252,((((((CPRMICR11____OGY23762.1:0.5936177519,(CPRMICR8____OGY23333.1:0.1795524544,CPRMICR12____OGY24213.1:0.1841311910)Node186:0.2449931855)Node185:0.1991012028,((CPRMICR9____OGH17895.1:0.7196376180,(((((CPRMICR2____AKM79703.1:0.4529949788,CPRMICR15____KKR52926.1:0.5863098339)Node193:0.1966960982,CPRMICR1____OGD10246.1:0.7472748491)Node192:0.0342203797,CPRMICR7____KKU26352.1:0.5184975828)Node191:0.0264015852,CPRMICR14____KKQ31303.1:0.9055762734)Node190:0.0286775988,CPRMICR16____OGM30273.1:0.5660960082)Node189:0.0324580929)Node188:0.0903811709,CPRMICR10____OIO45070.1:0.7550042251)Node187:0.1535459931)Node184:0.0239993198,(CPRMICR5____OGE34670.1:0.4768109504,((CPRMICR13____OGK55200.1:0.5067902372,CPRMICR6____KKS84615.1:0.6132841977)Node196:0.2849285897,CPRMICR3____OGD79142.1:0.6684689188)Node195:0.1355249783)Node194:0.0538696751)Node183:0.0375269846,CPRMICR4____OGD85749.1:0.4180005745)Node182:0.3009522833,(CPRWWE1____OGC59791.1:1.1382881126,CPRDOJK1____KKQ36270.1:0.8648179539)Node197:0.1156450593)Node181:0.1381690796,CPRBERK4____AKM82746.1:0.8564035591)Node180:0.0997414456)Node146:0.2215886761,((((((PROZ1____WP_009849236.1:0.4560732976,TERRDEI1____WP_011530861.1:0.6337579219)Node203:0.1541094422,(THERMTO1____WP_012744853.1:0.3576449363,SPIR2____WP_012388378.1:0.7300856232)Node204:0.1788048567)Node202:0.0501294098,FUSO1____NP_603235.1:0.6075366305)Node201:0.0519869125,((((((PROB2____WP_003059002.1:0.1103334205,(((PROB5____WP_027469997.1:0.1424022513,PROB3____WP_013292340.1:0.2049740236)Node213:0.0760404142,PROB4____WP_013440884.1:0.0855754365)Node212:0.0557376257,PROB1____WP_003814889.1:0.0595985301)Node211:0.0969533093)Node210:0.2647241612,PORG10____WP_091334577.1:0.1888303902)Node209:0.0688009642,PROO1____WP_028990533.1:0.2290397784)Node208:0.0577390414,((((((PORG9____WP_041394537.1:0.1457736289,PORG4____WP_026821376.1:0.0858894235)Node219:0.0506848653,(PORG1____WP_027940135.1:0.1618329598,PORG6____WP_023495188.1:0.3951863360)Node220:0.0491892092)Node218:0.0620404762,PORG8____WP_026471335.1:0.2195825118)Node217:0.0181071374,PORG2____WP_035515865.1:0.1818121606)Node216:0.0786926381,PORG7____WP_028672248.1:0.2696404552)Node215:0.0637956318,PORG3____WP_018716434.1:0.2057050517)Node214:0.0234878381)Node207:0.0484669781,PORG5____WP_045100193.1:0.3556342633)Node206:0.1077620313,CHRY1____WP_027390750.1:0.5841841431)Node205:0.0802036347)Node200:0.0719583729,((((((TERRFIR3____WP_010017477.1:0.1977905324,TERRFIR4____WP_002262992.1:0.1947210353)Node226:0.1549985883,TERRFIR1____WP_000079988.1:0.2083274994)Node225:0.0549113649,(((((TERRCYA3____WP_006634975.1:0.1408345679,TERRCYA2____WP_015203272.1:0.0984146448)Node231:0.0656976821,TERRCYA5____NP_680900.1:0.2279070082)Node230:0.0078672688,TERRCYA4____WP_015195205.1:0.2377467951)Node229:0.5888106590,TERRTEN1____WP_011183390.1:0.6518261212)Node228:0.1964515845,TERRFIR2____WP_022794501.1:0.2818389353)Node227:0.0563173631)Node224:0.0426226848,(TERRFIR5____WP_023388352.1:0.1985295932,TERRFIR6____WP_014262207.1:0.3066765526)Node232:0.0994126061)Node223:0.0558858976,(((TERRACT5____WP_004268556.1:0.2209290515,TERRACT2____WP_021012131.1:0.8266201573)Node235:0.0248242725,((TERRACT7____WP_038503141.1:0.1647296343,TERRACT3____WP_026935930.1:0.1993524678)Node237:0.1943341361,TERRACT1____WP_013170535.1:0.0792782212)Node236:0.0863856246)Node234:0.1743698328,TERRACT4____WP_022910722.1:0.2592081012)Node233:0.5439480344)Node222:0.0304423274,((TERRFIR7____WP_018249324.1:0.2440448305,(TERRACT8____WP_019128897.1:0.2877096275,TERRACT6____WP_013980700.1:0.1255401584)Node240:0.3117830629)Node239:0.0937998276,TERRFIR8____WP_004695188.1:0.2203051932)Node238:0.0960651138)Node221:0.0959778792)Node199:0.0153965073,AMIN1____OGD13483.1:0.8919021674)Node198:0.0368846798)Node145:0.0243061179,(PVCCHLA2____CAH63970.1:0.5665924502,PVCCHLA1____OGN67495.1:0.5201611621)Node241:0.8104688283)Node144:0.0191000563,((((((((((PROA3____OIQ05223.1:0.2103214085,PROA5____WP_014745306.1:0.2908097009)Node251:0.0535635595,PROA4____ABI61864.1:0.2979340035)Node250:0.0948744731,PROA1____WP_020399056.1:0.1744666912)Node249:0.1349823953,PROA7____WP_010407797.1:0.1937519820)Node248:0.0932137227,PROA2____WP_014130336.1:0.2564116293)Node247:0.1630666717,PROA6____WP_010265839.1:0.7843396505)Node246:0.1526624740,(DEFER1____WP_013011539.1:0.6177939725,PROE1____WP_084021775.1:0.8412612522)Node252:0.0370805464)Node245:0.1293968559,PROD3____WP_011552084.1:0.3897337015)Node244:0.0902204228,(ACID1____OFV89354.1:0.4204225220,((FCBGEM1____OGU26403.1:0.5922817295,FCBZIX1____KPL04261.1:0.3016209474)Node255:0.3011494281,SPIR1____WP_013113494.1:0.6362343486)Node254:0.1722764363)Node253:0.1276135249)Node243:0.1134591291,((((((NITROR2____WP_013249281.1:0.6146026807,TERRCHLO3____OGN95068.1:0.7059314821)Node261:0.2651117127,TERRMEL1____AOR38500.1:0.7185867897)Node260:0.1292312182,(((FCBCHLO1____WP_012499085.1:0.7583966002,((FCBBAC6____EKF54729.1:0.0599743795,FCBBAC5____WP_028121231.1:0.4886629613)Node266:0.1689658297,(((FCBBAC3____WP_014020963.1:0.1804377525,FCBBAC4____WP_009035633.1:0.1294426910)Node269:0.3190692081,(FCBBAC2____WP_010664804.1:0.0403325440,FCBBAC1____WP_005791749.1:0.3437411417)Node270:0.2033153893)Node268:0.0685142597,FCBBAC8____WP_016196062.1:0.5470727546)Node267:0.0843833999)Node265:0.1308106935)Node264:0.1251661259,FCBIG1____OGU19346.1:0.5420359904)Node263:0.0642484710,FCBBAC7____WP_020404605.1:0.8142513448)Node262:0.0879820136)Node259:0.0587159316,PVCOMN1____OIO38018.1:0.8314529622)Node258:0.0599918656,PROD4____WP_041584596.1:0.4882495527)Node257:0.0325151341,PVCLEN1____OGV48579.1:1.0006079244)Node256:0.0299829652)Node242:0.0000020157)Node143:0.0400948019,(((MODU1____GAK56328.1:0.5565501878,(THERMODES1____WP_013907982.1:0.3546882851,AQUI2____ADU96351.1:0.2742743973)Node274:0.0698188032)Node273:0.1009288825,NITROR1____OGW50342.1:0.5117168388)Node272:0.1700912877,((ACID4____WP_005035658.1:0.5413197464,(ACID2____OFW02065.1:0.3262840214,ACID3____WP_014267734.1:0.5041939757)Node277:0.0812886334)Node276:0.1715884215,(PROD1____WP_014242868.1:0.5279651658,PROD2____WP_006964688.1:0.5253746080)Node278:0.2680778702)Node275:0.0617514032)Node271:0.0288173118)Node142:0.2578603725,SYNE1____YP_003318030.1:0.6661096408)Node141:1.3395482443,KOR1____Kcryp-Kcr-1588-AA-170291200-YP-001738016.1:0.5227995038)Node140:0.1205197121,(AUNC2____gi_1370716986_gb_PSN88901.1_:0.2117351984,AUNC1____gi_1370739337_gb_PSO09375.1_:0.1425917812)Node139:0.3814557774)Node138:0.2677548914,(((((DPANN20____Nequi-NEQ446-AA-41615231-NP-963729.1:0.6554793486,(DPANN21____gi_485654978_gb_EOD42768.1_:0.0000023542,DPANN22____AMD29689.1:0.0314140553)Node111:0.7553523597)Node110:0.1475378441,(((DPANN15____gi_269986577_gb_EEZ92859.1_:0.1789809046,DPANN16____Pacid-BJBARM5-0749-AA-290559183-EFD92540.1:0.1523763481)Node114:1.1745282871,((DPANN7____gi_1209161928_gb_OWP53842.1_:0.4114949484,DPANN6____Macid-UNLARM2-0923-AA-255513543-EET89809.1:0.2468793013)Node116:0.3493444737,DPANN8____gi_1214173088_gb_ASI13363.1_:0.2547140550)Node115:0.6860684717)Node113:0.0283182338,(DPANN3____gi_1276421034_gb_PIN85825.1_:0.5498455706,DPANN4____AR10-GW2011-AR10-complete-1-862:0.2294183536)Node117:0.3848505395)Node112:0.1791261019)Node109:0.0927815189,(((DPANN14____AR6-gwa2-scaffold-5107-30:0.4704754309,(DPANN12____AR13-gwa2-scaffold-4294-3:0.6907181639,DPANN13____AR1-GW2011-AR1-4-18:0.1684639696)Node121:0.6480471240)Node120:0.2414076862,(DPANN17____AR15-GW2011-AR15-1-364:0.4671105421,DPANN18____AR20-GW2011-AR20-complete-1-798:0.4949998304)Node122:0.0948819539)Node119:0.0416185607,DPANN5____gi_1277911660_gb_PIV13778.1_:1.6344655777)Node118:0.0964181520)Node108:0.0856531448,((((ABOON1____Aboon-Aboo-1476-AA-289597148-YP-003483844.1:0.3104492329,(((((THERMPLAS5____WP-009886729.1:0.1142012884,THERMPLAS4____WP-048100781.1:0.0745063242)Node131:0.0937494135,THERMPLAS6____WP-011177125.1:0.2498834790)Node130:0.2142850742,THERMPLAS9____gi_1209164552_gb_OWP56443.1_:0.2771150026)Node129:0.1607476526,THERMPLAS7____WP-010917394.1:0.2378345206)Node128:0.3494391379,((THERMPLAS2____gi_509092941_gb_AGN26959.1_:0.1349349362,THERMPLAS1____Mlumi-gi_518007558_ref_WP-019177766.1_:0.0547257275)Node133:0.3109258336,THERMPLAS3____gi_851215087_ref_WP-048111166.1_:0.2503766036)Node132:0.0915685210)Node127:0.0256348118)Node126:0.0664518780,EURYUNC2____gi_1101739036_gb_OIR22458.1_:0.3433913603)Node125:0.0798953175,((HADE2____KUO39451.1:0.2460317402,HADE1____gi_974127774_gb_KUO42333.1_:0.2118077382)Node135:0.2470135741,EURYUNC3____gi_985664199_gb_KXA95886.1_:0.4175461058)Node134:0.1517543387)Node124:0.0638845889,(ARCH2____WP-015590248.1:0.1553957539,ARCH1____gi_2649458_gb_AAB90113.1_:0.1584768939)Node136:0.1380504817)Node123:0.0309885193)Node107:0.0129364461,(AIG1____Csubt-CSUB-C0320-AA-557693757-YP-008796811.1:1.3837715792,CREN13____Tpend-Tpen-0277-AA-119719195-YP-919690.1:0.4907785403)Node137:0.1625106796)Node106:0.0421190539)Node105:0.0389774490,(((VERS2____ACCABHEM-00293:0.2843270721,VERS1____DHPNFBIM-00179:0.2000798916)Node76:0.3944358494,(((((((CREN10____Ssolf-SSO0068-AA-15897035-NP-341640.1:0.4707563158,(CREN6____Ihosp-Igni-0186-AA-156936981-YP-001434777.1:0.0641726359,CREN7____WP-075049636.1:0.1003521162)Node84:0.3446959797)Node83:0.0837781338,CREN4____Hbuty-Hbut-0533-AA-124027418-YP-001012738.1:0.2387532335)Node82:0.0535085950,(CREN9____Fervi-gi_385805505_ref_YP-005841903.1_:0.5316120836,((CREN2____WP-022541837.1:0.0008221495,CREN3____TCAper001147-Aeropyrum-pernix-K1:0.0714831986)Node87:0.2821398174,CREN1____WP-048813007.1:0.3632582889)Node86:0.0276391852)Node85:0.0281763286)Node81:0.0331784797,CREN5____Iaggr-Igag-0196-AA-305662637-YP-003858925.1:0.4338062695)Node80:0.0305468298,CREN8____Smari-Smar-0818-AA-126465718-YP-001040827.1:0.2571229691)Node79:0.1153727270,(CREN12____Paero-PAE0674-AA-18312094-NP-558761.1:0.3022966251,CREN11____WP-012186613.1:0.2034891496)Node88:0.3214703131)Node78:0.2437729751,((((((THAUM2____gi_407045572_gb_AFS80325.1_:0.0000020115,THAUM4____gi_329137211_gb_EGG41500.1_:0.0381439021)Node94:0.0062397542,(THAUM9____gi_675346204_gb_KFM19155.1_:0.0000020115,THAUM3____Nmari-Nmar-0425-AA-161527933-YP-001581759.1:0.0000020115)Node95:0.0000020115)Node93:0.0013642437,(THAUM1____Csymb-CENSYa-1489-AA-118576672-YP-876415.1:0.2565456388,THAUM5____gi_1056525836_ref_WP-067959346.1_:0.0403620042)Node96:0.0278198320)Node92:0.5513623590,((THAUM7____gi_937514458_gb_ALI34945.1_:0.1792240826,THAUM6____Ngarg-Ngar-c23930-AA-408404992-YP-006862975.1:0.1993230099)Node98:0.2146776586,THAUM8____gi_1337718750_ref_WP-103287603.1_:0.3016927906)Node97:0.0811007920)Node91:0.2206385897,(THAUM12____TTTFn1000837-Thaumarchaeota-Fn1:0.6229688520,THAUM11____TTTBS4001139-Thaumarchaeota-archaeon-BS4:0.3427650549)Node99:0.1904642444)Node90:0.3118622429,TACKO1____gi_1249059196_gb_PCN51136.1_:0.4741839516)Node89:0.1631612489)Node77:0.0000025435)Node75:0.0559534190,((ASG4____OLS17871.1:0.2651788480,(BATH3____gi_921069029_gb_KON29679.1_:0.5169036917,(BATH2____gi_921074210_gb_KON34304.1_:0.3870520111,BATH4____gi_939573137_gb_KPV63013.1_:0.1972453875)Node103:0.2269807325)Node102:0.0979087821)Node101:0.0000024314,(ASG1____OLS24587.1:0.9787292208,ASG3____KKK46444.1:0.5965343781)Node104:0.3299565936)Node100:0.1100747758)Node74:0.0154382504)Node73:0.0554690377,ASG5____OLS26631.1:0.5874865630)Node72:0.0522107097,(((((THERMCOC4____Tkoda-TK1500-AA-57641435-YP-183913.1:0.0342686081,((THERMCOC3____WP-010885704.1:0.0075833421,THERMCOC2____WP-010867657.1:0.0155273144)Node41:0.0181484888,THERMCOC1____WP-011012791.1:0.0143430504)Node40:0.0709353052)Node39:0.1387388663,((METHCOC2____WP-007044109.1:0.0731399389,METHCOC1____Mjann-MJ-0195-AA-15668367-NP-247163.1:0.0899934313)Node43:0.0635653427,(METHCOC4____WP-018154451.1:0.1077053898,METHCOC3____WP-011171269.1:0.1627148382)Node44:0.0696855699)Node42:0.2952058579)Node38:0.0583344534,((THEI2____gi_1008855596_gb_KYK38189.1_:0.0374264840,THEI1____gi_1008845239_gb_KYK28346.1_:0.1174036276)Node46:0.1977229793,METHMIC23____gi_1004826795_gb_KYC51882.1_:0.3259782654)Node45:0.1265817550)Node37:0.0286122583,(((DPANN11____gi_1078648311_gb_AOV95429.1_:0.2530737664,DPANN9____Nj743-J07AB43-07240-AA-339757479-EGQ42736.1:0.1699648305)Node49:0.0772962266,DPANN10____Nsali-J07AB56-07220-AA-339756411-EGQ39994.1:0.2040823468)Node48:0.6851504653,((((DPANN24____scaffold-7131-8:0.0000020115,DPANN23____PJC15831.1:0.0000020115)Node53:0.1158097631,DPANN26____MSIBFv1-A1530021_ID_16557079_rps_:0.0905335544)Node52:0.7187411138,(DPANN25____ODS36284.1:0.4421436243,DPANN27____OYT54508.1:0.3079690490)Node54:0.0620929762)Node51:0.1522780132,(DPANN1____PIY36118.1:0.0000020115,DPANN2____gi_1277976528_gb_PIV69428.1_:0.0000020115)Node55:0.7301367632)Node50:0.1137876015)Node47:0.0906888421)Node36:0.0806859203,(((((((((METHBAC16____gi_1067220036_gb_OED29751.1_:0.0596815034,METHBAC15____WP-011406453.1:0.0250950613)Node64:0.0625342200,METHBAC14____gi_1240222103_gb_PAV06633.1_:0.0832070960)Node63:0.1390534311,((METHBAC11____WP-058739649.1:0.0000026604,(METHBAC10____gi_757140299_ref_WP-042694541.1_:0.0077460571,METHBAC13____WP-004033272.1:0.0237017851)Node67:0.0243389598)Node66:0.1050037956,METHBAC12____WP-012955713.1:0.0876903639)Node65:0.0406085857)Node62:0.0713888418,METHBAC9____WP-066973058.1:0.0326913832)Node61:0.0500025290,METHBAC7____gi_1168041138_gb_OQD59064.1_:0.0175515111)Node60:0.0112801022,METHBAC8____WP-067257208.1:0.0112940368)Node59:0.0639298971,(METHBAC1____gi_1240218670_gb_PAV03438.1_:0.0317787730,((METHBAC2____WP-004030358.1:0.0109596791,METHBAC4____gi_1297875626_gb_AUB60040.1_:0.0674013378)Node70:0.0239006511,METHBAC3____gi_973120164_gb_KUK75469.1_:0.0101249308)Node69:0.0871511234)Node68:0.0662174914)Node58:0.0422282249,(METHBAC6____Mtherm-MTH39-AA-15678069-NP-275183.1:0.0442349841,METHABC____WP-013295348.1:0.0436640687)Node71:0.0487751510)Node57:0.1039398103,METHBAC17____WP-013413965.1:0.0835403207)Node56:0.1955543593)Node35:0.0042391981)Node34:0.0356670726,(METHPY1____Mkand-MK1477-AA-20094913-NP-614760.1:0.0153550614,METHPY2____gi_1209289739_ref_WP-088336431.1_:0.0165972202)Node33:0.2838811151)Node32:0.0819249286,ASG2____OLS27733.1:0.6645540266)Node31:0.0550253242,(THERMPLAS8____gi_471674883_gb_EMR74413.1_:0.2314554240,EURYUNC1____UnEury2-gi_374723771_gb_EHR75851.1_:0.6642881819)Node30:0.2564271957)Node29:0.0396848622,METHMIC20____gi_1081853615_gb_OFV68431.1_:0.4015846303)Node28:0.0191353126,METHMIC22____gi_1232008032_gb_OYT67395.1_:0.4841947007)Node27:0.0175867532,(((((((HALO5____WP-004043023.1:0.0858295133,(HALO7____WP-005579709.1:0.0105999912,HALO6____WP-005557947.1:0.0478499454)Node24:0.0494046960)Node23:0.0119427734,(HALO1____WP-011323136.1:0.0837111575,HALO3____WP-010902818.1:0.0969455016)Node25:0.0374982722)Node22:0.0145298040,(HALO4____WP-015763543.1:0.0334585352,HALO2____WP-004516798.1:0.0000020129)Node26:0.0940490714)Node21:0.2975465409,METHMIC17____WP-042685564.1:0.3663059200)Node20:0.0899312679,METHMIC7____gi_630830353_gb_KCZ72064.1_:0.2361928624)Node19:0.0372959865,METHMIC18____gi_1232001974_gb_OYT61814.1_:0.4396211067)Node18:0.0368669153,METHONAT1____WP-086637017.1:0.6099937997)Node17:0.0370090653)Node16:0.0361437484,((METHMIC5____WP-014866480.1:0.1535744043,METHMIC6____WP-048067601.1:0.2827280180)Node14:0.0426158669,(METHMIC3____gi_1240225289_gb_PAV09510.1_:0.0075940426,METHMIC4____WP-011833613.1:0.0000021339)Node15:0.1570092693)Node13:0.3312904265)Node12:0.0376755244,(METHMIC9____gi_116665245_gb_ABK14272.1_:0.2350992294,METHMIC8____WP-013720017.1:0.2675745756)Node11:0.1531528563)Node10:0.0432481050,METHMIC21____gi_1343183869_gb_PPA80354.1_:0.2411954508)Node9:0.0826477268,(METHMIC10____WP-048193212.1:0.1405488260,METHMIC11____WP-013037982.1:0.1309482598)Node8:0.0679780748)Node7:0.0645400520,(METHMIC2____Mpalu-MCP-1645-AA-282164315-YP-003356700.1:0.1948766298,METHMIC1____WP-012037125.1:0.1946464070)Node6:0.3167735308)Node5:0.1686006434,METHMIC12____WP-011020646.1:0.0000020129)Node4:0.0001993343,METHMIC15____Mmaze-MM-1757-AA-21227859-NP-633781.1:0.0475607502)Node3:0.0498953421,METHMIC16____gi_1240229756_gb_PAV13340.1_:0.0235127291)Node2:0.0000020115,METHMIC13____WP-011306431.1:0.0077082943)Node1;
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 13 12:53:13 2019
+Total CPU time used: 371.795 seconds (0h:6m:11s)
+Total wall-clock time used: 386.953 seconds (0h:6m:26s)
+
