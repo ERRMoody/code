@@ -1,0 +1,358 @@
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s Genfam1hmmalignment.faa -m LG+C60+G+F -te Genfam1hmmalignment.faa.contree
+Seed:    339603 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 13 09:52:38 2019
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Genfam1hmmalignment.faa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 280 sequences with 483 columns, 387 distinct patterns
+194 parsimony-informative, 120 singleton sites, 169 constant sites
+WARNING: Some sequence names are changed as follows:
+METHBAC16____gi|1067220036|gb|OED29751.1| -> METHBAC16____gi_1067220036_gb_OED29751.1_
+DPANN11____gi|1078648311|gb|AOV95429.1| -> DPANN11____gi_1078648311_gb_AOV95429.1_
+METHBAC1____gi|1240218670|gb|PAV03438.1| -> METHBAC1____gi_1240218670_gb_PAV03438.1_
+AUNC2____gi|1370716986|gb|PSN88901.1| -> AUNC2____gi_1370716986_gb_PSN88901.1_
+THERMPLAS8____gi|471674883|gb|EMR74413.1| -> THERMPLAS8____gi_471674883_gb_EMR74413.1_
+THAUM2____gi|407045572|gb|AFS80325.1| -> THAUM2____gi_407045572_gb_AFS80325.1_
+DPANN15____gi|269986577|gb|EEZ92859.1| -> DPANN15____gi_269986577_gb_EEZ92859.1_
+METHBAC7____gi|1168041138|gb|OQD59064.1| -> METHBAC7____gi_1168041138_gb_OQD59064.1_
+DPANN3____gi|1276421034|gb|PIN85825.1| -> DPANN3____gi_1276421034_gb_PIN85825.1_
+METHMIC20____gi|1081853615|gb|OFV68431.1| -> METHMIC20____gi_1081853615_gb_OFV68431.1_
+CREN9____Fervi-gi|385805505|ref|YP-005841903.1| -> CREN9____Fervi-gi_385805505_ref_YP-005841903.1_
+THEI2____gi|1008855596|gb|KYK38189.1| -> THEI2____gi_1008855596_gb_KYK38189.1_
+DPANN7____gi|1209161928|gb|OWP53842.1| -> DPANN7____gi_1209161928_gb_OWP53842.1_
+DPANN8____gi|1214173088|gb|ASI13363.1| -> DPANN8____gi_1214173088_gb_ASI13363.1_
+TACKO1____gi|1249059196|gb|PCN51136.1| -> TACKO1____gi_1249059196_gb_PCN51136.1_
+THAUM4____gi|329137211|gb|EGG41500.1| -> THAUM4____gi_329137211_gb_EGG41500.1_
+THERMPLAS2____gi|509092941|gb|AGN26959.1| -> THERMPLAS2____gi_509092941_gb_AGN26959.1_
+THERMPLAS3____gi|851215087|ref|WP-048111166.1| -> THERMPLAS3____gi_851215087_ref_WP-048111166.1_
+METHMIC23____gi|1004826795|gb|KYC51882.1| -> METHMIC23____gi_1004826795_gb_KYC51882.1_
+METHMIC9____gi|116665245|gb|ABK14272.1| -> METHMIC9____gi_116665245_gb_ABK14272.1_
+EURYUNC3____gi|985664199|gb|KXA95886.1| -> EURYUNC3____gi_985664199_gb_KXA95886.1_
+METHPY2____gi|1209289739|ref|WP-088336431.1| -> METHPY2____gi_1209289739_ref_WP-088336431.1_
+THAUM7____gi|937514458|gb|ALI34945.1| -> THAUM7____gi_937514458_gb_ALI34945.1_
+METHMIC3____gi|1240225289|gb|PAV09510.1| -> METHMIC3____gi_1240225289_gb_PAV09510.1_
+EURYUNC1____UnEury2-gi|374723771|gb|EHR75851.1| -> EURYUNC1____UnEury2-gi_374723771_gb_EHR75851.1_
+THAUM9____gi|675346204|gb|KFM19155.1| -> THAUM9____gi_675346204_gb_KFM19155.1_
+AUNC1____gi|1370739337|gb|PSO09375.1| -> AUNC1____gi_1370739337_gb_PSO09375.1_
+METHMIC22____gi|1232008032|gb|OYT67395.1| -> METHMIC22____gi_1232008032_gb_OYT67395.1_
+BATH3____gi|921069029|gb|KON29679.1| -> BATH3____gi_921069029_gb_KON29679.1_
+METHMIC18____gi|1232001974|gb|OYT61814.1| -> METHMIC18____gi_1232001974_gb_OYT61814.1_
+HADE1____gi|974127774|gb|KUO42333.1| -> HADE1____gi_974127774_gb_KUO42333.1_
+METHBAC4____gi|1297875626|gb|AUB60040.1| -> METHBAC4____gi_1297875626_gb_AUB60040.1_
+METHMIC7____gi|630830353|gb|KCZ72064.1| -> METHMIC7____gi_630830353_gb_KCZ72064.1_
+DPANN21____gi|485654978|gb|EOD42768.1| -> DPANN21____gi_485654978_gb_EOD42768.1_
+METHMIC16____gi|1240229756|gb|PAV13340.1| -> METHMIC16____gi_1240229756_gb_PAV13340.1_
+THEI1____gi|1008845239|gb|KYK28346.1| -> THEI1____gi_1008845239_gb_KYK28346.1_
+DPANN5____gi|1277911660|gb|PIV13778.1| -> DPANN5____gi_1277911660_gb_PIV13778.1_
+THERMPLAS9____gi|1209164552|gb|OWP56443.1| -> THERMPLAS9____gi_1209164552_gb_OWP56443.1_
+METHBAC10____gi|757140299|ref|WP-042694541.1| -> METHBAC10____gi_757140299_ref_WP-042694541.1_
+THAUM8____gi|1337718750|ref|WP-103287603.1| -> THAUM8____gi_1337718750_ref_WP-103287603.1_
+METHBAC14____gi|1240222103|gb|PAV06633.1| -> METHBAC14____gi_1240222103_gb_PAV06633.1_
+DPANN2____gi|1277976528|gb|PIV69428.1| -> DPANN2____gi_1277976528_gb_PIV69428.1_
+EURYUNC2____gi|1101739036|gb|OIR22458.1| -> EURYUNC2____gi_1101739036_gb_OIR22458.1_
+BATH2____gi|921074210|gb|KON34304.1| -> BATH2____gi_921074210_gb_KON34304.1_
+THERMPLAS1____Mlumi-gi|518007558|ref|WP-019177766.1| -> THERMPLAS1____Mlumi-gi_518007558_ref_WP-019177766.1_
+DPANN26____MSIBFv1-A1530021|ID:16557079|rps| -> DPANN26____MSIBFv1-A1530021_ID_16557079_rps_
+ARCH1____gi|2649458|gb|AAB90113.1| -> ARCH1____gi_2649458_gb_AAB90113.1_
+METHBAC3____gi|973120164|gb|KUK75469.1| -> METHBAC3____gi_973120164_gb_KUK75469.1_
+THAUM5____gi|1056525836|ref|WP-067959346.1| -> THAUM5____gi_1056525836_ref_WP-067959346.1_
+METHMIC21____gi|1343183869|gb|PPA80354.1| -> METHMIC21____gi_1343183869_gb_PPA80354.1_
+BATH4____gi|939573137|gb|KPV63013.1| -> BATH4____gi_939573137_gb_KPV63013.1_
+
+                                                         Gap/Ambiguity  Composition  p-value
+   1  METHMIC14____WP-048120079.1                               72.26%    passed     84.71%
+   2  CPRKAZ2____KKT52954.1                                     71.64%    passed     99.61%
+   3  THERMCOC4____Tkoda-TK1500-AA-57641435-YP-183913.1         72.05%    passed     82.44%
+   4  CPRMICR11____OGY23762.1                                   67.70%    failed      0.68%
+   5  VERS2____ACCABHEM-00293                                   72.26%    passed     76.76%
+   6  METHBAC16____gi_1067220036_gb_OED29751.1_                 72.26%    passed     88.20%
+   7  CPRPARC16____OGM92637.1                                   69.77%    passed     37.03%
+   8  METHPY1____Mkand-MK1477-AA-20094913-NP-614760.1           72.26%    passed     33.16%
+   9  PVCCHLA2____CAH63970.1                                    72.46%    passed     90.71%
+  10  PROZ1____WP_009849236.1                                   73.08%    passed     68.13%
+  11  DPANN11____gi_1078648311_gb_AOV95429.1_                   72.05%    passed     12.24%
+  12  METHBAC1____gi_1240218670_gb_PAV03438.1_                  72.46%    passed     99.24%
+  13  METHMIC2____Mpalu-MCP-1645-AA-282164315-YP-003356700.1    72.26%    passed     82.94%
+  14  DPANN20____Nequi-NEQ446-AA-41615231-NP-963729.1           71.84%    passed      9.75%
+  15  AUNC2____gi_1370716986_gb_PSN88901.1_                     72.46%    passed     60.28%
+  16  METHBAC17____WP-013413965.1                               72.26%    passed     86.66%
+  17  CPRMICR9____OGH17895.1                                    69.36%    passed     61.40%
+  18  PROA3____OIQ05223.1                                       66.46%    passed     40.75%
+  19  NITROR2____WP_013249281.1                                 73.08%    passed     76.34%
+  20  THERMPLAS8____gi_471674883_gb_EMR74413.1_                 72.26%    passed     87.75%
+  21  FCBCHLO1____WP_012499085.1                                73.08%    passed     86.81%
+  22  TERRFIR3____WP_010017477.1                                72.88%    passed     84.60%
+  23  ABOON1____Aboon-Aboo-1476-AA-289597148-YP-003483844.1     72.67%    passed     88.56%
+  24  CPRMICR8____OGY23333.1                                    74.12%    passed     97.76%
+  25  PROB2____WP_003059002.1                                   73.08%    passed     96.18%
+  26  CREN10____Ssolf-SSO0068-AA-15897035-NP-341640.1           71.01%    passed     38.48%
+  27  THAUM2____gi_407045572_gb_AFS80325.1_                     69.15%    passed     68.87%
+  28  DPANN10____Nsali-J07AB56-07220-AA-339756411-EGQ39994.1    71.84%    passed     29.48%
+  29  FCBBAC6____EKF54729.1                                     73.50%    passed     91.13%
+  30  ASG4____OLS17871.1                                        72.26%    passed     83.42%
+  31  VERS1____DHPNFBIM-00179                                   72.26%    passed     96.30%
+  32  CPRMICR2____AKM79703.1                                    71.64%    passed     45.26%
+  33  METHCOC2____WP-007044109.1                                72.05%    passed     48.68%
+  34  CREN6____Ihosp-Igni-0186-AA-156936981-YP-001434777.1      69.36%    passed     42.17%
+  35  PORG9____WP_041394537.1                                   73.08%    passed     99.73%
+  36  TERRFIR5____WP_023388352.1                                73.08%    passed     98.02%
+  37  TERRACT5____WP_004268556.1                                66.25%    passed      7.96%
+  38  ASG5____OLS26631.1                                        72.67%    passed     67.44%
+  39  DPANN15____gi_269986577_gb_EEZ92859.1_                    72.88%    passed     36.92%
+  40  FCBBAC3____WP_014020963.1                                 73.50%    passed     77.47%
+  41  CREN5____Iaggr-Igag-0196-AA-305662637-YP-003858925.1      68.12%    passed     31.31%
+  42  METHBAC7____gi_1168041138_gb_OQD59064.1_                  72.46%    passed     99.71%
+  43  FCBBAC4____WP_009035633.1                                 73.50%    passed     98.43%
+  44  DPANN3____gi_1276421034_gb_PIN85825.1_                    71.43%    passed     69.53%
+  45  MODU1____GAK56328.1                                       63.35%    passed     36.64%
+  46  HALO5____WP-004043023.1                                   72.67%    passed     84.81%
+  47  METHMIC20____gi_1081853615_gb_OFV68431.1_                 70.60%    passed     79.74%
+  48  THERMPLAS5____WP-009886729.1                              72.26%    passed     62.58%
+  49  TERRFIR4____WP_002262992.1                                73.08%    passed     98.61%
+  50  AIG1____Csubt-CSUB-C0320-AA-557693757-YP-008796811.1      72.88%    passed     60.06%
+  51  CREN9____Fervi-gi_385805505_ref_YP-005841903.1_           72.88%    passed     99.67%
+  52  THEI2____gi_1008855596_gb_KYK38189.1_                     72.26%    passed     99.02%
+  53  DEFER1____WP_013011539.1                                  73.29%    passed     40.17%
+  54  DPANN7____gi_1209161928_gb_OWP53842.1_                    74.74%    passed     83.81%
+  55  CPRBERK2____KKP89224.1                                    73.08%    passed     22.81%
+  56  ASG1____OLS24587.1                                        71.64%    passed     65.79%
+  57  CPRMICR1____OGD10246.1                                    71.84%    passed     33.31%
+  58  CPRMICR12____OGY24213.1                                   74.12%    passed     92.90%
+  59  FCBBAC2____WP_010664804.1                                 73.50%    passed     71.91%
+  60  CPRSACC1____OIP86267.1                                    72.67%    passed     88.77%
+  61  CPRPARC5____OGG60006.1                                    73.08%    passed     65.18%
+  62  PORG1____WP_027940135.1                                   73.08%    passed     78.53%
+  63  DPANN8____gi_1214173088_gb_ASI13363.1_                    67.49%    failed      2.16%
+  64  TERRFIR7____WP_018249324.1                                72.88%    passed     97.77%
+  65  CHRY1____WP_027390750.1                                   73.29%    passed     92.60%
+  66  TACKO1____gi_1249059196_gb_PCN51136.1_                    71.84%    passed     74.63%
+  67  PORG2____WP_035515865.1                                   73.08%    passed     84.03%
+  68  FCBBAC8____WP_016196062.1                                 73.50%    passed     97.80%
+  69  METHMIC5____WP-014866480.1                                72.46%    passed     98.93%
+  70  THAUM12____TTTFn1000837-Thaumarchaeota-Fn1                70.39%    passed     88.63%
+  71  PORG4____WP_026821376.1                                   73.08%    passed     90.36%
+  72  FCBIG1____OGU19346.1                                      73.50%    passed     99.10%
+  73  HALO4____WP-015763543.1                                   72.67%    passed     38.18%
+  74  THAUM4____gi_329137211_gb_EGG41500.1_                     68.53%    passed     46.23%
+  75  THERMPLAS2____gi_509092941_gb_AGN26959.1_                 72.46%    passed     93.23%
+  76  HADE2____KUO39451.1                                       72.67%    passed     85.97%
+  77  CPRPARC11____OIO29437.1                                   70.81%    passed     23.64%
+  78  THERMPLAS3____gi_851215087_ref_WP-048111166.1_            72.67%    passed     93.13%
+  79  CPRPARC17____OGN05596.1                                   69.77%    passed     67.11%
+  80  DPANN14____AR6-gwa2-scaffold-5107-30                      69.57%    passed     48.76%
+  81  CPRMICR5____OGE34670.1                                    69.15%    passed     34.85%
+  82  METHMIC23____gi_1004826795_gb_KYC51882.1_                 72.26%    passed     98.99%
+  83  CREN13____Tpend-Tpen-0277-AA-119719195-YP-919690.1        72.67%    passed     30.19%
+  84  TERRACT7____WP_038503141.1                                66.87%    passed     92.57%
+  85  ARCH2____WP-015590248.1                                   72.67%    passed     77.58%
+  86  CPRBERK4____AKM82746.1                                    71.64%    passed     51.80%
+  87  HALO7____WP-005579709.1                                   72.67%    passed     83.08%
+  88  THERMCOC3____WP-010885704.1                               72.05%    passed     58.12%
+  89  TERRACT4____WP_022910722.1                                63.35%    passed     44.91%
+  90  METHMIC9____gi_116665245_gb_ABK14272.1_                   72.67%    passed     88.64%
+  91  DPANN24____scaffold-7131-8                                72.26%    failed      2.58%
+  92  PROE1____WP_084021775.1                                   72.67%    passed     79.13%
+  93  CREN2____WP-022541837.1                                   67.49%    passed      7.38%
+  94  ACID1____OFV89354.1                                       72.67%    passed     54.86%
+  95  METHMIC13____WP-011306431.1                               72.26%    passed     75.64%
+  96  CPRMICR13____OGK55200.1                                   68.12%    passed     37.05%
+  97  GRACI1____OIO75870.1                                      72.88%    passed     97.66%
+  98  PROD3____WP_011552084.1                                   72.46%    passed     84.32%
+  99  FCBBAC7____WP_020404605.1                                 73.50%    passed     95.03%
+ 100  HALO1____WP-011323136.1                                   72.67%    passed     79.01%
+ 101  EURYUNC3____gi_985664199_gb_KXA95886.1_                   72.05%    passed     93.22%
+ 102  METHBAC11____WP-058739649.1                               72.46%    passed     98.99%
+ 103  METHMIC12____WP-011020646.1                               72.26%    passed     82.32%
+ 104  THERMTO1____WP_012744853.1                                72.26%    passed     85.27%
+ 105  CPRPARC6____WP_038322628.1                                69.57%    passed     10.97%
+ 106  TERRCYA3____WP_006634975.1                                71.64%    passed     32.28%
+ 107  TERRFIR2____WP_022794501.1                                73.08%    passed     96.27%
+ 108  CPRBERK8____OGD64887.1                                    73.71%    passed     38.06%
+ 109  CREN3____TCAper001147-Aeropyrum-pernix-K1                 67.49%    failed      1.07%
+ 110  TERRFIR6____WP_014262207.1                                73.08%    passed     98.99%
+ 111  AMIN1____OGD13483.1                                       72.26%    passed     71.27%
+ 112  CREN12____Paero-PAE0674-AA-18312094-NP-558761.1           69.77%    passed     82.23%
+ 113  CPRMICR6____KKS84615.1                                    63.15%    passed     30.35%
+ 114  CPRPARC7____KKU07252.1                                    60.87%    passed     59.37%
+ 115  CPRMICR14____KKQ31303.1                                   71.43%    passed     22.46%
+ 116  FCBBAC5____WP_028121231.1                                 73.50%    passed     62.36%
+ 117  ASG2____OLS27733.1                                        72.26%    passed     51.34%
+ 118  METHCOC1____Mjann-MJ-0195-AA-15668367-NP-247163.1         71.84%    passed     83.11%
+ 119  PROO1____WP_028990533.1                                   73.08%    passed     88.93%
+ 120  FCBBAC1____WP_005791749.1                                 73.50%    passed     98.88%
+ 121  CPRPARC14____OGL90955.1                                   75.98%    passed      8.86%
+ 122  DPANN16____Pacid-BJBARM5-0749-AA-290559183-EFD92540.1     72.88%    passed     19.36%
+ 123  CPRBERK5____OIN90317.1                                    73.71%    passed     48.63%
+ 124  PROB5____WP_027469997.1                                   73.08%    passed     90.27%
+ 125  KOR1____Kcryp-Kcr-1588-AA-170291200-YP-001738016.1        71.22%    passed     95.49%
+ 126  METHMIC8____WP-013720017.1                                72.67%    passed     99.42%
+ 127  PROA4____ABI61864.1                                       65.63%    passed     59.59%
+ 128  CPRPARC15____OGM01040.1                                   71.01%    passed     75.85%
+ 129  METHPY2____gi_1209289739_ref_WP-088336431.1_              72.26%    passed     38.97%
+ 130  METHBAC2____WP-004030358.1                                72.46%    passed     97.17%
+ 131  DPANN25____ODS36284.1                                     71.64%    passed     80.44%
+ 132  THAUM7____gi_937514458_gb_ALI34945.1_                     69.57%    passed     85.19%
+ 133  METHMIC15____Mmaze-MM-1757-AA-21227859-NP-633781.1        72.26%    passed     91.41%
+ 134  PORG5____WP_045100193.1                                   70.39%    passed     97.15%
+ 135  THERMODES1____WP_013907982.1                              72.46%    passed     98.60%
+ 136  PVCCHLA1____OGN67495.1                                    72.67%    passed     27.36%
+ 137  SPIR2____WP_012388378.1                                   72.88%    passed     82.91%
+ 138  CPRMICR15____KKR52926.1                                   71.84%    passed     87.90%
+ 139  HALO2____WP-004516798.1                                   72.67%    passed     50.17%
+ 140  CREN8____Smari-Smar-0818-AA-126465718-YP-001040827.1      71.64%    passed     10.89%
+ 141  ACID4____WP_005035658.1                                   73.08%    passed     67.57%
+ 142  CPRMICR7____KKU26352.1                                    67.49%    passed     52.99%
+ 143  METHMIC3____gi_1240225289_gb_PAV09510.1_                  72.67%    passed     93.65%
+ 144  EURYUNC1____UnEury2-gi_374723771_gb_EHR75851.1_           69.98%    passed     95.02%
+ 145  CPRBERK6____OIP06161.1                                    74.12%    passed     17.80%
+ 146  METHBAC12____WP-012955713.1                               72.67%    passed     98.15%
+ 147  METHBAC15____WP-011406453.1                               72.46%    passed     96.00%
+ 148  PORG3____WP_018716434.1                                   73.08%    passed     38.89%
+ 149  METHONAT1____WP-086637017.1                               72.46%    passed     35.64%
+ 150  TERRCHLO1____WP_041454680.1                               72.67%    passed     66.50%
+ 151  DPANN27____OYT54508.1                                     71.64%    passed     40.58%
+ 152  THAUM9____gi_675346204_gb_KFM19155.1_                     69.15%    passed     76.87%
+ 153  PROA2____WP_014130336.1                                   67.08%    passed     95.44%
+ 154  TERRCYA5____NP_680900.1                                   71.64%    passed     18.86%
+ 155  PROA7____WP_010407797.1                                   61.49%    passed     20.83%
+ 156  PROA1____WP_020399056.1                                   67.29%    passed     62.19%
+ 157  THERMCOC2____WP-010867657.1                               72.05%    passed     86.72%
+ 158  METHBAC8____WP-067257208.1                                72.46%    passed     97.41%
+ 159  AUNC1____gi_1370739337_gb_PSO09375.1_                     72.46%    passed     85.50%
+ 160  DPANN6____Macid-UNLARM2-0923-AA-255513543-EET89809.1      64.60%    passed     45.37%
+ 161  CPRPARC4____OGG38666.1                                    70.39%    passed     33.40%
+ 162  TERRCYA2____WP_015203272.1                                71.64%    passed     88.10%
+ 163  TERRCYA4____WP_015195205.1                                71.64%    passed     59.68%
+ 164  METHMIC22____gi_1232008032_gb_OYT67395.1_                 66.46%    passed     36.49%
+ 165  PROD4____WP_041584596.1                                   73.08%    passed     81.54%
+ 166  TERRACT3____WP_026935930.1                                65.22%    passed     61.59%
+ 167  METHCOC4____WP-018154451.1                                72.26%    passed     91.16%
+ 168  AQUI1____WP_012963220.1                                   69.77%    passed     15.13%
+ 169  ASG3____KKK46444.1                                        71.84%    passed     82.87%
+ 170  BATH3____gi_921069029_gb_KON29679.1_                      71.84%    passed     94.07%
+ 171  DPANN12____AR13-gwa2-scaffold-4294-3                      86.13%    passed     84.29%
+ 172  METHMIC18____gi_1232001974_gb_OYT61814.1_                 87.16%    passed     92.59%
+ 173  DPANN9____Nj743-J07AB43-07240-AA-339757479-EGQ42736.1     71.43%    passed     23.93%
+ 174  DPANN4____AR10-GW2011-AR10-complete-1-862                 70.81%    passed     39.37%
+ 175  TERRACT1____WP_013170535.1                                66.67%    passed     56.38%
+ 176  PVCLEN1____OGV48579.1                                     72.05%    passed     35.94%
+ 177  TERRACT8____WP_019128897.1                                72.88%    passed     38.32%
+ 178  HADE1____gi_974127774_gb_KUO42333.1_                      72.67%    passed     87.78%
+ 179  METHMIC17____WP-042685564.1                               72.46%    passed     69.92%
+ 180  PROD1____WP_014242868.1                                   72.26%    passed     67.47%
+ 181  METHMIC1____WP-012037125.1                                71.84%    passed     90.16%
+ 182  METHBAC4____gi_1297875626_gb_AUB60040.1_                  72.46%    passed     99.11%
+ 183  CPRBERK3____KKQ90386.1                                    74.53%    passed     81.55%
+ 184  CPRWWE1____OGC59791.1                                     71.22%    passed     68.82%
+ 185  CPRPARC9____OGI21360.1                                    70.81%    failed      4.45%
+ 186  CPRPARC12____OGI83554.1                                   74.12%    passed     45.19%
+ 187  TERRCHLO3____OGN95068.1                                   72.46%    passed     87.78%
+ 188  METHMIC7____gi_630830353_gb_KCZ72064.1_                   72.67%    passed     99.75%
+ 189  PORG7____WP_028672248.1                                   72.88%    passed     83.72%
+ 190  CPRBERK9____OGD64365.1                                    73.71%    passed     98.92%
+ 191  CREN11____WP-012186613.1                                  68.12%    passed     90.37%
+ 192  THAUM6____Ngarg-Ngar-c23930-AA-408404992-YP-006862975.1   67.91%    passed     99.73%
+ 193  DPANN23____PJC15831.1                                     72.26%    failed      2.58%
+ 194  CPRBERK7____OIP06883.1                                    73.50%    passed     95.05%
+ 195  TERRACT2____WP_021012131.1                                64.39%    passed     23.22%
+ 196  METHMIC6____WP-048067601.1                                72.46%    passed     99.89%
+ 197  DPANN17____AR15-GW2011-AR15-1-364                         72.05%    passed     72.89%
+ 198  DPANN1____PIY36118.1                                      71.01%    passed     95.04%
+ 199  THERMCOC1____WP-011012791.1                               72.05%    passed     66.88%
+ 200  CPRPARC2____OGF73378.1                                    72.67%    passed     51.24%
+ 201  DPANN13____AR1-GW2011-AR1-4-18                            71.22%    passed     47.76%
+ 202  CPRMICR4____OGD85749.1                                    76.60%    passed     95.15%
+ 203  DPANN21____gi_485654978_gb_EOD42768.1_                    72.67%    passed     48.95%
+ 204  FCBGEM1____OGU26403.1                                     90.89%    passed     64.35%
+ 205  TERRTEN1____WP_011183390.1                                72.88%    passed     68.33%
+ 206  DPANN18____AR20-GW2011-AR20-complete-1-798                71.64%    passed     84.85%
+ 207  CPRPARC3____OGG37738.1                                    72.46%    passed     14.22%
+ 208  TERRFIR1____WP_000079988.1                                73.08%    passed     88.88%
+ 209  NITROR1____OGW50342.1                                     72.46%    passed     97.68%
+ 210  DPANN22____AMD29689.1                                     72.67%    passed     41.73%
+ 211  PORG8____WP_026471335.1                                   73.50%    passed     75.64%
+ 212  SPIR1____WP_013113494.1                                   72.67%    passed     51.71%
+ 213  THERMPLAS4____WP-048100781.1                              72.26%    passed     96.83%
+ 214  AQUI2____ADU96351.1                                       71.84%    passed     89.88%
+ 215  METHMIC16____gi_1240229756_gb_PAV13340.1_                 72.26%    passed     87.96%
+ 216  THEI1____gi_1008845239_gb_KYK28346.1_                     72.26%    passed     71.93%
+ 217  PROB1____WP_003814889.1                                   73.08%    passed     89.58%
+ 218  CPRMICR3____OGD79142.1                                    73.08%    passed     68.84%
+ 219  HALO6____WP-005557947.1                                   72.67%    passed     93.60%
+ 220  FCBZIX1____KPL04261.1                                     73.08%    passed     71.80%
+ 221  CREN1____WP-048813007.1                                   66.25%    passed     60.83%
+ 222  PROD2____WP_006964688.1                                   72.88%    passed     68.59%
+ 223  METHCOC3____WP-011171269.1                                72.26%    passed     85.80%
+ 224  METHBAC9____WP-066973058.1                                72.26%    passed     98.78%
+ 225  THERMPLAS6____WP-011177125.1                              72.46%    passed     24.75%
+ 226  CPRPARC13____OGL87599.1                                   72.46%    passed     20.87%
+ 227  PROA5____WP_014745306.1                                   66.05%    passed     94.95%
+ 228  CPRSACC2____OGL37775.1                                    72.67%    failed      1.61%
+ 229  DPANN5____gi_1277911660_gb_PIV13778.1_                    69.57%    passed     33.00%
+ 230  CREN7____WP-075049636.1                                   69.36%    failed      4.34%
+ 231  ACID2____OFW02065.1                                       73.08%    passed     63.02%
+ 232  METHMIC10____WP-048193212.1                               72.26%    passed     89.80%
+ 233  METHBAC6____Mtherm-MTH39-AA-15678069-NP-275183.1          41.61%    passed     33.95%
+ 234  THERMPLAS7____WP-010917394.1                              72.67%    passed     64.37%
+ 235  CPRMICR10____OIO45070.1                                   70.39%    passed     86.43%
+ 236  CPRPER2____OIO55511.1                                     71.84%    passed     98.88%
+ 237  METHMIC11____WP-013037982.1                               72.26%    passed     98.90%
+ 238  THERMPLAS9____gi_1209164552_gb_OWP56443.1_                71.84%    passed     87.22%
+ 239  CPRPER1____OIO51906.1                                     69.98%    passed     98.09%
+ 240  TERRDEI1____WP_011530861.1                                72.88%    passed     32.50%
+ 241  CPRPARC10____KKQ44510.1                                   60.04%    failed      0.05%
+ 242  METHBAC10____gi_757140299_ref_WP-042694541.1_             72.46%    passed     99.60%
+ 243  THAUM8____gi_1337718750_ref_WP-103287603.1_               68.94%    passed     83.80%
+ 244  PROA6____WP_010265839.1                                   69.36%    failed      0.12%
+ 245  METHBAC14____gi_1240222103_gb_PAV06633.1_                 72.46%    passed     98.26%
+ 246  ACID3____WP_014267734.1                                   72.88%    passed     73.11%
+ 247  THAUM1____Csymb-CENSYa-1489-AA-118576672-YP-876415.1      69.15%    passed     90.00%
+ 248  THAUM11____TTTBS4001139-Thaumarchaeota-archaeon-BS4       71.43%    passed     96.15%
+ 249  HALO3____WP-010902818.1                                   72.67%    passed     81.13%
+ 250  DPANN2____gi_1277976528_gb_PIV69428.1_                    71.01%    passed     95.04%
+ 251  METHABC____WP-013295348.1                                 72.46%    passed     96.68%
+ 252  PORG6____WP_023495188.1                                   72.88%    passed     94.50%
+ 253  TERRMEL1____AOR38500.1                                    72.88%    passed     92.02%
+ 254  CPRDOJK1____KKQ36270.1                                    73.29%    passed     34.71%
+ 255  EURYUNC2____gi_1101739036_gb_OIR22458.1_                  72.46%    passed     99.46%
+ 256  TERRFIR8____WP_004695188.1                                73.08%    passed     98.45%
+ 257  BATH2____gi_921074210_gb_KON34304.1_                      71.84%    passed     84.63%
+ 258  SYNE1____YP_003318030.1                                   72.67%    passed     48.92%
+ 259  THERMPLAS1____Mlumi-gi_518007558_ref_WP-019177766.1_      72.46%    passed     70.87%
+ 260  DPANN26____MSIBFv1-A1530021_ID_16557079_rps_              72.26%    passed     18.71%
+ 261  ARCH1____gi_2649458_gb_AAB90113.1_                        72.05%    passed     93.84%
+ 262  CREN4____Hbuty-Hbut-0533-AA-124027418-YP-001012738.1      67.29%    passed      7.21%
+ 263  PORG10____WP_091334577.1                                  73.08%    passed     93.43%
+ 264  CPRPARC8____KKU27188.1                                    79.09%    passed     93.84%
+ 265  METHMIC4____WP-011833613.1                                72.67%    passed     97.15%
+ 266  PROB3____WP_013292340.1                                   73.08%    passed     91.75%
+ 267  CPRMICR16____OGM30273.1                                   71.64%    passed     92.42%
+ 268  TERRACT6____WP_013980700.1                                73.08%    passed     68.84%
+ 269  PVCOMN1____OIO38018.1                                     71.43%    passed     96.38%
+ 270  METHBAC3____gi_973120164_gb_KUK75469.1_                   72.46%    passed     99.30%
+ 271  THAUM3____Nmari-Nmar-0425-AA-161527933-YP-001581759.1     69.15%    passed     76.87%
+ 272  PROB4____WP_013440884.1                                   73.08%    passed     50.39%
+ 273  FUSO1____NP_603235.1                                      72.46%    passed     97.95%
+ 274  WIRTH1____OIP99172.1                                      70.39%    passed     60.81%
+ 275  CPRPARC1____KKQ64960.1                                    69.77%    passed     74.28%
+ 276  METHBAC13____WP-004033272.1                               72.46%    passed     99.05%
+ 277  THAUM5____gi_1056525836_ref_WP-067959346.1_               69.36%    passed     95.34%
+ 278  CPRKAZ1____AKM84753.1                                     71.64%    passed     70.52%
+ 279  METHMIC21____gi_1343183869_gb_PPA80354.1_                 72.26%    passed     35.51%
+ 280  BATH4____gi_939573137_gb_KPV63013.1_                      71.64%    passed     97.44%
+WARNING: 279 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                     71.62%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: DPANN23____PJC15831.1 is identical to DPANN24____scaffold-7131-8 but kept for subsequent analysis
+NOTE: THAUM3____Nmari-Nmar-0425-AA-161527933-YP-001581759.1 is identical to THAUM9____gi_675346204_gb_KFM19155.1_ but kept for subsequent analysis
+NOTE: DPANN2____gi_1277976528_gb_PIV69428.1_ is identical to DPANN1____PIY36118.1 but kept for subsequent analysis
+Reading input tree file Genfam1hmmalignment.faa.contree ...
+Model LG+C60+G+F is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+G+F
