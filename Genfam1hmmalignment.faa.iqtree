@@ -1,9 +1,9 @@
 IQ-TREE 1.6.10 built Feb 19 2019
 
 Input file name: Genfam1hmmalignment.faa
-User tree file name: rooted4.tree
+User tree file name: pteryxroot.tre
 Type of analysis: tree reconstruction
-Random seed number: 196013
+Random seed number: 473318
 
 REFERENCES
 ----------
@@ -743,7 +743,7 @@ Tree in newick format:
 TIME STAMP
 ----------
 
-Date and time: Fri Sep 13 11:52:07 2019
-Total CPU time used: 371.738 seconds (0h:6m:11s)
-Total wall-clock time used: 388.598 seconds (0h:6m:28s)
+Date and time: Fri Sep 13 12:39:58 2019
+Total CPU time used: 372.609 seconds (0h:6m:12s)
+Total wall-clock time used: 389.306 seconds (0h:6m:29s)
 

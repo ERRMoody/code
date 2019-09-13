@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    amado.bio.bris.ac.uk (AVX2, FMA3, 251 GB RAM)
-Command: iqtree -s Genfam1hmmalignment.faa -m LG+C60+G+F -asr -te rooted4.tree -redo
-Seed:    196013 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Fri Sep 13 11:45:39 2019
+Command: iqtree -s Genfam1hmmalignment.faa -m LG+C60+G+F -asr -te pteryxroot.tre -redo
+Seed:    473318 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 13 12:33:29 2019
 Kernel:  AVX+FMA - 1 threads (40 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 40 cores!
@@ -351,7 +351,7 @@ BATH4____gi|939573137|gb|KPV63013.1| -> BATH4____gi_939573137_gb_KPV63013.1_
  280  BATH4____gi_939573137_gb_KPV63013.1_                      71.64%    passed     97.44%
 WARNING: 279 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL                                                     71.62%  10 sequences failed composition chi2 test (p-value<5%; df=19)
-Reading input tree file rooted4.tree ... rooted tree
+Reading input tree file pteryxroot.tre ... rooted tree
 Model LG+C60+G+F is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+G+F
 Converting rooted to unrooted tree...
 
@@ -364,7 +364,7 @@ Estimate model parameters (epsilon = 0.010)
 Optimal log-likelihood: -45010.208
 Mixture weights: 0.366 0.001 0.000 0.000 0.000 0.022 0.013 0.000 0.000 0.002 0.098 0.000 0.014 0.000 0.015 0.000 0.022 0.013 0.011 0.017 0.000 0.000 0.048 0.006 0.016 0.000 0.010 0.035 0.019 0.021 0.000 0.000 0.004 0.006 0.005 0.044 0.008 0.011 0.000 0.000 0.008 0.000 0.009 0.016 0.035 0.000 0.000 0.000 0.010 0.000 0.035 0.000 0.000 0.000 0.019 0.011 0.000 0.000 0.021 0.009 0.000
 Gamma shape alpha: 0.895
-Parameters optimization took 4 rounds (364.689 sec)
+Parameters optimization took 4 rounds (365.596 sec)
 WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
 BEST SCORE FOUND : -45010.208
 Ancestral state probabilities printed to Genfam1hmmalignment.faa.state
@@ -373,8 +373,8 @@ Total tree length: 137.728
 Total number of iterations: 0
 CPU time used for tree search: 0.000 sec (0h:0m:0s)
 Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
-Total CPU time used: 371.738 sec (0h:6m:11s)
-Total wall-clock time used: 388.589 sec (0h:6m:28s)
+Total CPU time used: 372.609 sec (0h:6m:12s)
+Total wall-clock time used: 389.296 sec (0h:6m:29s)
 
 Analysis results written to: 
   IQ-TREE report:                Genfam1hmmalignment.faa.iqtree
@@ -382,4 +382,4 @@ Analysis results written to:
   Ancestral state:               Genfam1hmmalignment.faa.state
   Screen log file:               Genfam1hmmalignment.faa.log
 
-Date and Time: Fri Sep 13 11:52:08 2019
+Date and Time: Fri Sep 13 12:39:59 2019
