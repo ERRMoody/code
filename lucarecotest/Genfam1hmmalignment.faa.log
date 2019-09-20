@@ -909,3 +909,29 @@ Estimate model parameters (epsilon = 0.010)
 43. Current log-likelihood: -46050.991
 44. Current log-likelihood: -46050.975
 45. Current log-likelihood: -46050.958
+46. Current log-likelihood: -46050.933
+47. Current log-likelihood: -46050.919
+48. Current log-likelihood: -46050.906
+49. Current log-likelihood: -46050.894
+50. Current log-likelihood: -46050.883
+51. Current log-likelihood: -46050.872
+Optimal log-likelihood: -46050.858
+Site proportion and rates:  (0.093,0.040) (0.117,0.227) (0.077,0.411) (0.129,0.612) (0.120,0.917) (0.206,1.225) (0.141,1.611) (0.117,2.304)
+Parameters optimization took 51 rounds (256.846 sec)
+BEST SCORE FOUND : -46050.858
+Ancestral state probabilities printed to Genfam1hmmalignment.faa.state
+Total tree length: 174.617
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 258.227 sec (0h:4m:18s)
+Total wall-clock time used: 258.448 sec (0h:4m:18s)
+
+Analysis results written to: 
+  IQ-TREE report:                Genfam1hmmalignment.faa.iqtree
+  Maximum-likelihood tree:       Genfam1hmmalignment.faa.treefile
+  Ancestral state:               Genfam1hmmalignment.faa.state
+  Screen log file:               Genfam1hmmalignment.faa.log
+
+Date and Time: Thu Sep 19 12:11:18 2019
