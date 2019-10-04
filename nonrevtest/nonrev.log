@@ -1,0 +1,70 @@
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Aug 31 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: /home/em16077/Downloads/iqtree-1.7-beta16-Linux/bin/iqtree -s stupidali.fa -m NONREV+R10 -asr -te nonrev.treefile -alrt 1000 -pre nonrev -nt AUTO -redo
+Seed:    783833 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 23 14:39:54 2019
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file stupidali.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 21 columns, 21 distinct patterns
+0 parsimony-informative, 21 singleton sites, 0 constant sites
+       Gap/Ambiguity  Composition  p-value
+   1  poo      0.00%    failed      1.82%
+   2  wee      0.00%    passed     61.56%
+   3  willy    0.00%    passed     33.92%
+   4  boobs    0.00%    passed     43.40%
+****  TOTAL    0.00%  1 sequences failed composition chi2 test (p-value<5%; df=10)
+NOTE: State(s) R, N, D, Q, H, K, M, F, S not present in alignment and thus removed from Markov process to prevent numerical problems
+NOTE: 9 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+Reading input tree file nonrev.treefile ... rooted tree
+WARNING: NONREV model will estimate 379 substitution rates that might be overfitting!
+WARNING: Please only use NONREV with very large data and always test for model fit!
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+100 trees examined
+Threads: 1 / Time: 4.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -243
+Threads: 2 / Time: 4.018 sec / Speedup: 0.997 / Efficiency: 50% / LogL: -243
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -246.797
+2. Current log-likelihood: -198.796
+3. Current log-likelihood: -175.104
+4. Current log-likelihood: -173.980
+5. Current log-likelihood: -173.892
+6. Current log-likelihood: -173.805
+7. Current log-likelihood: -173.718
+8. Current log-likelihood: -173.635
+9. Current log-likelihood: -173.565
+Optimal log-likelihood: -173.558
+Site proportion and rates:  (0.094,0.241) (0.099,1.079) (0.103,1.079) (0.104,1.079) (0.103,1.079) (0.103,1.079) (0.084,1.079) (0.103,1.079) (0.103,1.079) (0.103,1.079)
+Parameters optimization took 9 rounds (14.025 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BEST SCORE FOUND : -173.558
+Ancestral state probabilities printed to nonrev.state
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.016 sec.
+Total tree length: 4.728
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 26.221 sec (0h:0m:26s)
+Total wall-clock time used: 22.077 sec (0h:0m:22s)
+
+Analysis results written to: 
+  IQ-TREE report:                nonrev.iqtree
+  Maximum-likelihood tree:       nonrev.treefile
+  Ancestral state:               nonrev.state
+  Screen log file:               nonrev.log
+
+Date and Time: Mon Sep 23 14:40:16 2019

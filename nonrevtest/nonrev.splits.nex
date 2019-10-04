@@ -1,0 +1,35 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=5;
+TAXLABELS
+[1] 'poo'
+[2] 'wee'
+[3] 'willy'
+[4] 'boobs'
+[5] '__root__'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=5 nsplits=15;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 3,
+	10	 1 3,
+	100	 2,
+	100	 4,
+	20	 2 4,
+	100	 5,
+	53	 1 2,
+	38	 3 5,
+	23	 3 4,
+	28	 4 5,
+	9	 1 4,
+	5	 2 3,
+	4	 2 5,
+	10	 1 5,
+;
+END; [Splits]
+

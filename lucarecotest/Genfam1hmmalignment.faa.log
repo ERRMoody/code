@@ -1,14 +1,14 @@
-IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Aug 31 2019
+IQ-TREE multicore version 1.6.1 for Linux 64-bit built Feb 16 2018
 Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
-Host:    IT072283 (AVX2, FMA3, 15 GB RAM)
-Command: ../../../iqtree-1.7-beta16-Linux/bin/iqtree -s Genfam1hmmalignment.faa -m NONREV -m MFP -asr -te pteryxroot.tre -redo
-Seed:    156999 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Thu Sep 19 09:32:21 2019
-Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s Genfam1hmmalignment.faa NONREV -asr -te pteryxroot.tre -g pteryxroot.tre -redo
+Seed:    399770 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 23 12:42:23 2019
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
 
-HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
 Reading alignment file Genfam1hmmalignment.faa ... Fasta format detected
@@ -351,10 +351,11 @@ BATH4____gi|939573137|gb|KPV63013.1| -> BATH4____gi_939573137_gb_KPV63013.1_
  280  BATH4____gi_939573137_gb_KPV63013.1_                      71.64%    passed     97.44%
 WARNING: 279 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL                                                     71.62%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading constraint tree pteryxroot.tre...
 
 NOTE: Restoring information from model checkpoint file Genfam1hmmalignment.faa.model.gz
-Reading input tree file pteryxroot.tre ... rooted tree
-NOTE: ModelFinder requires 70 MB RAM!
+Reading input tree file pteryxroot.tre ...
+NOTE: ModelFinder requires 176 MB RAM!
 ModelFinder will test 546 protein models (sample size: 483) ...
  No. Model         -LnL         df  AIC          AICc         BIC
   1  Dayhoff       49854.123    557 100822.246   722434.246   103150.515
@@ -365,7 +366,7 @@ ModelFinder will test 546 protein models (sample size: 483) ...
   6  Dayhoff+R3    47113.348    561 95348.696    725912.696   97693.686
   7  Dayhoff+R4    46927.126    563 94980.252    730044.252   97333.602
   8  Dayhoff+R5    46803.291    565 94736.582    734316.582   97098.291
-  9  Dayhoff+R6    46774.429    567 94682.858    738794.858   97052.927
+  9  Dayhoff+R6    46774.429    567 94682.857    738794.858   97052.927
  10  Dayhoff+R7    46758.239    569 94654.479    743314.479   97032.908
  11  Dayhoff+R8    46751.064    571 94644.127    747868.127   97030.917
  12  Dayhoff+R9    46749.427    573 94644.855    752448.855   97040.004
@@ -382,7 +383,7 @@ ModelFinder will test 546 protein models (sample size: 483) ...
  24  Dayhoff+F+R8  46733.785    590 94647.570    792027.570   97113.780
  27  mtMAM         55203.433    557 111520.866   733132.866   113849.136
  28  mtMAM+I       55013.751    558 111143.501   734987.501   113475.950
- 29  mtMAM+G4      50674.857    558 102465.714   726309.714   104798.163
+ 29  mtMAM+G4      50674.857    558 102465.713   726309.713   104798.163
  30  mtMAM+I+G4    50667.893    559 102453.787   728533.787   104790.416
  31  mtMAM+R2      51510.655    559 104139.309   730219.309   106475.939
  32  mtMAM+R3      50919.218    561 102960.436   733524.436   105305.425
@@ -461,7 +462,6 @@ ModelFinder will test 546 protein models (sample size: 483) ...
 114  cpREV+R7      46645.970    569 94429.941    743089.941   96808.370
 115  cpREV+R8      46633.837    571 94409.675    747633.675   96796.464
 116  cpREV+R9      46625.713    573 94397.425    752201.425   96792.575
-WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 117  cpREV+R10     46625.974    575 94401.948    756801.948   96805.458
 118  cpREV+F       50032.394    576 101216.787   765920.787   103624.477
 119  cpREV+F+I     49587.550    577 100329.101   767341.101   102740.970
@@ -506,7 +506,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 161  rtREV+R2      47207.188    559 95532.375    721612.375   97869.005
 162  rtREV+R3      46670.014    561 94462.028    725026.028   96807.018
 163  rtREV+R4      46471.400    563 94068.799    729132.799   96422.149
-164  rtREV+R5      46404.113    565 93938.226    733518.226   96299.935
+164  rtREV+R5      46404.113    565 93938.226    733518.225   96299.935
 165  rtREV+R6      46385.327    567 93904.654    738016.654   96274.724
 166  rtREV+R7      46373.427    569 93884.855    742544.855   96263.284
 167  rtREV+R8      46371.798    571 93885.595    747109.595   96272.385
@@ -515,7 +515,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 172  rtREV+F+G4    46536.693    577 94227.385    761239.385   96639.255
 173  rtREV+F+I+G4  46501.024    578 94158.047    763482.047   96574.097
 174  rtREV+F+R2    47182.484    578 95520.968    764844.968   97937.017
-175  rtREV+F+R3    46656.876    580 94473.752    768433.752   96898.161
+175  rtREV+F+R3    46656.876    580 94473.751    768433.752   96898.161
 176  rtREV+F+R4    46445.055    582 94054.110    772666.110   96486.879
 177  rtREV+F+R5    46378.986    584 93925.972    777205.972   96367.102
 178  rtREV+F+R6    46358.631    586 93889.262    781853.262   96338.751
@@ -524,7 +524,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 183  mtART         53632.223    557 108378.447   729990.447   110706.716
 184  mtART+I       53465.554    558 108047.108   731891.108   110379.557
 185  mtART+G4      49606.969    558 100329.939   724173.939   102662.388
-186  mtART+I+G4    49596.356    559 100310.712   726390.712   102647.342
+186  mtART+I+G4    49596.356    559 100310.712   726390.713   102647.342
 187  mtART+R2      50308.790    559 101735.580   727815.580   104072.209
 188  mtART+R3      49772.026    561 100666.053   731230.053   103011.042
 189  mtART+R4      49558.294    563 100242.588   735306.588   102595.937
@@ -590,7 +590,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 254  VT+F+R4       46661.098    582 94486.196    773098.196   96918.966
 255  VT+F+R5       46614.019    584 94396.039    777676.039   96837.169
 256  VT+F+R6       46586.428    586 94344.857    782308.857   96794.346
-257  VT+F+R7       46578.385    588 94332.770    786996.770   96790.619
+257  VT+F+R7       46578.385    588 94332.769    786996.769   96790.619
 258  VT+F+R8       46571.587    590 94323.173    791703.173   96789.383
 259  VT+F+R9       46570.555    592 94325.110    796437.110   96799.680
 261  LG            49164.318    557 99442.637    721054.637   101770.906
@@ -613,7 +613,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 279  LG+F+R3       46626.019    580 94412.038    768372.038   96836.448
 280  LG+F+R4       46403.083    582 93970.166    772582.166   96402.936
 281  LG+F+R5       46327.123    584 93822.246    777102.246   96263.375
-282  LG+F+R6       46305.610    586 93783.219    781747.219   96232.709
+282  LG+F+R6       46305.610    586 93783.220    781747.220   96232.709
 283  LG+F+R7       46294.152    588 93764.305    786428.305   96222.155
 284  LG+F+R8       46285.891    590 93751.782    791131.782   96217.992
 285  LG+F+R9       46283.478    592 93750.955    795862.955   96225.525
@@ -627,7 +627,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 294  DCMut+R5      46797.910    565 94725.820    734305.820   97087.530
 295  DCMut+R6      46773.821    567 94681.642    738793.642   97051.711
 296  DCMut+R7      46757.086    569 94652.172    743312.172   97030.602
-297  DCMut+R8      46746.819    571 94635.638    747859.638   97022.427
+297  DCMut+R8      46746.819    571 94635.637    747859.637   97022.427
 298  DCMut+R9      46744.697    573 94635.394    752439.394   97030.544
 300  DCMut+F       49786.270    576 100724.540   765428.540   103132.230
 301  DCMut+F+I     49341.935    577 99837.870    766849.870   102249.740
@@ -674,7 +674,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 345  HIVb+R4       47967.241    563 97060.482    732124.482   99413.832
 346  HIVb+R5       47884.490    565 96898.980    736478.980   99260.689
 347  HIVb+R6       47848.855    567 96831.710    740943.710   99201.779
-348  HIVb+R7       47833.104    569 96804.209    745464.209   99182.638
+348  HIVb+R7       47833.104    569 96804.208    745464.208   99182.638
 349  HIVb+R8       47823.754    571 96789.507    750013.507   99176.297
 350  HIVb+R9       47806.633    573 96759.266    754563.266   99154.416
 351  HIVb+R10      47800.593    575 96751.186    759151.186   99154.696
@@ -701,7 +701,7 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 373  HIVw+R6       49766.776    567 100667.553   744779.553   103037.622
 374  HIVw+R7       49753.836    569 100645.672   749305.672   103024.102
 375  HIVw+R8       49732.120    571 100606.241   753830.241   102993.030
-376  HIVw+R9       49728.163    573 100602.327   758406.327   102997.476
+376  HIVw+R9       49728.163    573 100602.327   758406.327   102997.477
 378  HIVw+F        54065.293    576 109282.587   773986.587   111690.276
 379  HIVw+F+I      53334.536    577 107823.071   774835.071   110234.941
 380  HIVw+F+G4     49890.052    577 100934.103   767946.103   103345.973
@@ -802,11 +802,11 @@ WARNING: Log-likelihood of cpREV+R10 worse than cpREV+R9
 487  mtMet+F+R3    47587.672    580 96335.344    770295.344   98759.754
 488  mtMet+F+R4    47438.951    582 96041.902    774653.902   98474.671
 489  mtMet+F+R5    47316.191    584 95800.382    779080.382   98241.511
-490  mtMet+F+R6    47287.381    586 95746.763    783710.763   98196.252
+490  mtMet+F+R6    47287.381    586 95746.762    783710.762   98196.252
 491  mtMet+F+R7    47268.698    588 95713.396    788377.396   98171.246
 492  mtMet+F+R8    47261.135    590 95702.270    793082.270   98168.480
 493  mtMet+F+R9    47256.400    592 95696.799    797808.799   98171.369
-495  mtVer         53984.434    557 109082.867   730694.867   111411.137
+495  mtVer         53984.434    557 109082.867   730694.867   111411.136
 496  mtVer+I       53690.888    558 108497.776   732341.776   110830.225
 497  mtVer+G4      49985.862    558 101087.723   724931.723   103420.173
 498  mtVer+I+G4    49951.530    559 101021.060   727101.060   103357.689
@@ -859,74 +859,30 @@ Bayesian Information Criterion:         LG+R8
 Best-fit model: LG+R8 chosen according to BIC
 
 All model information printed to Genfam1hmmalignment.faa.model.gz
-CPU time for ModelFinder: 9267.430 seconds (2h:34m:27s)
-Wall-clock time for ModelFinder: 9278.417 seconds (2h:34m:38s)
+CPU time for ModelFinder: 0.483 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.486 seconds (0h:0m:0s)
 
 NOTE: 141 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -46094.159
-2. Current log-likelihood: -46073.404
-3. Current log-likelihood: -46070.124
-4. Current log-likelihood: -46067.706
-5. Current log-likelihood: -46065.635
-6. Current log-likelihood: -46063.849
-7. Current log-likelihood: -46062.307
-8. Current log-likelihood: -46060.970
-9. Current log-likelihood: -46059.808
-10. Current log-likelihood: -46058.792
-11. Current log-likelihood: -46057.904
-12. Current log-likelihood: -46057.135
-13. Current log-likelihood: -46056.456
-14. Current log-likelihood: -46055.852
-15. Current log-likelihood: -46055.310
-16. Current log-likelihood: -46054.816
-17. Current log-likelihood: -46054.298
-18. Current log-likelihood: -46053.786
-19. Current log-likelihood: -46053.440
-20. Current log-likelihood: -46053.173
-21. Current log-likelihood: -46052.931
-22. Current log-likelihood: -46052.713
-23. Current log-likelihood: -46052.514
-24. Current log-likelihood: -46052.334
-25. Current log-likelihood: -46052.179
-26. Current log-likelihood: -46052.039
-27. Current log-likelihood: -46051.911
-28. Current log-likelihood: -46051.796
-29. Current log-likelihood: -46051.693
-30. Current log-likelihood: -46051.596
-31. Current log-likelihood: -46051.523
-32. Current log-likelihood: -46051.455
-33. Current log-likelihood: -46051.392
-34. Current log-likelihood: -46051.334
-35. Current log-likelihood: -46051.279
-36. Current log-likelihood: -46051.228
-37. Current log-likelihood: -46051.181
-38. Current log-likelihood: -46051.141
-39. Current log-likelihood: -46051.106
-40. Current log-likelihood: -46051.070
-41. Current log-likelihood: -46051.038
-42. Current log-likelihood: -46051.009
-43. Current log-likelihood: -46050.991
-44. Current log-likelihood: -46050.975
-45. Current log-likelihood: -46050.958
-46. Current log-likelihood: -46050.933
-47. Current log-likelihood: -46050.919
-48. Current log-likelihood: -46050.906
-49. Current log-likelihood: -46050.894
-50. Current log-likelihood: -46050.883
-51. Current log-likelihood: -46050.872
-Optimal log-likelihood: -46050.858
-Site proportion and rates:  (0.093,0.040) (0.117,0.227) (0.077,0.411) (0.129,0.612) (0.120,0.917) (0.206,1.225) (0.141,1.611) (0.117,2.304)
-Parameters optimization took 51 rounds (256.846 sec)
-BEST SCORE FOUND : -46050.858
+1. Initial log-likelihood: -46094.161
+2. Current log-likelihood: -46051.885
+3. Current log-likelihood: -46051.201
+4. Current log-likelihood: -46051.120
+5. Current log-likelihood: -46050.941
+6. Current log-likelihood: -46050.684
+7. Current log-likelihood: -46050.624
+Optimal log-likelihood: -46050.618
+Site proportion and rates:  (0.093,0.037) (0.118,0.227) (0.077,0.411) (0.129,0.613) (0.121,0.920) (0.207,1.230) (0.139,1.617) (0.116,2.305)
+Parameters optimization took 7 rounds (72.396 sec)
+BEST SCORE FOUND : -46050.618
 Ancestral state probabilities printed to Genfam1hmmalignment.faa.state
-Total tree length: 174.617
+Total tree length: 174.817
 
 Total number of iterations: 0
 CPU time used for tree search: 0.000 sec (0h:0m:0s)
 Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
-Total CPU time used: 258.227 sec (0h:4m:18s)
-Total wall-clock time used: 258.448 sec (0h:4m:18s)
+Total CPU time used: 74.235 sec (0h:1m:14s)
+Total wall-clock time used: 74.507 sec (0h:1m:14s)
 
 Analysis results written to: 
   IQ-TREE report:                Genfam1hmmalignment.faa.iqtree
@@ -934,4 +890,4 @@ Analysis results written to:
   Ancestral state:               Genfam1hmmalignment.faa.state
   Screen log file:               Genfam1hmmalignment.faa.log
 
-Date and Time: Thu Sep 19 12:11:18 2019
+Date and Time: Mon Sep 23 12:43:37 2019
