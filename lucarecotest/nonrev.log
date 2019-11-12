@@ -3,9 +3,9 @@ Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    it038094 (AVX2, FMA3, 15 GB RAM)
-Command: /home/em16077/Downloads/iqtree-1.7-beta16-Linux/bin/iqtree -s Genfam1hmmalignment.faa -m NONREV+R10 -asr -alrt 1000 -t pteryxroot.tre -pre nonrev -nt AUTO -redo
-Seed:    45404 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Sep 23 14:48:35 2019
+Command: /home/em16077/Downloads/iqtree-1.7-beta16-Linux/bin/iqtree -s Genfam1hmmalignment.faa -m NONREV+R10 -asr -alrt 1000 -te pteryxroot.tre -pre nonrev -nt AUTO -redo
+Seed:    80985 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct  4 16:37:39 2019
 Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
 
 Reading alignment file Genfam1hmmalignment.faa ... Fasta format detected
@@ -355,176 +355,103 @@ WARNING: Please only use NONREV with very large data and always test for model f
 NOTE: 177 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 4 CPU cores
 3 trees examined
-Threads: 1 / Time: 5.821 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -67777
-Threads: 2 / Time: 4.343 sec / Speedup: 1.340 / Efficiency: 67% / LogL: -67777
-Threads: 3 / Time: 3.753 sec / Speedup: 1.551 / Efficiency: 52% / LogL: -67777
-Threads: 4 / Time: 3.802 sec / Speedup: 1.531 / Efficiency: 38% / LogL: -67777
-BEST NUMBER OF THREADS: 3
+Threads: 1 / Time: 5.926 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -67843
+Threads: 2 / Time: 4.532 sec / Speedup: 1.308 / Efficiency: 65% / LogL: -67843
+Threads: 3 / Time: 4.182 sec / Speedup: 1.417 / Efficiency: 47% / LogL: -67843
+BEST NUMBER OF THREADS: 2
 
-Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -46158.504
-2. Current log-likelihood: -45553.418
-3. Current log-likelihood: -45392.107
-4. Current log-likelihood: -45366.139
-5. Current log-likelihood: -45277.178
-6. Current log-likelihood: -45220.867
-7. Current log-likelihood: -45210.493
-8. Current log-likelihood: -45196.584
-9. Current log-likelihood: -45194.143
-10. Current log-likelihood: -45189.384
-11. Current log-likelihood: -45185.412
-12. Current log-likelihood: -45167.747
-13. Current log-likelihood: -45160.291
-14. Current log-likelihood: -45156.849
-15. Current log-likelihood: -45154.925
-16. Current log-likelihood: -45153.505
-17. Current log-likelihood: -45152.434
-18. Current log-likelihood: -45147.828
-19. Current log-likelihood: -45144.160
-20. Current log-likelihood: -45142.341
-21. Current log-likelihood: -45139.695
-22. Current log-likelihood: -45139.157
-23. Current log-likelihood: -45137.872
-24. Current log-likelihood: -45137.254
-25. Current log-likelihood: -45136.647
-26. Current log-likelihood: -45135.663
-27. Current log-likelihood: -45133.183
-28. Current log-likelihood: -45132.642
-29. Current log-likelihood: -45132.472
-30. Current log-likelihood: -45131.265
-31. Current log-likelihood: -45130.912
-32. Current log-likelihood: -45128.857
-33. Current log-likelihood: -45128.217
-Optimal log-likelihood: -45128.117
-Site proportion and rates:  (0.080,0.034) (0.023,0.153) (0.034,0.153) (0.062,0.236) (0.064,0.354) (0.119,0.509) (0.097,0.740) (0.248,1.132) (0.184,1.627) (0.090,2.665)
-Parameters optimization took 33 rounds (2987.527 sec)
---------------------------------------------------------------------
-|             INITIALIZING CANDIDATE TREE SET                      |
---------------------------------------------------------------------
-
-Do NNI search on 1 best initial trees
-Estimate model parameters (epsilon = 0.100)
-Better root: -45082.194
-BETTER TREE FOUND at iteration 1: -45082.194
-Finish initializing candidate tree set (2)
-Current best tree score: -45082.194 / CPU time: 802.402
-Number of iterations: 1
---------------------------------------------------------------------
-|               OPTIMIZING CANDIDATE TREE SET                      |
---------------------------------------------------------------------
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 5: -45065.641
-Iteration 10 / LogL: -45078.508 / Time: 1h:19m:31s
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 12: -45056.646
-Iteration 20 / LogL: -45062.148 / Time: 1h:31m:38s
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 26: -45045.281
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 27: -45040.166
-Iteration 30 / LogL: -45080.632 / Time: 1h:54m:18s (6h:22m:21s left)
-BETTER TREE FOUND at iteration 38: -45040.160
-Iteration 40 / LogL: -45052.558 / Time: 1h:58m:39s (4h:58m:9s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 42: -45034.119
-Iteration 50 / LogL: -45047.257 / Time: 2h:8m:42s (4h:1m:39s left)
-Iteration 60 / LogL: -45079.865 / Time: 2h:13m:3s (3h:4m:56s left)
-Iteration 70 / LogL: -45042.344 / Time: 2h:17m:31s (2h:23m:30s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 72: -45031.108
-Iteration 80 / LogL: -45036.057 / Time: 2h:30m:16s (2h:54m:59s left)
-Iteration 90 / LogL: -45058.691 / Time: 2h:34m:41s (2h:22m:31s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 92: -45028.142
-Iteration 100 / LogL: -45052.833 / Time: 2h:42m:50s (2h:31m:19s left)
-Iteration 110 / LogL: -45035.846 / Time: 2h:47m:20s (2h:5m:53s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 113: -45026.459
-Iteration 120 / LogL: -45072.303 / Time: 2h:56m:38s (2h:18m:3s left)
-Iteration 130 / LogL: -45044.284 / Time: 3h:1m:10s (1h:56m:34s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 139: -45023.023
-Iteration 140 / LogL: -45035.181 / Time: 3h:9m:22s (2h:14m:52s left)
-Iteration 150 / LogL: -45027.142 / Time: 3h:13m:42s (1h:55m:42s left)
-Iteration 160 / LogL: -45046.489 / Time: 3h:17m:47s (1h:38m:16s left)
-Iteration 170 / LogL: -45051.128 / Time: 3h:22m:6s (1h:22m:31s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 175: -45020.550
-Iteration 180 / LogL: -45035.892 / Time: 3h:29m:49s (1h:51m:21s left)
-Iteration 190 / LogL: -45032.516 / Time: 3h:33m:58s (1h:36m:13s left)
-Iteration 200 / LogL: -45038.057 / Time: 3h:38m:8s (1h:22m:12s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 204: -45019.863
-Iteration 210 / LogL: -45031.063 / Time: 3h:45m:16s (1h:41m:19s left)
-Iteration 220 / LogL: -45049.623 / Time: 3h:49m:26s (1h:28m:0s left)
-Iteration 230 / LogL: -45030.292 / Time: 3h:53m:43s (1h:15m:31s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 239: -45019.762
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 240: -45018.968
-Iteration 240 / LogL: -45018.968 / Time: 4h:1m:47s (1h:41m:10s left)
-Iteration 250 / LogL: -45048.677 / Time: 4h:6m:5s (1h:28m:57s left)
-Iteration 260 / LogL: -45035.855 / Time: 4h:10m:16s (1h:17m:18s left)
-Iteration 270 / LogL: -45034.758 / Time: 4h:14m:49s (1h:6m:18s left)
-Iteration 280 / LogL: -45028.114 / Time: 4h:18m:51s (0h:55m:40s left)
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 289: -45018.836
-Iteration 290 / LogL: -45048.224 / Time: 4h:24m:14s (1h:30m:31s left)
-Iteration 300 / LogL: -45025.729 / Time: 4h:28m:23s (1h:19m:53s left)
-Iteration 310 / LogL: -45032.054 / Time: 4h:32m:37s (1h:9m:41s left)
-Iteration 320 / LogL: -45025.724 / Time: 4h:36m:34s (0h:59m:49s left)
-Iteration 330 / LogL: -45046.954 / Time: 4h:40m:47s (0h:50m:21s left)
-Iteration 340 / LogL: -45045.350 / Time: 4h:45m:14s (0h:41m:13s left)
-Iteration 350 / LogL: -45023.126 / Time: 4h:49m:17s (0h:32m:19s left)
-Iteration 360 / LogL: -45028.844 / Time: 4h:53m:24s (0h:23m:42s left)
-Iteration 370 / LogL: -45023.102 / Time: 4h:57m:36s (0h:15m:19s left)
-Iteration 380 / LogL: -45039.269 / Time: 5h:1m:42s (0h:7m:9s left)
-Iteration 390 / LogL: -45030.247 / Time: 5h:5m:54s (0h:0m:-48s left)
-TREE SEARCH COMPLETED AFTER 390 ITERATIONS / Time: 5h:5m:54s
-
---------------------------------------------------------------------
-|                    FINALIZING TREE SEARCH                        |
---------------------------------------------------------------------
-Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -45018.836
-2. Current log-likelihood: -45018.770
-3. Current log-likelihood: -45018.717
-4. Current log-likelihood: -45018.672
-5. Current log-likelihood: -45018.622
-6. Current log-likelihood: -45018.553
-7. Current log-likelihood: -45018.466
-8. Current log-likelihood: -45017.448
-9. Current log-likelihood: -45017.096
-10. Current log-likelihood: -45017.013
-11. Current log-likelihood: -45016.962
-12. Current log-likelihood: -45016.926
-13. Current log-likelihood: -45016.905
-14. Current log-likelihood: -45016.869
-15. Current log-likelihood: -45016.854
-16. Current log-likelihood: -45016.840
-17. Current log-likelihood: -45016.827
-18. Current log-likelihood: -45016.814
-19. Current log-likelihood: -45016.802
-20. Current log-likelihood: -45016.790
-21. Current log-likelihood: -45016.777
-22. Current log-likelihood: -45016.634
-23. Current log-likelihood: -45016.572
-Optimal log-likelihood: -45016.562
-Site proportion and rates:  (0.078,0.031) (0.022,0.150) (0.032,0.150) (0.055,0.217) (0.074,0.322) (0.113,0.491) (0.101,0.719) (0.240,1.122) (0.160,1.554) (0.127,2.433)
-Parameters optimization took 23 rounds (1390.008 sec)
-BEST SCORE FOUND : -45016.562
+1. Initial log-likelihood: -46158.504
+2. Current log-likelihood: -45553.393
+3. Current log-likelihood: -45391.705
+4. Current log-likelihood: -45366.705
+5. Current log-likelihood: -45267.359
+6. Current log-likelihood: -45226.746
+7. Current log-likelihood: -45208.298
+8. Current log-likelihood: -45194.414
+9. Current log-likelihood: -45186.767
+10. Current log-likelihood: -45178.530
+11. Current log-likelihood: -45164.562
+12. Current log-likelihood: -45162.573
+13. Current log-likelihood: -45160.401
+14. Current log-likelihood: -45159.625
+15. Current log-likelihood: -45158.722
+16. Current log-likelihood: -45157.924
+17. Current log-likelihood: -45147.855
+18. Current log-likelihood: -45142.347
+19. Current log-likelihood: -45136.827
+20. Current log-likelihood: -45134.891
+21. Current log-likelihood: -45134.615
+22. Current log-likelihood: -45134.262
+23. Current log-likelihood: -45133.749
+24. Current log-likelihood: -45131.662
+25. Current log-likelihood: -45130.523
+26. Current log-likelihood: -45129.011
+27. Current log-likelihood: -45128.427
+28. Current log-likelihood: -45128.319
+29. Current log-likelihood: -45128.193
+30. Current log-likelihood: -45128.083
+31. Current log-likelihood: -45127.976
+32. Current log-likelihood: -45127.897
+33. Current log-likelihood: -45127.771
+34. Current log-likelihood: -45127.686
+35. Current log-likelihood: -45125.160
+36. Current log-likelihood: -45123.550
+37. Current log-likelihood: -45122.602
+38. Current log-likelihood: -45122.502
+39. Current log-likelihood: -45122.344
+40. Current log-likelihood: -45122.196
+41. Current log-likelihood: -45122.112
+42. Current log-likelihood: -45122.087
+43. Current log-likelihood: -45121.935
+44. Current log-likelihood: -45121.683
+45. Current log-likelihood: -45121.340
+46. Current log-likelihood: -45121.235
+47. Current log-likelihood: -45121.191
+48. Current log-likelihood: -45121.165
+49. Current log-likelihood: -45121.135
+50. Current log-likelihood: -45121.113
+51. Current log-likelihood: -45121.079
+52. Current log-likelihood: -45121.062
+53. Current log-likelihood: -45121.051
+54. Current log-likelihood: -45121.035
+55. Current log-likelihood: -45121.021
+Optimal log-likelihood: -45121.010
+Site proportion and rates:  (0.080,0.033) (0.033,0.151) (0.022,0.151) (0.062,0.230) (0.063,0.347) (0.119,0.502) (0.098,0.732) (0.250,1.129) (0.183,1.629) (0.090,2.682)
+Parameters optimization took 55 rounds (5804.654 sec)
+BEST SCORE FOUND : -45121.010
 Ancestral state probabilities printed to nonrev.state
 
 Testing tree branches by SH-like aLRT with 1000 replicates...
-4.941 sec.
-Total tree length: 187.246
+Alternative NNI shows better log-likelihood -45119.462 > -45121.010
+Alternative NNI shows better log-likelihood -45120.537 > -45121.010
+Alternative NNI shows better log-likelihood -45119.210 > -45121.010
+Alternative NNI shows better log-likelihood -45120.920 > -45121.010
+Alternative NNI shows better log-likelihood -45118.589 > -45121.010
+Alternative NNI shows better log-likelihood -45120.854 > -45121.010
+Alternative NNI shows better log-likelihood -45120.551 > -45121.010
+Alternative NNI shows better log-likelihood -45117.901 > -45121.010
+Alternative NNI shows better log-likelihood -45120.224 > -45121.010
+Alternative NNI shows better log-likelihood -45120.881 > -45121.010
+Alternative NNI shows better log-likelihood -45120.969 > -45121.010
+Alternative NNI shows better log-likelihood -45120.868 > -45121.010
+Alternative NNI shows better log-likelihood -45119.460 > -45121.010
+Alternative NNI shows better log-likelihood -45119.597 > -45121.010
+Alternative NNI shows better log-likelihood -45120.840 > -45121.010
+Alternative NNI shows better log-likelihood -45120.847 > -45121.010
+Alternative NNI shows better log-likelihood -45119.451 > -45121.010
+Alternative NNI shows better log-likelihood -45119.670 > -45121.010
+Alternative NNI shows better log-likelihood -45120.136 > -45121.010
+Alternative NNI shows better log-likelihood -45119.325 > -45121.010
+Alternative NNI shows better log-likelihood -45120.149 > -45121.010
+6.061 sec.
+Total tree length: 190.257
 
-Total number of iterations: 390
-CPU time used for tree search: 45671.646 sec (12h:41m:11s)
-Wall-clock time used for tree search: 15348.826 sec (4h:15m:48s)
-Total CPU time used: 58800.311 sec (16h:20m:0s)
-Total wall-clock time used: 19750.382 sec (5h:29m:10s)
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 11587.407 sec (3h:13m:7s)
+Total wall-clock time used: 5826.859 sec (1h:37m:6s)
 
 Analysis results written to: 
   IQ-TREE report:                nonrev.iqtree
@@ -532,4 +459,4 @@ Analysis results written to:
   Ancestral state:               nonrev.state
   Screen log file:               nonrev.log
 
-Date and Time: Mon Sep 23 20:17:45 2019
+Date and Time: Fri Oct  4 18:14:45 2019

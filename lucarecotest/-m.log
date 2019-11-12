@@ -1,0 +1,14 @@
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Aug 31 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    it038094 (AVX2, FMA3, 15 GB RAM)
+Command: /home/em16077/Downloads/iqtree-1.7-beta16-Linux/bin/iqtree -s -m NONREV+R10 -asr -alrt 1000 -te /home/em16077/OneDrive/Documents/PROJECTMEW/ABrootLGPMSFconcat.newick
+Seed:    243733 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct  7 13:04:38 2019
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file -m ... ERROR: File not found -m
